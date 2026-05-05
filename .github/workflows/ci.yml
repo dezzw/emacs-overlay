@@ -45,6 +45,7 @@ jobs:
     needs: flake-inputs
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         repo: ["elpa", "emacs", "melpa", "fromElisp", "nongnu"]
     if: github.repository_owner == 'nix-community'

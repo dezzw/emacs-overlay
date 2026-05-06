@@ -4133,10 +4133,10 @@
     elpaBuild {
       pname = "gnosis";
       ename = "gnosis";
-      version = "0.10.5.0.20260505.53454";
+      version = "0.10.5.0.20260505.121428";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/gnosis-0.10.5.0.20260505.53454.tar";
-        sha256 = "1ni05788yy5gag90z66ajyjcdfa5kyzchncqggyd61y56sswy6ar";
+        url = "https://elpa.gnu.org/devel/gnosis-0.10.5.0.20260505.121428.tar";
+        sha256 = "1xzx2x6aiydw7113kzjmh8k6hhn8qwzgb7l7vs47vgdf8wnvdia8";
       };
       packageRequires = [
         compat
@@ -5132,10 +5132,10 @@
     elpaBuild {
       pname = "keymap-popup";
       ename = "keymap-popup";
-      version = "0.2.6.0.20260505.151001";
+      version = "0.2.6.0.20260506.238";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.6.0.20260505.151001.tar";
-        sha256 = "103zn9zbznsj44vd6j437yj1csyk830i8jybmg9dr370ccqax4mm";
+        url = "https://elpa.gnu.org/devel/keymap-popup-0.2.6.0.20260506.238.tar";
+        sha256 = "18023m2rlxg9gg99mlbgsaxd67x6mlbm6vzca7gvh9cqw7w4byzb";
       };
       packageRequires = [ ];
       meta = {
@@ -6105,10 +6105,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260505.194037";
+      version = "5.2.0.0.20260506.52753";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260505.194037.tar";
-        sha256 = "126f6wdz69b9v0wy72rw5zl6h71sd4nv5ay78614z84s13ajb03g";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260506.52753.tar";
+        sha256 = "1c2ajq9fx674571cgwkrxdikgdfs8p5wzfsg3nzbsjqqkxwc8kpd";
       };
       packageRequires = [ ];
       meta = {

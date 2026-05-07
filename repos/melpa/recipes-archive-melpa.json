@@ -2170,15 +2170,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260504,
-    1555
+    20260507,
+    1212
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "85398ad3a6f1404c274071a93ca46af654792e02",
-   "sha256": "1gz56xy6lhfgbq89gwgrsxn0a0xvr3hhrhfr462w3jcm1mz2vfi5"
+   "commit": "30fe4bd8fd67d9b6e26daa573246cf2cae286bba",
+   "sha256": "04hjlyaj7kpxr5v8aw88j4imq1h4482sykdgw5g8dh0lh3i208qj"
   },
   "stable": {
    "version": [
@@ -23633,14 +23633,10 @@
   "unstable": {
    "version": [
     20260507,
-    754
+    943
    ],
-   "commit": "2e500f60be8e7cd930c9baf4bb782da9cbe4cfa8",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "warning: unable to download 'https://codeberg.org/nameiwillforget/d-emacs/archive/2e500f60be8e7cd930c9baf4bb782da9cbe4cfa8.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds; retrying in 324 ms (attempt 1/5)\nwarning: unable to download 'https://codeberg.org/nameiwillforget/d-emacs/archive/2e500f60be8e7cd930c9baf4bb782da9cbe4cfa8.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds; retrying in 668 ms (attempt 2/5)\nwarning: unable to download 'https://codeberg.org/nameiwillforget/d-emacs/archive/2e500f60be8e7cd930c9baf4bb782da9cbe4cfa8.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds; retrying in 1060 ms (attempt 3/5)\nwarning: unable to download 'https://codeberg.org/nameiwillforget/d-emacs/archive/2e500f60be8e7cd930c9baf4bb782da9cbe4cfa8.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds; retrying in 2467 ms (attempt 4/5)\nerror: unable to download 'https://codeberg.org/nameiwillforget/d-emacs/archive/2e500f60be8e7cd930c9baf4bb782da9cbe4cfa8.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds\n"
-   ]
+   "commit": "c3fd938d247c919c55793c9b814dac4958a24f62",
+   "sha256": "1mmswycfmk53jdfc23y364ljziqkvhkmqpszh7s696zsc2xbpprq"
   }
  },
  {
@@ -30582,8 +30578,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260506,
-    2253
+    20260507,
+    1620
    ],
    "deps": [
     "compat",
@@ -30592,8 +30588,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "6e4bba9c0d37b02a8683a120841528a191effb4f",
-   "sha256": "1npjvps06v8g9vgipv5w0ga4651069xd46nfhaai6m37g8pdfzqf"
+   "commit": "3cf763caef41c20ce3fa5fe15179f76b1d692449",
+   "sha256": "15qsiv7x65yrgd0mbb47c7dd7pxns4wfwhfg59fxmxsjrb78xy5k"
   },
   "stable": {
    "version": [
@@ -33005,14 +33001,14 @@
   "repo": "emacs-elfeed/elfeed",
   "unstable": {
    "version": [
-    20260506,
-    2233
+    20260507,
+    1620
    ],
    "deps": [
     "compat"
    ],
-   "commit": "7a97037bcea10fa54f78fcfe6b277b3f48b2c7d6",
-   "sha256": "1p18q5kxx6vc08xwghxvgbfd8x8xi3qzfb8066y3xfn1lx0bw0ml"
+   "commit": "4b4840f6d8bfc8ce208ebe3da540a10360355ab5",
+   "sha256": "0pr4zs34vnli3b510d0kpdpcv531narlaa31y76yiab6a2w5cqkr"
   },
   "stable": {
    "version": [
@@ -65839,28 +65835,28 @@
   "repo": "KarimAziev/igist",
   "unstable": {
    "version": [
-    20251023,
-    848
+    20260507,
+    1050
    ],
    "deps": [
     "ghub",
     "transient"
    ],
-   "commit": "badbc1302e6f83cfebd304c6332b321ca3313f21",
-   "sha256": "0s96wv35dax1j4qa0c72l658317r34xbgmhvvl3lz6khac64k8s5"
+   "commit": "4d7a2116281b55114156c6089988a601766da845",
+   "sha256": "0d6j83f0szmdg7x4q2dvzqwxl6f02ini90d5zpg2kmvrf9a4zinl"
   },
   "stable": {
    "version": [
     1,
     8,
-    0
+    1
    ],
    "deps": [
     "ghub",
     "transient"
    ],
-   "commit": "badbc1302e6f83cfebd304c6332b321ca3313f21",
-   "sha256": "0s96wv35dax1j4qa0c72l658317r34xbgmhvvl3lz6khac64k8s5"
+   "commit": "4d7a2116281b55114156c6089988a601766da845",
+   "sha256": "0d6j83f0szmdg7x4q2dvzqwxl6f02ini90d5zpg2kmvrf9a4zinl"
   }
  },
  {
@@ -72182,15 +72178,15 @@
   "repo": "ogdenwebb/emacs-kaolin-themes",
   "unstable": {
    "version": [
-    20260114,
-    2021
+    20260507,
+    1139
    ],
    "deps": [
     "autothemer",
     "cl-lib"
    ],
-   "commit": "fc0337582f36167b74cbdc86a48471092c8f3262",
-   "sha256": "1lbqvs2jqvs6x8gj7bali24mw2fl6gk184zln6avy6wmam7n8dqi"
+   "commit": "d0414a637c392709f6c97cd1fc84dbb6bc7c3586",
+   "sha256": "1fxnvsm31x0k3aqmprk60my35arcmx12biyn7nyc1pfw4i0lqyr1"
   },
   "stable": {
    "version": [
@@ -82041,11 +82037,11 @@
   "repo": "ideasman42/emacs-meep",
   "unstable": {
    "version": [
-    20260503,
-    1151
+    20260507,
+    1310
    ],
-   "commit": "e7b7e816c5601d98b36ca13acae78bb404677889",
-   "sha256": "1db37pi4qvpd15bh1m4vaaz347p3xnr0r24g9x0lagwsr51wq3w9"
+   "commit": "01441807a29fd902a9f1c08167781d85cb330a6b",
+   "sha256": "0wwhn70r1lr3aqyslin3wr46lx8b2yygdlk3bv9wk1z6qdjhd0yi"
   }
  },
  {
@@ -111542,11 +111538,11 @@
   "repo": "jamescherti/quick-sdcv.el",
   "unstable": {
    "version": [
-    20260501,
-    2003
+    20260507,
+    1213
    ],
-   "commit": "de7dc1a263cc5980d0697490e6f1c2cea7471c9b",
-   "sha256": "0k853dgzzpx71zsc97xlc1dbx79qlv7riiy2fimihsgb3qq14wz9"
+   "commit": "da08ad0847b044cf23f3e83fbe417b58d6ea7767",
+   "sha256": "14l2xijz0p5mhnyjm7fiw5avp2ygbfxy74xvd9pz690jmmmh3h89"
   },
   "stable": {
    "version": [
@@ -114929,14 +114925,14 @@
   "repo": "jixiuf/rimel",
   "unstable": {
    "version": [
-    20260424,
-    1103
+    20260507,
+    1638
    ],
    "deps": [
     "liberime"
    ],
-   "commit": "0d1c67521635af91c2876e0d850ee8bc74bda384",
-   "sha256": "0xfbkrbj2nf4ysjlw36pn60nsmqwyrfwx6pv4s3cjqcc8zadvanc"
+   "commit": "a5b64b760c67b3886eb73248de9a806752b19685",
+   "sha256": "1n0mlvphqbsv3mimhfhj2rdhjkicc3ljd6853wixrc9mr9iglqs6"
   },
   "stable": {
    "version": [
@@ -118877,11 +118873,11 @@
   "repo": "kyagi/shell-pop-el",
   "unstable": {
    "version": [
-    20241207,
-    1539
+    20260507,
+    1713
    ],
-   "commit": "657171f296fc930b1f335a96e6f67ae04b731b19",
-   "sha256": "1j8bwgrp4ydpd4s08px15sv5ri28zyb8zfpmfanh9k77m4hmx8cq"
+   "commit": "02cd11dbddad37e9777fac24df8ffcd84831f547",
+   "sha256": "0w2f2d9506nvcmradrzvaddga7zl7akgr55bj7gqadpbd0144hyz"
   },
   "stable": {
    "version": [
@@ -130909,15 +130905,15 @@
    "version": [
     0,
     13,
-    2
+    3
    ],
    "deps": [
     "compat",
     "cond-let",
     "seq"
    ],
-   "commit": "43cbef8539e3c7398d0280958b42f94dac7ea7b4",
-   "sha256": "0c5kdzs55xzn4ksrxlm94s4w4mbamh7l5ycjnq9pvgqvggzijqng"
+   "commit": "9e78954343613786cdb0659183b766099f051149",
+   "sha256": "0q3d6kz3wsnn4arjk3bvdmylgm54m1v46a6aqjgi6j99km3qq84w"
   }
  },
  {

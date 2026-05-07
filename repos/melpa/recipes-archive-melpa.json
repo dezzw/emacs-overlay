@@ -23632,11 +23632,15 @@
   "repo": "nameiwillforget/d-emacs",
   "unstable": {
    "version": [
-    20260430,
-    1537
+    20260507,
+    754
    ],
-   "commit": "a54e20b29fb97cda6f012e6101305bef743ab923",
-   "sha256": "0s8bzmq9r7sm4i98kdfsc87fcrpzwf6vx1w4da0hb051f8mgpfza"
+   "commit": "2e500f60be8e7cd930c9baf4bb782da9cbe4cfa8",
+   "error": [
+    "exited abnormally with code 1\n",
+    "",
+    "warning: unable to download 'https://codeberg.org/nameiwillforget/d-emacs/archive/2e500f60be8e7cd930c9baf4bb782da9cbe4cfa8.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds; retrying in 324 ms (attempt 1/5)\nwarning: unable to download 'https://codeberg.org/nameiwillforget/d-emacs/archive/2e500f60be8e7cd930c9baf4bb782da9cbe4cfa8.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds; retrying in 668 ms (attempt 2/5)\nwarning: unable to download 'https://codeberg.org/nameiwillforget/d-emacs/archive/2e500f60be8e7cd930c9baf4bb782da9cbe4cfa8.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds; retrying in 1060 ms (attempt 3/5)\nwarning: unable to download 'https://codeberg.org/nameiwillforget/d-emacs/archive/2e500f60be8e7cd930c9baf4bb782da9cbe4cfa8.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds; retrying in 2467 ms (attempt 4/5)\nerror: unable to download 'https://codeberg.org/nameiwillforget/d-emacs/archive/2e500f60be8e7cd930c9baf4bb782da9cbe4cfa8.tar.gz': Timeout was reached (28) Operation too slow. Less than 1 bytes/sec transferred the last 300 seconds\n"
+   ]
   }
  },
  {
@@ -38895,15 +38899,15 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20260505,
-    29
+    20260507,
+    719
    ],
    "deps": [
     "annalist",
     "evil"
    ],
-   "commit": "95dca44dbe193a05ff714faf3732b92830695c40",
-   "sha256": "04bn9hp1kwvm6rs48kcbjmigipqd91fis3k3zc43z4cv98gv5k12"
+   "commit": "8018b2c855fbb871293c3a32d64837e265cd2a56",
+   "sha256": "0l7068nyb2p7qkjrk5mjadibf6hdx73kmnyqh04h73lpxs74sa92"
   },
   "stable": {
    "version": [
@@ -39755,11 +39759,11 @@
   "repo": "redguardtoo/evil-nerd-commenter",
   "unstable": {
    "version": [
-    20230625,
-    254
+    20260507,
+    414
    ],
-   "commit": "3b197a2b559b06a7cf39978704b196f53dac802a",
-   "sha256": "1xi4sd75pzhgcd9lzhx18hlzbrwh5q9gbscb1971qn94mzxwd60r"
+   "commit": "db5ee61a6e75db074b7d20e9dcb68e0b94b4edc7",
+   "sha256": "0x7h3b44jdsdvz1991bmhblmc82s59rq9wnd4qvl3m783cxa9jdi"
   },
   "stable": {
    "version": [
@@ -41911,14 +41915,14 @@
   "repo": "WJCFerguson/emacs-faff-theme",
   "unstable": {
    "version": [
-    20260428,
-    1848
+    20260507,
+    114
    ],
    "deps": [
     "modus-themes"
    ],
-   "commit": "f3aac0549f6e22021b5f65e12ad08bd6099147a3",
-   "sha256": "1b3zan1w5ml1ygkgygqhbn14555icba9lsy24dv0vrsll7b99azm"
+   "commit": "468d7d4fafc8f8fe8515ac0454561121619e1129",
+   "sha256": "0j1b5irhj9ijs504i0sa4i4jvd9n08cr8r2qr1l0l3mj5qlppy8k"
   },
   "stable": {
    "version": [
@@ -42533,11 +42537,11 @@
   "repo": "technomancy/fennel-mode",
   "unstable": {
    "version": [
-    20260408,
-    1529
+    20260507,
+    757
    ],
-   "commit": "c963b4701e4668717df083c8a4591c93e6b1dc8d",
-   "sha256": "0mdhcqns89fm2yc7j3pbaniqg3mx9gffgfj3fbnnpfwj7mf9gadc"
+   "commit": "1ef8ae0cff094cfba750e72b897e03eaeebbc117",
+   "sha256": "1q31ym8gy1m9xyn9w633br8kz0wxkzk4cri6373y0d5a4ic9r53c"
   },
   "stable": {
    "version": [
@@ -56427,11 +56431,11 @@
   "repo": "jonathanchu/grove",
   "unstable": {
    "version": [
-    20260505,
-    404
+    20260507,
+    450
    ],
-   "commit": "b65690a61552ad2471c30d04ba0da2d5ce35cc23",
-   "sha256": "1f9g111dcry0bizrrh0wnfv05qy2ra49s6glm7gglczycps72h7a"
+   "commit": "950e00c94b2a193a771dc2e680e80f30eb05bcc8",
+   "sha256": "1pfa0glvr8cnqx4p5rk2rnbh4vqcw8ndgpa91g3nhyicck1q9gp2"
   }
  },
  {
@@ -58109,15 +58113,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20260424,
-    1357
+    20260507,
+    452
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "3cd5097285dc10ac0898cf6f30c9699c3399e421",
-   "sha256": "1yihrb2gsl4p24xwwpdapgmnv64sd0pmbfzgpcp8nypyvs5g7kb3"
+   "commit": "d178e52895c091c26221f18b9b1236f985c79226",
+   "sha256": "0j668jl8j2ilqsxb8iyw41z69zpp690z34nh16xmwxjm5b3imkrd"
   },
   "stable": {
    "version": [
@@ -87369,11 +87373,11 @@
   "repo": "bbatsov/neocaml",
   "unstable": {
    "version": [
-    20260416,
-    647
+    20260507,
+    646
    ],
-   "commit": "06794d8d9ae1180a37b71b02ed8eadd464129b73",
-   "sha256": "1wzjsk8252clak794yhk89s2qwgcl95a8mgdyd6wvn4a4bg0ksaw"
+   "commit": "657d4628b4099eb9914fc4e62869fe602561858e",
+   "sha256": "15lc4pwzz4d2xfrqs87wszdl59dcxl70n1bs0y3q9x2vvb2biz50"
   },
   "stable": {
    "version": [
@@ -96095,14 +96099,14 @@
   "repo": "jeremy-compostella/org-msg",
   "unstable": {
    "version": [
-    20260211,
-    901
+    20260507,
+    725
    ],
    "deps": [
     "htmlize"
    ],
-   "commit": "aa608b399586fb771ad37045a837f8286a0b6124",
-   "sha256": "0n02g88jybzsx0lqqpzag7hkrlvy3gh6irphgm5wsx42w312k1jl"
+   "commit": "7b45df759340f3e388e84f497052b7cf3a41698c",
+   "sha256": "1h44pc7l4racn3rhc705rslwsnk7hmkad3508qdd2raadpj452ja"
   }
  },
  {
@@ -97187,20 +97191,20 @@
   "repo": "TomoeMami/org-repeat-by-cron.el",
   "unstable": {
    "version": [
-    20260303,
-    726
+    20260507,
+    721
    ],
-   "commit": "9a382e817dc63d5f8a6c74bd9d9233a14f1f3c96",
-   "sha256": "188ax1qyjgaz5qj5w1g67hnn7xg9m55j6ymqhd1gks52z0g67cyf"
+   "commit": "889944d9ee09fb4f09c3f7104c133a469dd242fd",
+   "sha256": "1j2hvsfzggm7kj7w41k953vfvi3v86qbxqmlf53kfmc5b3p7742i"
   },
   "stable": {
    "version": [
     1,
     1,
-    6
+    7
    ],
-   "commit": "9a382e817dc63d5f8a6c74bd9d9233a14f1f3c96",
-   "sha256": "188ax1qyjgaz5qj5w1g67hnn7xg9m55j6ymqhd1gks52z0g67cyf"
+   "commit": "a52d57016d350b10baca2229dc832311f77e6ebb",
+   "sha256": "195c8b1id0g65yajzmn880zlcsp42f69q96y0l4d0f4zp134pdm5"
   }
  },
  {

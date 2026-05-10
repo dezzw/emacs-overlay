@@ -2371,15 +2371,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260509,
-    1707
+    20260510,
+    157
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "04d717a6e84403dc9c65459341768e30eb1ce7d8",
-   "sha256": "1pcjdqy8al5m4syrk0sdhwq2475wzn4da532mw02wls1akgfg82q"
+   "commit": "dfd167f07958e87d72e31e48e047c032cadc684f",
+   "sha256": "1zdmad79r31jcmd7kdx97m76nh2mdq5615s9fl870v3s7w36lgad"
   },
   "stable": {
    "version": [
@@ -13749,8 +13749,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20260509,
-    851
+    20260510,
+    710
    ],
    "deps": [
     "clojure-mode",
@@ -13762,8 +13762,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "cf8d69574dc512c07f6e61561a30bca062afa401",
-   "sha256": "0dknb60ddqb2w62vg5wz1rpcz55zcld1vka5iim2q91kn7qdi48s"
+   "commit": "3a257e2ad9edf7d1731b59ef7fc8cc2045661c96",
+   "sha256": "1z9d98vwpf19hfk14clh249r7asy792xrkkxg2x3l77pp1rgwhhx"
   },
   "stable": {
    "version": [
@@ -21085,26 +21085,26 @@
   "repo": "redguardtoo/counsel-etags",
   "unstable": {
    "version": [
-    20260509,
-    1335
+    20260510,
+    135
    ],
    "deps": [
     "counsel"
    ],
-   "commit": "5c9672defabfb4767b9a087d4c603f9b3606f550",
-   "sha256": "19vqgka60gka5i36ihn6jcr55nmiyil39mdj0adxwz328jy7gzk1"
+   "commit": "385eb738d09ce47f905982532e2b03cfb8381f17",
+   "sha256": "1g9pbk4xdwz0qr49wgzg5hkk1rjc8ayv9zyckn0b46jcg7cqg14i"
   },
   "stable": {
    "version": [
     2,
     0,
-    4
+    5
    ],
    "deps": [
     "counsel"
    ],
-   "commit": "5c9672defabfb4767b9a087d4c603f9b3606f550",
-   "sha256": "19vqgka60gka5i36ihn6jcr55nmiyil39mdj0adxwz328jy7gzk1"
+   "commit": "385eb738d09ce47f905982532e2b03cfb8381f17",
+   "sha256": "1g9pbk4xdwz0qr49wgzg5hkk1rjc8ayv9zyckn0b46jcg7cqg14i"
   }
  },
  {
@@ -33001,14 +33001,14 @@
   "repo": "emacs-elfeed/elfeed",
   "unstable": {
    "version": [
-    20260509,
-    2309
+    20260510,
+    728
    ],
    "deps": [
     "compat"
    ],
-   "commit": "4344fb23a35615a5983df1257a7941ab049d9ade",
-   "sha256": "19mlab9wynx2c61f7y243v7rjikygzj76xncz058l67qcbi0mgsj"
+   "commit": "667a753a8b0df65afd6bdd288b9a7d448d15e4c2",
+   "sha256": "0xp6ca8dkb8fn86xk7bq34r8bp47yjm32kqrlaqgx16nh3bvqr6a"
   },
   "stable": {
    "version": [
@@ -35142,14 +35142,14 @@
   "repo": "martenlienen/emcp",
   "unstable": {
    "version": [
-    20260509,
-    1927
+    20260510,
+    721
    ],
    "deps": [
     "http-server"
    ],
-   "commit": "26e28f22ab729886a2bd1318636dbeb4b177f6fa",
-   "sha256": "10zz0096hwqyr7axngml2vqkccsy51pwic76qq1hxaxb8rvj00vf"
+   "commit": "eb3b4a161d38b8e4e08acd0cf503107c804834c5",
+   "sha256": "0ygsd901d97bjnhjlz6mq0h8jfjb54452ln6jpirjiaasl7nzg9y"
   }
  },
  {
@@ -49275,15 +49275,15 @@
   "repo": "lassik/emacs-format-all-the-code",
   "unstable": {
    "version": [
-    20260312,
-    1136
+    20260510,
+    726
    ],
    "deps": [
     "inheritenv",
     "language-id"
    ],
-   "commit": "d44bf536fdae83ad7a798565e21f59c02e461c47",
-   "sha256": "14wjms8q2pjbwain5gimfcalvxp6vfa1wwv2cb6wr11qdb64n9rd"
+   "commit": "07432b4ee1dc22e67ef3a23e73b142b80cb3ee1c",
+   "sha256": "1dw7smmxqqdbg7pxj3ff6bc8afj3ydzxhqr1xq59ymdqvh0hxay9"
   },
   "stable": {
    "version": [
@@ -50314,15 +50314,15 @@
   "repo": "jojojames/fussy",
   "unstable": {
    "version": [
-    20260509,
-    1615
+    20260510,
+    326
    ],
    "deps": [
     "compat",
     "flx"
    ],
-   "commit": "cef22253fac6325a355b52ebd5f020789ecc175d",
-   "sha256": "150xaqgaasjr5h642zfnxjaqwgv6hq9wzcjlmjf88vwgg79xkpgr"
+   "commit": "4e142f851fa4f6ed1ddb81e05170b1c8494b7e6c",
+   "sha256": "0jms4r718kbw27xmpjipvp22ihb50wa8a07q33ahswwwx2lgr62r"
   },
   "stable": {
    "version": [
@@ -78018,8 +78018,8 @@
   "repo": "emacs-lsp/lsp-java",
   "unstable": {
    "version": [
-    20260507,
-    1749
+    20260510,
+    647
    ],
    "deps": [
     "dap-mode",
@@ -78031,18 +78031,17 @@
     "request",
     "treemacs"
    ],
-   "commit": "6e65d51c9a6759108b6751eef3a3d8e02bb74a9c",
-   "sha256": "1y4fppsi501bypsrnnwjfjid6djvf8rjfscyh93gmq71ykg171w4"
+   "commit": "5294db2ac033a289e4878fa8386629b75cb3ccb6",
+   "sha256": "134fw9kxwfi2glkxb7r32la3wip9y2jz8hkv0c3si1jv5p4g22zp"
   },
   "stable": {
    "version": [
-    3,
-    1
+    4,
+    0
    ],
    "deps": [
     "dap-mode",
     "dash",
-    "dash-functional",
     "f",
     "ht",
     "lsp-mode",
@@ -78050,8 +78049,8 @@
     "request",
     "treemacs"
    ],
-   "commit": "260016236fa0520b5b6ec7f51ca2086288524cba",
-   "sha256": "1h0hqgjpk5mbylma1fkva0vx45achf0k7ab2c5y8a2449niww90h"
+   "commit": "5294db2ac033a289e4878fa8386629b75cb3ccb6",
+   "sha256": "134fw9kxwfi2glkxb7r32la3wip9y2jz8hkv0c3si1jv5p4g22zp"
   }
  },
  {
@@ -87375,11 +87374,11 @@
   "repo": "bbatsov/neocaml",
   "unstable": {
    "version": [
-    20260509,
-    854
+    20260510,
+    633
    ],
-   "commit": "c96c884e7b012ba42ec0bbff3e777ce1a327a8f6",
-   "sha256": "0sgnlgkl3k6ngnhz0nh75ipnflnsg7zx9pxrlc74165h5ra3yh8m"
+   "commit": "06f70b77b8417b3965f8c17188aaec1a38c2d6ec",
+   "sha256": "1jlpgjw1ny7wz6w5njq7cwrqi08ifa4nl40605ldscc99577jns8"
   },
   "stable": {
    "version": [
@@ -114931,14 +114930,14 @@
   "repo": "emacs-rime/rimel",
   "unstable": {
    "version": [
-    20260507,
-    1638
+    20260510,
+    505
    ],
    "deps": [
     "liberime"
    ],
-   "commit": "a5b64b760c67b3886eb73248de9a806752b19685",
-   "sha256": "1n0mlvphqbsv3mimhfhj2rdhjkicc3ljd6853wixrc9mr9iglqs6"
+   "commit": "51907b5851b156fb062a25fdf8dbefa6ae36de3b",
+   "sha256": "0qqiy72gvma0syp2y8p2j7lsywmb67baxx38zb6k8m8skz93miqr"
   },
   "stable": {
    "version": [
@@ -125983,11 +125982,11 @@
   "repo": "swift-emacs/swift-mode",
   "unstable": {
    "version": [
-    20260505,
-    930
+    20260510,
+    540
    ],
-   "commit": "bf56866b98de2fd73029da2bca1035ca02f9e879",
-   "sha256": "01rn7g6xbalayx335jsvlb8kkab0p61g60fwn1h49pfi0kv2n9kx"
+   "commit": "5782bb9ab0773b5c6abddc23a14b82e5356cc2db",
+   "sha256": "0wkq9h0xrxq36iwdsqhx0wa45f2nb09pqljxwd5yyis61nd1chcq"
   },
   "stable": {
    "version": [

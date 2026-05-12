@@ -1,209 +1,309 @@
+#+TITLE: Emacs overlay for Nixpkgs
+#+AUTHOR: Desmond Wang
+
 * Emacs overlay for Nixpkgs
-** Quickstart
-To get up and running quickly, add the following lines to your =/etc/nixos/configuration.nix=:
 
-#+BEGIN_SRC nix
-{config, pkgs, callPackage, ... }:
-{
-# ...
+This is a small Emacs overlay for Nixpkgs.
 
-  services.emacs.package = pkgs.emacs-unstable;
+It provides custom Emacs builds and a lightweight helper,
+~emacsWithPackagesFromSetup~, which scans Emacs Lisp configuration files for
+literal ~setup.el~ forms and builds an Emacs closure containing the packages
+declared with ~:package~.
 
-  nixpkgs.overlays = [
-    (import (builtins.fetchTarball {
-      url = "https://github.com/nix-community/emacs-overlay/archive/master.tar.gz";
-    }))
-  ];
+This fork intentionally removes the older helpers:
 
-# ...
-}
-#+END_SRC
+- ~emacsWithPackagesFromUsePackage~
+- ~emacsWithPackagesFromPackageRequires~
 
-This configuration will enable this overlay, and define your system-wide emacs package as the =emacs-unstable= attribute it provides.
+* Contents of the overlay
 
-*NOTE:* Read the "Usage of the overlay" section below for further explanation of this configuration. This has the potential to break things, and will frequently trigger full source rebuilds of emacs.
+This overlay consists of two main parts:
 
-If you want to enable daemon/server mode, add the following line to the same configuration:
+- ~emacs~ overlay
+- ~package~ overlay
 
-#+BEGIN_SRC nix
-services.emacs.enable = true;
-#+END_SRC
+You can use the whole overlay, or import only the part you need.
 
-It is recommended you read Nixpkgs and NixOS documentation on package overlays and overrides to familiarize yourself with the concepts:
+** ~package~ overlay
 
- - https://wiki.nixos.org/wiki/Overlays
- - https://nixos.org/nixpkgs/manual/#chap-overlays
+The package overlay updates Emacs package sets, including package metadata from
+ELPA, MELPA, MELPA stable, and NonGNU ELPA.
 
-** Contents of the overlay
+This is useful when you want newer Emacs packages than the ones available in
+your current Nixpkgs revision.
 
-This overlay consists of two overlays: =emacs= and =package=.
+** ~emacs~ overlay
 
-You can use both of them as a whole overlay or only one of them.
+The Emacs overlay provides custom Emacs builds.
 
-*** =package= overlay
+Common attributes include:
 
-**** Elpa
-Daily generations of Elpa.
+#+begin_src nix
+pkgs.emacs-git
+pkgs.emacs-git-pgtk
 
-**** Melpa / Melpa stable
-Daily generations of Melpa & Melpa stable attribute sets.
-
-**** EXWM & needed dependencies
-This overlay provides fresh versions of EXWM and dependencies. This is
-updated daily.
-
-*** =emacs= overlay
-
-**** Emacs from Git and latest (including pre-releases)
-This overlay also provides two versions (latest from git) for Emacs. These
-are updated daily.
-
-These attributes are named =emacs-git= and =emacs-unstable=.
-=emacs-git= is built from the latest =master= branch and =emacs-unstable= is built from the latest tag.
-
-Emacs from git is not guaranteed stable and may break your setup at any
-time, if it breaks you get to keep both pieces.
-
-We also provide two attributes named =emacs-git-nox= and =emacs-unstable-nox=
-if you wish to have Emacs built without X dependencies.
-
-Additionally, the two attributes =emacs-git-pgtk= and =emacs-unstable-pgtk= enable
-the pure GTK (PGTK) feature, which is incompatible with X and supports Wayland
-natively.
-
-**** Extra library functionality
-This overlay comes with extra functions to generate an Emacs closure
-from various types of dependency declaration. (These are abstractions
-on top of =emacsWithPackages=.)
-
-For example, =emacsWithPackagesFromUsePackage= adds packages which are
-required in a user's config via =use-package= or =leaf=.
-
-#+BEGIN_SRC nix
-  { pkgs, ... }:
-  {
-    environment.systemPackages = [
-      (pkgs.emacsWithPackagesFromUsePackage {
-        # Your Emacs config file. Org mode babel files are also
-        # supported.
-        # NB: Config files cannot contain unicode characters, since
-        #     they're being parsed in nix, which lacks unicode
-        #     support.
-        # config = ./emacs.org;
-        config = ./emacs.el;
-
-        # Whether to include your config as a default init file.
-        # If being bool, the value of config is used.
-        # Its value can also be a derivation like this if you want to do some
-        # substitution:
-        #   defaultInitFile = pkgs.substituteAll {
-        #     name = "default.el";
-        #     src = ./emacs.el;
-        #     inherit (config.xdg) configHome dataHome;
-        #   };
-        defaultInitFile = true;
-
-        # Package is optional, defaults to pkgs.emacs
-        package = pkgs.emacs-git;
-
-        # By default emacsWithPackagesFromUsePackage will only pull in
-        # packages with `:ensure`, `:ensure t` or `:ensure <package name>`.
-        # Setting `alwaysEnsure` to `true` emulates `use-package-always-ensure`
-        # and pulls in all use-package references not explicitly disabled via
-        # `:ensure nil` or `:disabled`.
-        # Note that this is NOT recommended unless you've actually set
-        # `use-package-always-ensure` to `t` in your config.
-        alwaysEnsure = true;
-
-        # For Org mode babel files, by default only code blocks with
-        # `:tangle yes` are considered. Setting `alwaysTangle` to `true`
-        # will include all code blocks missing the `:tangle` argument,
-        # defaulting it to `yes`.
-        # Note that this is NOT recommended unless you have something like
-        # `#+PROPERTY: header-args:emacs-lisp :tangle yes` in your config,
-        # which defaults `:tangle` to `yes`.
-        alwaysTangle = true;
-
-        # Optionally provide extra packages not in the configuration file.
-        # This can also include extra executables to be run by Emacs (linters,
-        # language servers, formatters, etc)
-        extraEmacsPackages = epkgs: [
-          epkgs.cask
-          pkgs.shellcheck
-        ];
-
-        # Optionally override derivations.
-        override = final: prev: {
-          weechat = prev.melpaPackages.weechat.overrideAttrs(old: {
-            patches = [ ./weechat-el.patch ];
-          });
-        };
-      })
-    ];
-  }
-#+END_SRC
-
-Similarly, =emacsWithPackagesFromPackageRequires= adds packages which
-are declared in a =.el= package file's =Package-Requires= header, which
-can be handy for CI purposes:
-
-#+BEGIN_SRC nix
-...
-let
-  emacsForCI = pkgs.emacsWithPackagesFromPackageRequires {
-    packageElisp = builtins.readFile ./flycheck.el;
-    extraEmacsPackages = epkgs: [
-      epkgs.package-lint
-    ];
-  };
-pkgs.mkShell {
-  buildInputs = [ emacsForCI ];
-}
-#+END_SRC
-
-
-** Usage of the overlay
-*** Latest master each rebuild
-One way, and probably the most convenient way to pull in this overlay is by
-just fetching the tarball of latest master on rebuild.
-
-This has side-effects if packages breaks or things like that you may want
-to be in control of which revision of the overlay you run.
-
-Adding the overlay this way will extend your Emacs packages set to contain
-the latest EXWM and dependencies from their respective master and make the
-package =emacs-git= available. These of course change quite rapidly and will
-cause compilation time.
-
-#+BEGIN_SRC nix
-{
-  nixpkgs.overlays = [
-    (import (builtins.fetchTarball {
-      url = "https://github.com/nix-community/emacs-overlay/archive/master.tar.gz";
-    }))
-  ];
-}
-#+END_SRC
-
-*** Binary cache
-You will want to use the [[https://nix-community.org/cache/][nix-community binary cache]]. Where the
-overlay's build artefacts are pushed. See [[https://app.cachix.org/cache/nix-community][here]] for installation
-instructions.
-
-*** Install directly from the overlay
-The repository is meant to be used as an overlay as is explained
-above. Still, for experimental purposes, you might want to install a
-package directly from the overlay. For example, you can install
-=emacs-git= from a clone of this repository with the following command:
-
-#+begin_src shell
-  nix-build --expr 'with (import <nixpkgs> { overlays = [ (import ./.) ]; }); emacs-git'
+pkgs.emacs-igc
+pkgs.emacs-igc-pgtk
 #+end_src
 
-* Community
+* Quickstart
 
-** Matrix chat
-[[https://matrix.to/#/#emacs:nixos.org][Nix Emacs]]
+#+begin_src nix
+{
+  description = "My Emacs setup";
 
-#  LocalWords:  EXWM NixOS
-#  LocalWords:  SRC nixpkgs builtins fetchTarball url
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+
+    emacs-overlay = {
+      url = "github:dezzw/emacs-overlay";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  };
+
+  outputs = { self, nixpkgs, emacs-overlay }:
+    let
+      system = "x86_64-linux";
+      pkgs = import nixpkgs {
+        inherit system;
+        overlays = [
+          emacs-overlay.overlays.default
+        ];
+      };
+    in
+    {
+      packages.${system}.default = pkgs.emacs-git;
+    };
+}
+#+end_src
+
+* Building Emacs with packages from setup.el
+
+This fork provides:
+
+#+begin_src nix
+pkgs.emacsWithPackagesFromSetup
+#+end_src
+
+It scans one or more Emacs Lisp files for literal ~setup~ forms and extracts
+packages declared with ~:package~.
+
+Example ~init.el~:
+
+#+begin_src emacs-lisp
+(require 'setup)
+
+(setup magit
+  (:package magit))
+
+(setup vertico
+  (:package vertico))
+
+(setup orderless
+  (:package orderless))
+
+(setup corfu
+  (:package corfu))
+#+end_src
+
+Then in Nix:
+
+#+begin_src nix
+pkgs.emacsWithPackagesFromSetup {
+  package = pkgs.emacs-git-pgtk;
+  config = ./init.el;
+}
+#+end_src
+
+* Accepted config values
+
+~emacsWithPackagesFromSetup~ accepts a single file, a list of files, a directory,
+or a mixed list of files and directories.
+
+** Single file
+
+#+begin_src nix
+pkgs.emacsWithPackagesFromSetup {
+  package = pkgs.emacs-git-pgtk;
+  config = ./init.el;
+}
+#+end_src
+
+** Multiple files
+
+#+begin_src nix
+pkgs.emacsWithPackagesFromSetup {
+  package = pkgs.emacs-git-pgtk;
+
+  config = [
+    ./early-init.el
+    ./init.el
+    ./modules/completion.el
+    ./modules/git.el
+  ];
+}
+#+end_src
+
+** Directory
+
+#+begin_src nix
+pkgs.emacsWithPackagesFromSetup {
+  package = pkgs.emacs-git-pgtk;
+  config = ./modules;
+}
+#+end_src
+
+All ~.el~ files inside the directory are scanned recursively.
+
+** Mixed files and directories
+
+#+begin_src nix
+pkgs.emacsWithPackagesFromSetup {
+  package = pkgs.emacs-git-pgtk;
+
+  config = [
+    ./init.el
+    ./modules
+    ./site-lisp
+  ];
+}
+#+end_src
+
+** Raw Emacs Lisp string
+
+#+begin_src nix
+pkgs.emacsWithPackagesFromSetup {
+  package = pkgs.emacs-git-pgtk;
+
+  config = ''
+    (setup magit
+      (:package magit))
+
+    (setup vertico
+      (:package vertico))
+  '';
+}
+#+end_src
+
+* Using extra packages
+
+Some packages or tools may not be declared in your Emacs config.
+
+For example, language servers, command line tools, formatters, or packages loaded
+dynamically may need to be added manually.
+
+Use ~extraEmacsPackages~:
+
+#+begin_src nix
+pkgs.emacsWithPackagesFromSetup {
+  package = pkgs.emacs-git-pgtk;
+  config = ./init.el;
+
+  extraEmacsPackages = epkgs: [
+    epkgs.vterm
+    epkgs.treesit-grammars.with-all-grammars
+
+    pkgs.ripgrep
+    pkgs.fd
+    pkgs.shellcheck
+  ];
+}
+#+end_src
+
+* Overriding Emacs packages
+
+You can override packages using the ~override~ argument.
+
+Example:
+
+#+begin_src nix
+pkgs.emacsWithPackagesFromSetup {
+  package = pkgs.emacs-git-pgtk;
+  config = ./init.el;
+
+  override = final: prev: {
+    magit = prev.magit.overrideAttrs (old: {
+      patches = (old.patches or [ ]) ++ [
+        ./patches/magit.patch
+      ];
+    });
+  };
+}
+#+end_src
+
+* Troubleshooting
+
+** Package not found
+
+If you see an error like:
+
+#+begin_example
+Emacs package 'foo' declared by setup.el :package was not found.
+#+end_example
+
+Then either:
+
+- the package name does not match the Nix Emacs package attribute;
+- the package is not available in your package set;
+- the package must be added manually through ~extraEmacsPackages~;
+- or your package overlay is not enabled.
+
+Example manual addition:
+
+#+begin_src nix
+extraEmacsPackages = epkgs: [
+  epkgs.foo
+];
+#+end_src
+
+** Custom setup macros are ignored
+
+The parser does not macroexpand your config.
+
+This works:
+
+#+begin_src emacs-lisp
+(setup magit
+  (:package magit))
+#+end_src
+
+This does not automatically work:
+
+#+begin_src emacs-lisp
+(my/setup magit)
+#+end_src
+
+Use literal ~setup~ forms or add packages manually through
+~extraEmacsPackages~.
+
+** Directory config scans too much
+
+Only ~.el~ files are scanned. If your directory contains generated files,
+temporary files, or archived configs, move them outside the scanned directory or
+pass a more precise list of files.
+
+For example:
+
+#+begin_src nix
+config = [
+  ./init.el
+  ./modules/completion.el
+  ./modules/git.el
+  ./modules/ui.el
+];
+#+end_src
+
+* Design goals
+
+This fork tries to stay small and explicit:
+
+- keep the Emacs build overlay;
+- keep the updated Emacs package metadata;
+- remove old use-package and Package-Requires helpers;
+- use setup.el as the only automatic config scanner;
+- support single files, multiple files, and directories;
+- keep manual escape hatches through ~extraEmacsPackages~ and ~override~.
+
+* License
+
+Follow the license of the original project unless this fork changes it.

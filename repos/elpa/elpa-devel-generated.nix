@@ -3424,10 +3424,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.6.2snapshot0.20260430.154642";
+      version = "5.6.2.0.20260511.202620";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.6.2snapshot0.20260430.154642.tar";
-        sha256 = "030px6rzw18aqvbqhwybc5wcx3rvg7cy198l2lfq47ych2q6x3a9";
+        url = "https://elpa.gnu.org/devel/erc-5.6.2.0.20260511.202620.tar";
+        sha256 = "1p9lxrkc2c17awrnjyik8sfcj3n1m0gvrc737n62gd6vvywzcxa5";
       };
       packageRequires = [ compat ];
       meta = {
@@ -6668,10 +6668,10 @@
     elpaBuild {
       pname = "org";
       ename = "org";
-      version = "10.0pre0.20260510.181743";
+      version = "10.0pre0.20260512.34521";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260510.181743.tar";
-        sha256 = "138gpv9rk5xmksrd3rg8ag0ngamx52da98pkyq9ssdmy6m09bc2g";
+        url = "https://elpa.gnu.org/devel/org-10.0pre0.20260512.34521.tar";
+        sha256 = "00fcrps202cfaw6hihkh3g4x5svma1kg3ilxnppm15z1z02fnym7";
       };
       packageRequires = [ ];
       meta = {
@@ -9865,10 +9865,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.3.0.20260508.95019";
+      version = "0.13.3.0.20260511.143658";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.3.0.20260508.95019.tar";
-        sha256 = "02v0f5r690r5x2l0ip1wpk1hni5zys02xc8rgfpsd67mkks63sgq";
+        url = "https://elpa.gnu.org/devel/transient-0.13.3.0.20260511.143658.tar";
+        sha256 = "1jnl97vw4rpdhdxf8lzwrym8cr1m2h1ckggzaifw4iw1d9r7shql";
       };
       packageRequires = [
         compat

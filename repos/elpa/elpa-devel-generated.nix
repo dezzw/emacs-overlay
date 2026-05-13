@@ -2079,10 +2079,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.1.3.0.20260501.155652";
+      version = "4.1.3.0.20260512.102637";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260501.155652.tar";
-        sha256 = "0gmi5jccnb3d4cq5f7pfln2r89397hirh75hqxlcgmiaay1sn70h";
+        url = "https://elpa.gnu.org/devel/denote-4.1.3.0.20260512.102637.tar";
+        sha256 = "00ii9cnd8cq9jc5bfdws6drhamj7p0q2np4ilq1hfnp8n6gnssmf";
       };
       packageRequires = [ ];
       meta = {
@@ -2625,10 +2625,10 @@
     elpaBuild {
       pname = "dmsg";
       ename = "dmsg";
-      version = "0.2.0.20260422.105206";
+      version = "0.2.0.20260512.141856";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/dmsg-0.2.0.20260422.105206.tar";
-        sha256 = "0h8l75k00hh0j2cyc2jwqkrnr7qmkz0jydbhm2qwpm3bb5pyd6bq";
+        url = "https://elpa.gnu.org/devel/dmsg-0.2.0.20260512.141856.tar";
+        sha256 = "18p4zv9qnhi81i4l5vp44m6mb06lccd6pyfm3y3ca16d012nz6s8";
       };
       packageRequires = [ ];
       meta = {
@@ -4610,10 +4610,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.0.2pre0.20260511.131314";
+      version = "9.0.2pre0.20260512.131556";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260511.131314.tar";
-        sha256 = "0pfbndf3s1j72d4k6c2hy8vnfk47s5hv4252fmam4b1apf1fmil4";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.2pre0.20260512.131556.tar";
+        sha256 = "1afkw2b2l2lqyk7jqwxd6yf08z947hbj3kryhfh6zrrz2dpcb3wl";
       };
       packageRequires = [ ];
       meta = {
@@ -5999,10 +5999,10 @@
     elpaBuild {
       pname = "minimail";
       ename = "minimail";
-      version = "0.4.2.0.20260511.125743";
+      version = "0.4.2.0.20260512.143237";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/minimail-0.4.2.0.20260511.125743.tar";
-        sha256 = "04mvwp863lzc917fm3lva06a3nx25cjk3fz4pki7qn1m41ilz8ch";
+        url = "https://elpa.gnu.org/devel/minimail-0.4.2.0.20260512.143237.tar";
+        sha256 = "0y0d6wa0sl5a8q9kc9m88ix7dhb5237ipgp1hffj5m0rxggiz646";
       };
       packageRequires = [
         compat

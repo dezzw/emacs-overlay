@@ -2152,14 +2152,14 @@
   "repo": "Marx-A00/agent-recall",
   "unstable": {
    "version": [
-    20260509,
-    7
+    20260513,
+    1808
    ],
    "deps": [
     "agent-shell"
    ],
-   "commit": "c5a3ec882a9019f21b266f734710757a80387d7d",
-   "sha256": "08mpl6bpid23iwfihb7adr2fx3d4820xqmqvcamxas24vzl5nvbc"
+   "commit": "349cd6733f1441e7e004c43bd4f9a4f2e64095d1",
+   "sha256": "1xj8blaivvj35zj8h115ksn7xwv8wqh1cb14iin1miclbk5amzw2"
   }
  },
  {
@@ -30608,8 +30608,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260511,
-    1537
+    20260513,
+    2155
    ],
    "deps": [
     "compat",
@@ -30618,8 +30618,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "4cd5a5e1b2a7d94077815b50ba4850727bfcc129",
-   "sha256": "1ipis6c6nk5mmy3fv2g5gr2nflv1zah8hd73hcgibgyafpibh53y"
+   "commit": "dac33d8eb6a57af7caadbc14229a1243b37b9e94",
+   "sha256": "017z6a48yv3im2sizjf0bab1z9mi3rkxvwx3k9q7sshqn1s02j9d"
   },
   "stable": {
    "version": [
@@ -33932,8 +33932,8 @@
   "repo": "s-kostyaev/ellama",
   "unstable": {
    "version": [
-    20260510,
-    2124
+    20260513,
+    1818
    ],
    "deps": [
     "compat",
@@ -33942,13 +33942,13 @@
     "transient",
     "yaml"
    ],
-   "commit": "5d133a2d1a48a411a4951d5fff374ff604ffe476",
-   "sha256": "0vf9zb412lkhzwakm2blzc51agmafikcz2s1d3y55f91d34bbv6g"
+   "commit": "4311982a2a466dac60003c39d72badc69ea1d6c5",
+   "sha256": "1i5lnfb0ix8xr3f3ayrqckn9qf4i8gj9arghn98q5v691sv8rsws"
   },
   "stable": {
    "version": [
     1,
-    18,
+    19,
     0
    ],
    "deps": [
@@ -33958,8 +33958,8 @@
     "transient",
     "yaml"
    ],
-   "commit": "5d133a2d1a48a411a4951d5fff374ff604ffe476",
-   "sha256": "0vf9zb412lkhzwakm2blzc51agmafikcz2s1d3y55f91d34bbv6g"
+   "commit": "4311982a2a466dac60003c39d72badc69ea1d6c5",
+   "sha256": "1i5lnfb0ix8xr3f3ayrqckn9qf4i8gj9arghn98q5v691sv8rsws"
   }
  },
  {
@@ -50365,15 +50365,15 @@
   "repo": "jojojames/fussy",
   "unstable": {
    "version": [
-    20260511,
-    114
+    20260514,
+    6
    ],
    "deps": [
     "compat",
     "flx"
    ],
-   "commit": "de7dd27b7a4a17a61f63e4c160c24a7fa2c34be7",
-   "sha256": "135sf8ln5id96kxbj0v4if72vi1nhm4iyk6p6zgi5cslszc8k6af"
+   "commit": "2032da4acd0c73f1d09df9a31a7af2f8a9a74cf8",
+   "sha256": "0q8ir34pjb234dlh14vnn1ra83qgvdc0xjnvci7p75sifn13gggk"
   },
   "stable": {
    "version": [
@@ -51719,13 +51719,13 @@
   "unstable": {
    "version": [
     20260513,
-    1134
+    2052
    ],
    "deps": [
     "compat"
    ],
-   "commit": "69610433ca60ac1637fd92aa8297cec86cd429e4",
-   "sha256": "0knz36mn1nwp04hfk93dch1gkf6ii54r2hn9hgyl60pdw1jd95z8"
+   "commit": "fe4abec2c55a1f4a7bc6a8ff22ab564608e5af3a",
+   "sha256": "0mhvdfix3svdpfpxndp58caxz49s1ssj6bnrh0l3f4pl34bfksdl"
   },
   "stable": {
    "version": [
@@ -88698,14 +88698,14 @@
   "repo": "emacscollective/no-littering",
   "unstable": {
    "version": [
-    20260430,
-    2232
+    20260513,
+    1803
    ],
    "deps": [
     "compat"
    ],
-   "commit": "1109ba226c2c1a1ce47ce4e6ddeabf3de53858e4",
-   "sha256": "0rcgzia9ma7dl7vkgn5qvibqz3h8g3f5y5b7swniv396y69qwh06"
+   "commit": "251cf4f9d33d8f1c4cee55a8c408f1b676920d0d",
+   "sha256": "1n438mf5syvyzvagscwfa9nzwvq5h1zp750002qy0xhd0inljl12"
   },
   "stable": {
    "version": [
@@ -102026,14 +102026,14 @@
   "repo": "melpa/package-build",
   "unstable": {
    "version": [
-    20260510,
-    2156
+    20260513,
+    1752
    ],
    "deps": [
     "compat"
    ],
-   "commit": "76e909fb23c8a661e23da99d5de6a34b7b386772",
-   "sha256": "1c22zm6aijw0gw7ackav3qzqiwn2l5ij6pagy3pgnf01vy1kp125"
+   "commit": "f290c0e7acbf057886f50db7c22e6f5565c69d43",
+   "sha256": "1qd6y3p6i5wkd9hbp64wjdhqwsgkffrq4j3s395jm5yghp983iqz"
   },
   "stable": {
    "version": [
@@ -119033,10 +119033,10 @@
   "unstable": {
    "version": [
     20260513,
-    1615
+    1720
    ],
-   "commit": "623a97bd9f9440d15a8d4bf3c64fa23fcd68042c",
-   "sha256": "1563hip13qmf4dzvnr5bx5idvynxbwz1yzyyl2gq30z5wkgp1382"
+   "commit": "ec7e5d0a5a5b5ab56eb1cabd4f7a754ca1992f56",
+   "sha256": "0hfsqa8kbdwpxj7g00hal3333w184h1y2za9ri8fj2qy6y98ry4v"
   },
   "stable": {
    "version": [

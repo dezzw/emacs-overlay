@@ -2371,15 +2371,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260513,
-    243
+    20260515,
+    207
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "ee01c5b6d9a173e53bb5e8a49d0ab7a3e8f9705c",
-   "sha256": "042pw6ffyh3r0bzbfv217f3swqaji0r2rmmn4d66pd9b8pcbsdyq"
+   "commit": "99f2cf4ca1e6ba758d17bf3c667b4abb502ad120",
+   "sha256": "08q840ckfczr0zhwask26pis7w385ppfxxfvlqf6yh5vkyfy7hbj"
   },
   "stable": {
    "version": [
@@ -4267,11 +4267,11 @@
   "repo": "apparmor/apparmor-mode",
   "unstable": {
    "version": [
-    20260514,
-    445
+    20260515,
+    454
    ],
-   "commit": "b9846762e2c791a8be8a58615abd45a91861ff22",
-   "sha256": "0qpzfyqqvdzqzq4ay0glbv6nxfvpxm6863y7ns560sg2jv7addg8"
+   "commit": "b0e4bbcd30aafd71f484c74164351af40ef885bf",
+   "sha256": "04kz786xwmsv8w879c9nwspgv0dgfkqmrg2frplhvyizdi0cfinl"
   }
  },
  {
@@ -16826,14 +16826,14 @@
   "repo": "company-mode/company-mode",
   "unstable": {
    "version": [
-    20260513,
-    150
+    20260515,
+    220
    ],
    "deps": [
     "posframe"
    ],
-   "commit": "5abaf93ad2dd1c353cf4acc48d3ba6a89fa8fc04",
-   "sha256": "1aqc5wan6srf0drj6m5fy4v7l5wz2ikviysixgr10092yrxz65mx"
+   "commit": "2c503cd96eb26d830b20a590113f1def39b0d890",
+   "sha256": "1vlqfdki18khlcm6rm13ln1jazj2mqhhd0i7nr49xw3sfifv8w2i"
   },
   "stable": {
    "version": [
@@ -33031,14 +33031,14 @@
   "repo": "emacs-elfeed/elfeed",
   "unstable": {
    "version": [
-    20260514,
-    2201
+    20260515,
+    707
    ],
    "deps": [
     "compat"
    ],
-   "commit": "2080363f3e119d602601e01813dfb60f7e789f04",
-   "sha256": "0dxlgyqydbj45p8ggbblqadfdf69h84yk2gzdfr9qjchsf6ia2ld"
+   "commit": "8411d3b56019761fed288495df7503ca53f28896",
+   "sha256": "1kmmak4p9wnyj0k98g3xhkwkwghzgsvja9g16fjj2smf1a3sm96x"
   },
   "stable": {
    "version": [
@@ -34355,8 +34355,8 @@
   "repo": "jorgenschaefer/elpy",
   "unstable": {
    "version": [
-    20260413,
-    2143
+    20260515,
+    230
    ],
    "deps": [
     "company",
@@ -34365,8 +34365,8 @@
     "s",
     "yasnippet"
    ],
-   "commit": "777f5a5f951ee4b717856007c337e9f37fd4ea5d",
-   "sha256": "03rkjfi08j5lz0jl0aw66sqc2rbrx55kj6yanxmd6drv63ryd1zj"
+   "commit": "3f8d46e0447dd416dfa6f7e12b519cda21aa7e27",
+   "sha256": "16w8p1fj9kqg6yh88jywbv7931ng91zygq1grncg26lj23vcx6p9"
   },
   "stable": {
    "version": [
@@ -78714,8 +78714,8 @@
   "repo": "emacs-lsp/lsp-treemacs",
   "unstable": {
    "version": [
-    20260507,
-    1739
+    20260515,
+    746
    ],
    "deps": [
     "dash",
@@ -78724,8 +78724,8 @@
     "lsp-mode",
     "treemacs"
    ],
-   "commit": "0104931991803fa4a6eba0cf038007d98b8219bc",
-   "sha256": "1b9shfy30w9w72rhs83j9vsc1hg5v70pw8w3hvqr3zxp11xlyxf6"
+   "commit": "3519ac907ea391e18d9599375b116aeeb6f8a38a",
+   "sha256": "0bwdbzc9h4zypmspvw14fksbzkr6z87x42rnmynv28hrwy7r5ayd"
   },
   "stable": {
    "version": [
@@ -82123,11 +82123,11 @@
   "repo": "hexmode/mediawiki-el",
   "unstable": {
    "version": [
-    20260514,
-    534
+    20260515,
+    317
    ],
-   "commit": "b9594f31d612937a652d619e35ba27632f72e805",
-   "sha256": "0c50f1ry9qappq402jm1qcai7vx1xrjvv4kqm72f15j1knlzhsc1"
+   "commit": "7ba10e435599b6d91f50c8aa0768dd0597dcacda",
+   "sha256": "0md8ih4yqjhb9rl9kasddyd83n319b5sbf8axg9ivadaviy141dj"
   },
   "stable": {
    "version": [
@@ -82604,11 +82604,11 @@
   "url": "https://git.andros.dev/andros/meshmonitor-chat.el.git",
   "unstable": {
    "version": [
-    20260409,
-    802
+    20260515,
+    634
    ],
-   "commit": "862d8fed090dde4db19105afcc29199b3aa38cf0",
-   "sha256": "1rncjj6l31v6q4dhpngsarm31ifmnd6gsrdkaqpkp4y7qrspy0vd"
+   "commit": "79f1675afc914324a2ec55cc0c2a10f5c74bb97a",
+   "sha256": "118998pzgkhjg7zzd6vs4pj20qzypd0nbylfy5999vshkpjx1sqg"
   }
  },
  {
@@ -95971,14 +95971,14 @@
   "repo": "laurynas-biveinis/org-mcp",
   "unstable": {
    "version": [
-    20251111,
-    1319
+    20260515,
+    753
    ],
    "deps": [
     "mcp-server-lib"
    ],
-   "commit": "70fef64ee096c13eb33389c4803c5825e146c60e",
-   "sha256": "0r76wcyxmg4glhgj7576jbb0ax7zxbzl7rkg3fx13yfaaxqyw90f"
+   "commit": "7793707df7abc82a460f3f81925ab177b37a336a",
+   "sha256": "0s4jmk1wkrrqqxhswb7n2426y3yrq8jjml0cdivkckswy9wf2zsj"
   },
   "stable": {
    "version": [
@@ -115060,14 +115060,14 @@
   "repo": "emacs-rime/rimel",
   "unstable": {
    "version": [
-    20260510,
-    1207
+    20260515,
+    420
    ],
    "deps": [
     "liberime"
    ],
-   "commit": "c85829fd0c3645a1e9a554b5b3d2f848e58a31cc",
-   "sha256": "1c3771hadf02fc8zg8wbz050g06imbjmx0dfq3lq6z8dkqfs8rzf"
+   "commit": "ef8efd433ddcf8180a886df80d4a95570bdf84a3",
+   "sha256": "1350j0ssmrn2rjq13xrpd9lfb3acxxgs81099jbzmca3a1ymiki0"
   },
   "stable": {
    "version": [
@@ -123505,11 +123505,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20260429,
-    208
+    20260515,
+    226
    ],
-   "commit": "ce4cc356e91ad96f315e0d00159fb546d71e7893",
-   "sha256": "15qw493anbmjc03mcdcy8n2zgw7qip0rkv50i8yfl8xqhvf0arsq"
+   "commit": "0638922d3f9a0d5993766a53ac4aed5020e07177",
+   "sha256": "0jwaladi2rn4y98rksk5ysh7pv6xlywaqgwdf37sf46q50pnwgb0"
   }
  },
  {

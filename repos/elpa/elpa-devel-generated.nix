@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260511.181707";
+      version = "14.1.2.0.20260514.132907";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260511.181707.tar";
-        sha256 = "1aff312bgg1f35kz7mhmshj21b3smv9j70z0n5qfa0fmfhivmws4";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260514.132907.tar";
+        sha256 = "06w10n0cxz1ps79ip1zf76b60wz4pz3bn587h4zb9lbllh5xidps";
       };
       packageRequires = [ ];
       meta = {
@@ -3831,10 +3831,10 @@
     elpaBuild {
       pname = "forgejo";
       ename = "forgejo";
-      version = "0.2.1.0.20260514.65954";
+      version = "0.2.1.0.20260514.192820";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/forgejo-0.2.1.0.20260514.65954.tar";
-        sha256 = "16bbcnnihijilhgh64ljrrjqcnlb0jh12lcamfs8g5215n4qprka";
+        url = "https://elpa.gnu.org/devel/forgejo-0.2.1.0.20260514.192820.tar";
+        sha256 = "1iil05dz679c4j54n9y7rs27a9j1l98f04xjpja8fpb8qsasvvs3";
       };
       packageRequires = [ keymap-popup ];
       meta = {

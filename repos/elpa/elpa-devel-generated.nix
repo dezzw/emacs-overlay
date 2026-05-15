@@ -1392,10 +1392,10 @@
     elpaBuild {
       pname = "company";
       ename = "company";
-      version = "1.0.2.0.20260513.15007";
+      version = "1.0.2.0.20260515.22019";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260513.15007.tar";
-        sha256 = "1inh3n2wzlzx6avczckhy4s91bc9q69l8glhsyi0wq2gfcb58fgw";
+        url = "https://elpa.gnu.org/devel/company-1.0.2.0.20260515.22019.tar";
+        sha256 = "0jhckd7093dvlnifx8kzydl4pa0q3ray86bsi2d13whgkz39d7pg";
       };
       packageRequires = [ posframe ];
       meta = {

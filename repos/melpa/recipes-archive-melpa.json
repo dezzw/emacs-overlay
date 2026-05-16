@@ -2152,14 +2152,14 @@
   "repo": "Marx-A00/agent-recall",
   "unstable": {
    "version": [
-    20260513,
-    1808
+    20260515,
+    1821
    ],
    "deps": [
     "agent-shell"
    ],
-   "commit": "349cd6733f1441e7e004c43bd4f9a4f2e64095d1",
-   "sha256": "1xj8blaivvj35zj8h115ksn7xwv8wqh1cb14iin1miclbk5amzw2"
+   "commit": "89436ed83a7a77a424627479ff486ca97a009f4a",
+   "sha256": "06v7rd7m0pszjs9g23djbxv679vnijy367ja3mhcaz8013504jir"
   }
  },
  {
@@ -2372,14 +2372,14 @@
   "unstable": {
    "version": [
     20260515,
-    207
+    1725
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "99f2cf4ca1e6ba758d17bf3c667b4abb502ad120",
-   "sha256": "08q840ckfczr0zhwask26pis7w385ppfxxfvlqf6yh5vkyfy7hbj"
+   "commit": "03d91d6533fdaf826f14886c81156a647dbfb7e3",
+   "sha256": "0l66ighgj9slpppw1va5i51i1l656215a6i5fx92q25m3vcbn5lj"
   },
   "stable": {
    "version": [
@@ -3596,28 +3596,28 @@
   "repo": "kickingvegas/anju",
   "unstable": {
    "version": [
-    20260508,
-    2207
+    20260515,
+    2115
    ],
    "deps": [
     "casual",
     "markdown-mode"
    ],
-   "commit": "d0f2be00b4f56a8fe466f335c2c09b70cf830cd6",
-   "sha256": "08scyzwl73zxq9vjg30nmw0z809y1qnv4vrz9lh8k09nygickahw"
+   "commit": "6d9078c7193d2592f88e22a1c980601ccdb8762c",
+   "sha256": "1im06cyr7zc0gaj5jmpj4crqf7bz5j5s64pgdazmy0dgj66zxw6s"
   },
   "stable": {
    "version": [
     1,
-    3,
+    4,
     0
    ],
    "deps": [
     "casual",
     "markdown-mode"
    ],
-   "commit": "d0f2be00b4f56a8fe466f335c2c09b70cf830cd6",
-   "sha256": "08scyzwl73zxq9vjg30nmw0z809y1qnv4vrz9lh8k09nygickahw"
+   "commit": "6d9078c7193d2592f88e22a1c980601ccdb8762c",
+   "sha256": "1im06cyr7zc0gaj5jmpj4crqf7bz5j5s64pgdazmy0dgj66zxw6s"
   }
  },
  {
@@ -33032,13 +33032,13 @@
   "unstable": {
    "version": [
     20260515,
-    1611
+    2225
    ],
    "deps": [
     "compat"
    ],
-   "commit": "f13eae1cc5a1f40d94424b5d1115f0c751ed87a2",
-   "sha256": "11i01x10rbwrgj65a94a578q0wh2qm8l9xv93h6b3225sydwcpw9"
+   "commit": "330f3b8af5122c71222335599dc7016a9a16c6d8",
+   "sha256": "1wlb9vxfq4b4f7vnx2mvxm6zsgjj72mav9slhinkwq4054zpxhgr"
   },
   "stable": {
    "version": [
@@ -51078,15 +51078,15 @@
   "repo": "geiser/guile",
   "unstable": {
    "version": [
-    20260511,
-    2225
+    20260516,
+    19
    ],
    "deps": [
     "geiser",
     "transient"
    ],
-   "commit": "9689499699a11ac36c2b5284624d41e3e47cebd9",
-   "sha256": "1vsjwgjfl274k5cvd5n3sf5ygngvdj338dhw47ahipclwdzmbkkm"
+   "commit": "cbab81bd2dcb4c787bcda4ae18062db3087e6887",
+   "sha256": "0hvjc1s74ansn3c5pmizs9q234wz2h52y0070qg008i1vmqvymzp"
   },
   "stable": {
    "version": [
@@ -56837,19 +56837,19 @@
   "unstable": {
    "version": [
     20260515,
-    1543
+    1823
    ],
-   "commit": "c2e688a42b8d13d0a9d800bdaa68b3d7a0a29eaa",
-   "sha256": "0p4kvq9jhqhp5zx9b3l4hawh88b0s9wy6nqnlw6sd1bvj5i0zcms"
+   "commit": "168aca0ea6f6db9ec0085f4e958a06de5aea6f76",
+   "sha256": "0b36x9lz54v9wq61wir6xxgdjvm3a8g6896r6672axbxlpc4sycq"
   },
   "stable": {
    "version": [
     0,
-    15,
+    16,
     0
    ],
-   "commit": "50881883b9ca7fbceb9bfedb04d2a16ea01125bb",
-   "sha256": "0pkng9vra4ymjnwys4d3b6ly8marpc6zl6yl02k731lhx3a1kll7"
+   "commit": "168aca0ea6f6db9ec0085f4e958a06de5aea6f76",
+   "sha256": "0b36x9lz54v9wq61wir6xxgdjvm3a8g6896r6672axbxlpc4sycq"
   }
  },
  {
@@ -72289,15 +72289,15 @@
   "repo": "ogdenwebb/emacs-kaolin-themes",
   "unstable": {
    "version": [
-    20260514,
-    2033
+    20260515,
+    2238
    ],
    "deps": [
     "autothemer",
     "cl-lib"
    ],
-   "commit": "c6aae636e6efaa2a151a2ec1d0c39b50dd218f17",
-   "sha256": "12ckk5g5c1gczw1in24vj8cxqrhdq3gldj0lknqscwfnyka87ph9"
+   "commit": "53a6eab3f3b4ab638da0343b4845aab1074fc0e4",
+   "sha256": "0snxm5z4a9ci1p0x17f3vb571ibdg98hayzizbgr14a976r82hb9"
   },
   "stable": {
    "version": [
@@ -78355,8 +78355,8 @@
   "repo": "emacs-lsp/lsp-mode",
   "unstable": {
    "version": [
-    20260514,
-    1739
+    20260515,
+    1736
    ],
    "deps": [
     "dash",
@@ -78367,8 +78367,8 @@
     "markdown-mode",
     "spinner"
    ],
-   "commit": "2489b0468a6bad9200e2f87ec60bac4a1237640e",
-   "sha256": "10dz158vdarn82dc64k8iyrdnp5kk6aaxmg218iwmrpyj8npm2ma"
+   "commit": "0951bf38f5adb0cdb413586e39940e525c188cb2",
+   "sha256": "0mhgkj5k0p7rmwr491syzqsli4jfgrmzxwhzbnns3f0ij48jmc2v"
   },
   "stable": {
    "version": [
@@ -85851,11 +85851,11 @@
   "repo": "mkcms/mu4e-overview",
   "unstable": {
    "version": [
-    20250406,
-    1225
+    20260515,
+    1818
    ],
-   "commit": "527c3d3a4618c6ba7e6dec679ec2eff8854775d2",
-   "sha256": "1fxxbfn8hgx07rr9rrfr8bmhay576shc1s14smnjakrg51a69sl9"
+   "commit": "b6dfe3ecc569aa6313ef093c0c49df8a507f19c4",
+   "sha256": "0xkaqnqxj2f1f9ssnrgv4aqdwb6aq148pnhzrl52z1lj3p8k7q31"
   },
   "stable": {
    "version": [
@@ -87557,11 +87557,11 @@
   "repo": "rainstormstudio/nerd-icons.el",
   "unstable": {
    "version": [
-    20260512,
-    947
+    20260516,
+    44
    ],
-   "commit": "a5b6899dd529cac195179feb6b32b32379fda22a",
-   "sha256": "0nqpr00if2b6hhg6as9zy6b0zdgywa6r0hb5ck17zmh4k8ir361w"
+   "commit": "d33d12f5dcb6bf2fb23c3f75df5de85beb4afd95",
+   "sha256": "07qijgnnvm1bwq5s84qs1pimxmrly2l0z20slwipss4id62y3jwh"
   },
   "stable": {
    "version": [
@@ -102026,14 +102026,14 @@
   "repo": "melpa/package-build",
   "unstable": {
    "version": [
-    20260514,
-    1828
+    20260515,
+    1810
    ],
    "deps": [
     "compat"
    ],
-   "commit": "6bf9802866bf2a9d134999c1dae0658c6aff7b02",
-   "sha256": "18vzbm25svx0p6imjnh2fgp442j142a602hivwwpjwx2nww30lkh"
+   "commit": "dff162bcc6494e631e1b6796f18e80a448b9982e",
+   "sha256": "1nv3v5x146c160hznli2v0n7irwhybihzfjzikwf6fx53v8k0zmy"
   },
   "stable": {
    "version": [
@@ -120903,14 +120903,14 @@
   "repo": "slime/slime",
   "unstable": {
    "version": [
-    20260508,
-    2330
+    20260516,
+    11
    ],
    "deps": [
     "macrostep"
    ],
-   "commit": "897b3f47c41f785c800adfede5d83f12b86cf9b7",
-   "sha256": "1l9lc0kpxsdv2y8mmk7jq91nn1401677ywifxsf618dpyk08qy08"
+   "commit": "2f1c18d6bddf397267e6873ea2c1997633ff4de9",
+   "sha256": "0m544pn201j0mplhfcjwazb609dqyqzs30740imb5llh2yd0b453"
   },
   "stable": {
    "version": [
@@ -127298,14 +127298,14 @@
   "repo": "mclear-tools/tabspaces",
   "unstable": {
    "version": [
-    20260514,
-    2021
+    20260516,
+    51
    ],
    "deps": [
     "project"
    ],
-   "commit": "bb60b8285093a39d5f0c7f9983eb111c14c8f9ea",
-   "sha256": "02zc4f7r3q6jz5ym2ma00699ns9l95rqgk6ahcsgr3bkavis57ji"
+   "commit": "ea95efb5b2ef265e3c48059801554042ab0813b3",
+   "sha256": "0lwnj37xrcf7838dnprrdspp92yh5sz9ihks6xr759vjd6iahksj"
   }
  },
  {
@@ -133299,10 +133299,10 @@
   "unstable": {
    "version": [
     20260515,
-    1655
+    2003
    ],
-   "commit": "25ce0ac65055c2be49939a50a7d8d16befc9837a",
-   "sha256": "0k4vk70s5v64rsrgh505jl7qxxnzs13zsy2cfygxk1fq3vafaimz"
+   "commit": "a7df62e8b0eec1c1211af3715f9844218350762c",
+   "sha256": "1ali0hbr1c36ppmdqb7v4x8k88dps5836iciadsqgr13nkmcxgl6"
   },
   "stable": {
    "version": [
@@ -137189,16 +137189,16 @@
   "repo": "abrochard/walkman",
   "unstable": {
    "version": [
-    20241204,
-    2234
+    20260515,
+    1746
    ],
    "deps": [
     "json-mode",
     "org",
     "transient"
    ],
-   "commit": "b8260b6c1c6bdc8878c6f8cbeeea05040ac92b65",
-   "sha256": "1l3hg4spzgf4ymqp9ka7dys4hp1p227y1lf4cbni4ngz6ajynh26"
+   "commit": "0328a6b8ca98926a4fed88e722eba66ddbc5b0a8",
+   "sha256": "1n662r7q9vmbndswnhv77r1nngb65qwvnx5vii1nnd31p4vhvp0j"
   },
   "stable": {
    "version": [

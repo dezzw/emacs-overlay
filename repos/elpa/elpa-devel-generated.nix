@@ -3156,10 +3156,10 @@
     elpaBuild {
       pname = "ellama";
       ename = "ellama";
-      version = "1.19.0.0.20260513.181841";
+      version = "1.19.1.0.20260517.154816";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/ellama-1.19.0.0.20260513.181841.tar";
-        sha256 = "1hq9r7sn1bhll00wv78xaxarmm6d6f4vlrahs39f23wb2rjwp9zd";
+        url = "https://elpa.gnu.org/devel/ellama-1.19.1.0.20260517.154816.tar";
+        sha256 = "1xqc77lk7pgp60vhflkif9g7wr6ilbz0cs8zs4rwsn07rb761d3c";
       };
       packageRequires = [
         compat
@@ -6113,10 +6113,10 @@
     elpaBuild {
       pname = "modus-themes";
       ename = "modus-themes";
-      version = "5.2.0.0.20260507.173944";
+      version = "5.2.0.0.20260517.103425";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260507.173944.tar";
-        sha256 = "0v84hhq742ayjl2kz31b07y3qmj4vgwjg060l5z9fpmn3j17vf7s";
+        url = "https://elpa.gnu.org/devel/modus-themes-5.2.0.0.20260517.103425.tar";
+        sha256 = "0s9d9bla1j03s2pkn889qvyvhi2qk8ik85slzhgpmrybz1qihfvm";
       };
       packageRequires = [ ];
       meta = {
@@ -6518,10 +6518,10 @@
     elpaBuild {
       pname = "oauth2";
       ename = "oauth2";
-      version = "0.18.5.0.20260514.165308";
+      version = "0.18.6.0.20260517.35043";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/oauth2-0.18.5.0.20260514.165308.tar";
-        sha256 = "0rf3lwlsqaz4gzcgz1caxsx4pcv0jx6x5vbdj5p949r3w02p2b9l";
+        url = "https://elpa.gnu.org/devel/oauth2-0.18.6.0.20260517.35043.tar";
+        sha256 = "0fjcjrjpn2x787hs5yfch3hcpi9nv7si57j62sza1k7dajms2fyd";
       };
       packageRequires = [ ];
       meta = {

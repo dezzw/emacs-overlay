@@ -9235,10 +9235,10 @@
     elpaBuild {
       pname = "termint";
       ename = "termint";
-      version = "0.2.2";
+      version = "0.2.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/termint-0.2.2.tar";
-        sha256 = "0iavnximqsx6vl6yx36n829h67x4pyfmm8xcp5fzjwphdmgfdann";
+        url = "https://elpa.gnu.org/packages/termint-0.2.3.tar";
+        sha256 = "1yir074lihlr2y78a58jm233a6s807j8d8fvlvv6b62wm0036frk";
       };
       packageRequires = [ ];
       meta = {

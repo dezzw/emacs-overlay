@@ -3,12 +3,49 @@
 
 set -euo pipefail
 
-repo="$1"
+root="$(git rev-parse --show-toplevel)"
+cd "$root"
 
-"repos/$repo/update"
+target="${1:-}"
 
-if git diff --exit-code "repos/$repo" > /dev/null; then
-    exit 0
-fi
+usage() {
+  cat <<'EOF'
+Usage:
+  ./update emacs
+  ./update melpa
+  ./update elpa
+  ./update nongnu
+  ./update manual
+  ./update manual <package>
+  ./update manual --all
+EOF
+}
 
-git commit -m "Updated $repo" -- "repos/$repo"
+case "$target" in
+  manual)
+    shift
+    exec ./manual-packages/update "$@"
+    ;;
+
+  emacs|melpa|elpa|nongnu)
+    "repos/$target/update"
+
+    if ! git diff --quiet -- "repos/$target"; then
+      git add "repos/$target"
+      git commit -m "repos/$target: update"
+    else
+      echo "No changes for repos/$target"
+    fi
+    ;;
+
+  ""|-h|--help)
+    usage
+    ;;
+
+  *)
+    echo "Unknown update target: $target"
+    echo
+    usage
+    exit 1
+    ;;
+esac

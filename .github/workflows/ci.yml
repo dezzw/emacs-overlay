@@ -47,7 +47,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        repo: ["elpa", "emacs", "melpa", "fromElisp", "nongnu"]
+        repo: ["elpa", "emacs", "melpa", "fromElisp", "nongnu", "manual"]
     if: github.repository_owner == 'dezzw'
     steps:
     - name: Checkout repository

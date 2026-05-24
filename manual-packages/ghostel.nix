@@ -17,8 +17,8 @@ let
   src = fetchFromGitHub {
     owner = "dakra";
     repo = "ghostel";
-    rev = "cd32af7bd6b9c827701a62ed8f0c3bc705800f13";
-    hash = "sha256-5XmHI+lkzLFW8VNVC3eyc+msi6y+Qh6q6WsBZpHNEf4=";
+    rev = "8b40864c490f5978373ca4936e33eb8a097c47a7";
+    hash = "sha256-Gr44tb9raXTtZ57nV7dnkpDyozMawGoxJ9zoL5WIS9I=";
   };
 
   module = stdenv.mkDerivation (finalAttrs: {

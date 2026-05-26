@@ -12,13 +12,13 @@ let
   zig = zig_0_15;
 
   pname = "ghostel";
-  version = "0-unstable-2026-05-25";
+  version = "0-unstable-2026-05-26";
 
   src = fetchFromGitHub {
     owner = "dakra";
     repo = "ghostel";
-    rev = "d92a367084935aac7fd5fff1a17914d87ddaad03";
-    hash = "sha256-boOzpP8lVDlKq6HzHsN+Pqa1C0OnpgVBIzqE/yF3188=";
+    rev = "45d02cd0abb2dd182b69a43407fa41bed48c305a";
+    hash = "sha256-MGzZhZO21r2QwxeWpC8M6KghbdE+IpL7ogZpAHrrjJo=";
   };
 
   module = stdenv.mkDerivation (finalAttrs: {

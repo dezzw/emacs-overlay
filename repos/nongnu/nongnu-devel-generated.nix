@@ -2891,10 +2891,10 @@
     elpaBuild {
       pname = "helm";
       ename = "helm";
-      version = "4.0.7.0.20260527.12";
+      version = "4.0.7.0.20260528.14";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260527.12.tar";
-        sha256 = "1hqz4qmpcanxgb2mc8vm03j7yv6hn1adfrvylxilhpmzg08l15d7";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-4.0.7.0.20260528.14.tar";
+        sha256 = "0a37fyrqy4gkf6rfd42bhi1xjcv60c6jszsvw1iaryxi7vjy5r5i";
       };
       packageRequires = [
         helm-core
@@ -2916,10 +2916,10 @@
     elpaBuild {
       pname = "helm-core";
       ename = "helm-core";
-      version = "4.0.7.0.20260527.12";
+      version = "4.0.7.0.20260528.14";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260527.12.tar";
-        sha256 = "1wf1gy7krwncb4g7iclwhwvh2r45azzgnmdsl8y1i7cwlsffsihp";
+        url = "https://elpa.nongnu.org/nongnu-devel/helm-core-4.0.7.0.20260528.14.tar";
+        sha256 = "00nw7sqbk5ymhk3f59j8mxnpc440yynmmvapl9nc313c67cqxa6k";
       };
       packageRequires = [ async ];
       meta = {
@@ -6267,10 +6267,10 @@
     elpaBuild {
       pname = "zenburn-theme";
       ename = "zenburn-theme";
-      version = "2.9.0.0.20260329.183806";
+      version = "2.9.0.0.20260528.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.9.0.0.20260329.183806.tar";
-        sha256 = "16ma8gishgdbaalk1slqci7dciyjjnbifvn15iyby4ccqy3dc8gz";
+        url = "https://elpa.nongnu.org/nongnu-devel/zenburn-theme-2.9.0.0.20260528.1.tar";
+        sha256 = "1c7da3fh8rnx6l22hqgy4cx0ml9ci36isbakhap1rla3brzw21h1";
       };
       packageRequires = [ ];
       meta = {

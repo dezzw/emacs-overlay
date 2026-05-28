@@ -1599,20 +1599,20 @@
   "repo": "xenodium/acp.el",
   "unstable": {
    "version": [
-    20260519,
-    1135
+    20260527,
+    1300
    ],
-   "commit": "661af51569acef7384a2801f07a582da5142a6d9",
-   "sha256": "0gp31clwn9vpnx1k54n19kl9s6id837w0ma4gsw6s4b2rl29b8n7"
+   "commit": "c8ee1d7f70105fba8efa964ca63f38ca94a1e759",
+   "sha256": "1zxns3y4wgfq7mndyvia3yhmc1qzlk9f7rw3khlyl1sxr0rnim42"
   },
   "stable": {
    "version": [
     0,
-    11,
-    3
+    12,
+    2
    ],
-   "commit": "c32fbf8df34ed0095853a8cf55dc783e68b67d90",
-   "sha256": "0hr1176sy8xrx6wkqadmvwdjm1sv7aq8ddrw8h3ha6sn74glx8ws"
+   "commit": "c8ee1d7f70105fba8efa964ca63f38ca94a1e759",
+   "sha256": "1zxns3y4wgfq7mndyvia3yhmc1qzlk9f7rw3khlyl1sxr0rnim42"
   }
  },
  {
@@ -2170,28 +2170,28 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260525,
-    1934
+    20260527,
+    1304
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "89bd6e136a08e1527dd630e4573639c838fd7e22",
-   "sha256": "1vy751q9zy32ymmm72ilb6gjps0qjh9mdilaphnps31y43344b35"
+   "commit": "2e288326f43397008b04d3da0724acf5afab9283",
+   "sha256": "1d4wrfri6wk0fs133chyny75mnyvwjcfy447wfvg458shhfzsavz"
   },
   "stable": {
    "version": [
     0,
-    50,
-    1
+    52,
+    2
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "68b8c394a4838fb54f7dbfc70cee38e7310f03a3",
-   "sha256": "0njajpz51pbz4hqaq7lcvwaypilq1c9sdxsk6sdxgk1xpivqlxfb"
+   "commit": "2e288326f43397008b04d3da0724acf5afab9283",
+   "sha256": "1d4wrfri6wk0fs133chyny75mnyvwjcfy447wfvg458shhfzsavz"
   }
  },
  {
@@ -10388,11 +10388,11 @@
   "repo": "jamescherti/buffer-guardian.el",
   "unstable": {
    "version": [
-    20260524,
-    2207
+    20260527,
+    1245
    ],
-   "commit": "1edaa2fa99b5bd70dc883c9cbf6049f5683d1f7a",
-   "sha256": "1wlxq0mbzja85jmyz101kqm7rsnxwv75mdbjqjj731z6mwplkaic"
+   "commit": "5b241c8144fe37d8a3b251b6792442f0652bec52",
+   "sha256": "0hy687q66fq4pvaw3p2alzx86xi07v1g52y78g89979lrxijisc8"
   },
   "stable": {
    "version": [
@@ -15550,16 +15550,16 @@
   "repo": "LuciusChen/clutch",
   "unstable": {
    "version": [
-    20260525,
-    413
+    20260527,
+    1159
    ],
    "deps": [
     "mysql",
     "pg",
     "transient"
    ],
-   "commit": "3b8fb5b274236b144341a019fb19a380b650e675",
-   "sha256": "0ws0vr0mzr9159ry6rg3apwpxkbzlcwj8gsapw947kdzbybvw2s3"
+   "commit": "5c4d693d54a420cf505b516d0a3912faed4b8c0c",
+   "sha256": "0h4y5cv1fsqa3nrs0z8qgnsihlqa3a6shr77fs0h3abjiq22zyjg"
   }
  },
  {
@@ -50390,15 +50390,15 @@
   "repo": "jojojames/fussy",
   "unstable": {
    "version": [
-    20260524,
-    2058
+    20260527,
+    1523
    ],
    "deps": [
     "compat",
     "flx"
    ],
-   "commit": "077eadba04e30a8fd60bf67cb7d84ac6f478b350",
-   "sha256": "10903s8wlczvibsyql3y1pzyrbyf3s0dzjjcci33ilqjkf8hapaf"
+   "commit": "02f962d67012df17c98eda5d83c75f8416a56982",
+   "sha256": "0pn2bf6spviihjkv3d1ld8ak0djkrzc0cca5jix5g3lv9mlhi6ag"
   },
   "stable": {
    "version": [
@@ -51759,14 +51759,14 @@
   "repo": "dakra/ghostel",
   "unstable": {
    "version": [
-    20260526,
-    2156
+    20260527,
+    1522
    ],
    "deps": [
     "compat"
    ],
-   "commit": "22e535a6774e8aefede730db74cf133ee8840d97",
-   "sha256": "1y6jimgp2bcr9xjizq663zpkxbm3mv14fignk5xnpx49arwamq5c"
+   "commit": "5c90a187d54d17f076243474dc46c9600557d617",
+   "sha256": "0v2ip6jyn1xipj5r140flr4fnivpq8qfkn6lskvcd5kv9n5zya36"
   },
   "stable": {
    "version": [
@@ -59033,14 +59033,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20260526,
-    1849
+    20260527,
+    1741
    ],
    "deps": [
     "async"
    ],
-   "commit": "3c70d12d713455ffaeec67808ded3c3e6daa7b86",
-   "sha256": "10bw5dnwfhcwyv0g3lifrpkarkxm7ag9cfzxn7s5v6sqq0gj7zjm"
+   "commit": "e53185833c9e7a702456bbd1905efe3d40a61aa9",
+   "sha256": "1ff1yp0vbi1ynlvl0lsbz177xgc4x5y9k2c25b8g1i9dk0c5x6lz"
   },
   "stable": {
    "version": [
@@ -73250,11 +73250,11 @@
   "repo": "jamescherti/kirigami.el",
   "unstable": {
    "version": [
-    20260522,
-    2049
+    20260527,
+    1536
    ],
-   "commit": "9adcd5f3c68cdfc4468c9560edf9c7a8646742a2",
-   "sha256": "086xm6dkjfl22c6q4gzl5dh47w6v3hzkn9ank24v9lcznlhkzajv"
+   "commit": "c14129fb0f303eb3e22d7f673adc0a2c57f74a1f",
+   "sha256": "11nbw3yig5zk8dzvxz98l6d9ncm2pvqalm61530hg4vcksas6z5a"
   },
   "stable": {
    "version": [
@@ -82595,11 +82595,11 @@
   "url": "https://git.andros.dev/andros/meshtastic.el",
   "unstable": {
    "version": [
-    20260524,
-    1854
+    20260527,
+    1500
    ],
-   "commit": "94a8642f7886614673c720671c4c58d5aa28d31f",
-   "sha256": "082320xlyvvw63pj2qs4vmqix6kc2bi0zkip17pws748ppxfx93l"
+   "commit": "5ad027669b3e652f704857e3d7e373095d1c09d1",
+   "sha256": "16h9vif9i82gk3bpy6d3x1ifbc3bag3hg3dl19hfbqs054xkjccq"
   }
  },
  {
@@ -101987,14 +101987,14 @@
   "repo": "melpa/package-build",
   "unstable": {
    "version": [
-    20260522,
-    1249
+    20260527,
+    1117
    ],
    "deps": [
     "compat"
    ],
-   "commit": "1eaec3618e7c10e96e8a6a353af90c35692e5a64",
-   "sha256": "04f7pmj2x4n5fjaz8xib0c9y88fm2akczxy5mky0hwsq37z8rwd1"
+   "commit": "dd951e217c0844512a011e6bf739562dfc909f69",
+   "sha256": "0mym01dr3j8xgqp022cxv0azf3v0add4f7zmcg248bx02rbbw2y8"
   },
   "stable": {
    "version": [
@@ -103319,11 +103319,11 @@
   "repo": "jamescherti/pathaction.el",
   "unstable": {
    "version": [
-    20260524,
-    1516
+    20260527,
+    1145
    ],
-   "commit": "40cea28725ec025f9f4e5e277a6312f8916508b9",
-   "sha256": "0yvlcrsgm276r7kky9zzjwid9449kp2nq54qlw8gzc6l2sh3k6nl"
+   "commit": "7422d213692a4863f8b0aba565e39856792fd115",
+   "sha256": "19pnxvs6dzcrqh5dds6rmc4kzc4ilhxgzzvqvp4n0pmlpigcy98g"
   },
   "stable": {
    "version": [
@@ -105057,16 +105057,16 @@
   "repo": "dnouri/pi-coding-agent",
   "unstable": {
    "version": [
-    20260510,
-    2101
+    20260527,
+    1015
    ],
    "deps": [
     "markdown-table-wrap",
     "md-ts-mode",
     "transient"
    ],
-   "commit": "a23785b1ff6482b26d5ee48b73af18744a74ffee",
-   "sha256": "00gyhklicxig1xvdxsd87laslqpih8ymcgs8sibsxrbr43wmffwj"
+   "commit": "049d6b9d5a20d77d7608e80e56208576cf2feff8",
+   "sha256": "09ayzn14sjdvvn1q3qhywfkgjna2fmbbl1ijdyjlv97v445d7rs8"
   },
   "stable": {
    "version": [
@@ -119008,11 +119008,11 @@
   "repo": "kyagi/shell-pop-el",
   "unstable": {
    "version": [
-    20260520,
-    2354
+    20260527,
+    1146
    ],
-   "commit": "ad8edee306961a7b9744fae9e52f888217592e48",
-   "sha256": "00jgg3cgzjphvsgs976663xxpgbvj75fqak5awpbvpn68g4g274m"
+   "commit": "866f18caaf3e6df12e3af3a8ac8f64116017bfc4",
+   "sha256": "1is9qfrv8s50kw0xfwdq3wsnnzyc0ra5xmndr9s13pfq86r4xzy5"
   },
   "stable": {
    "version": [

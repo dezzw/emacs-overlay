@@ -3,49 +3,54 @@
 
 set -euo pipefail
 
-root="$(git rev-parse --show-toplevel)"
-cd "$root"
-
-target="${1:-}"
-
 usage() {
   cat <<'EOF'
 Usage:
+  ./update <repo>
+  ./update manual
+  ./update manual <package>
+  ./update manual --all
+
+Examples:
   ./update emacs
   ./update melpa
   ./update elpa
   ./update nongnu
-  ./update manual
-  ./update manual <package>
-  ./update manual --all
+  ./update fromElisp
 EOF
 }
 
-case "$target" in
-  manual)
-    shift
-    exec ./manual-packages/update "$@"
-    ;;
+repo="${1:-}"
 
-  emacs|melpa|elpa|nongnu)
-    "repos/$target/update"
-
-    if ! git diff --quiet -- "repos/$target"; then
-      git add "repos/$target"
-      git commit -m "repos/$target: update"
-    else
-      echo "No changes for repos/$target"
-    fi
-    ;;
-
+case "$repo" in
   ""|-h|--help)
     usage
-    ;;
-
-  *)
-    echo "Unknown update target: $target"
-    echo
-    usage
-    exit 1
+    exit 0
     ;;
 esac
+
+root="$(git rev-parse --show-toplevel)"
+cd "$root"
+
+shift
+
+if [ "$repo" = "manual" ]; then
+  exec ./manual-packages/update "$@"
+fi
+
+update_script="repos/$repo/update"
+
+if [ ! -x "$update_script" ]; then
+  echo "Unknown update target or non-executable update script: $repo" >&2
+  echo >&2
+  usage >&2
+  exit 1
+fi
+
+"$update_script" "$@"
+
+if git diff --exit-code "repos/$repo" > /dev/null; then
+  exit 0
+fi
+
+git commit -m "Updated $repo" -- "repos/$repo"

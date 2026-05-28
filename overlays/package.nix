@@ -46,11 +46,20 @@ self: super:
             generated = ../repos/nongnu/nongnu-generated.nix;
           };
 
+          archivePackages =
+            elpaDevelPackages
+            // elpaPackages
+            // nongnuDevelPackages
+            // nongnuPackages
+            // melpaStablePackages
+            // melpaPackages;
+
         in
-          esuper.override {
+          (esuper.override {
             inherit melpaStablePackages melpaPackages elpaDevelPackages elpaPackages
               nongnuDevelPackages nongnuPackages;
-          }
+          })
+          // archivePackages
 
     )
   );

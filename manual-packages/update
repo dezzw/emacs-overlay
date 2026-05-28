@@ -36,7 +36,10 @@ EOF
 }
 
 manual_package_names() {
-  nix eval --json .#manualPackageNames | jq -r '.[]'
+  local system
+  system="$(nix eval --impure --raw --expr builtins.currentSystem)"
+
+  nix eval --json ".#lib.${system}.manualPackageNames" | jq -r '.[]'
 }
 
 package_file_for() {
@@ -223,6 +226,11 @@ update_one() {
 
   echo "==> Updating manual package: $pkg"
   echo "==> Package file: $file"
+
+  if sed -n 's/^# update-skip:[[:space:]]*//p' "$file" | grep -q .; then
+    echo "==> Skipping update: $(sed -n 's/^# update-skip:[[:space:]]*//p' "$file" | head -n1)"
+    return 0
+  fi
 
   local owner repo old_rev branch new_rev today
 

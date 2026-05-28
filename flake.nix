@@ -34,56 +34,27 @@
           }
         );
 
-      manualPackageNames =
-        let
-          dir = ./manual-packages;
-          entries = builtins.readDir dir;
+      manualPackageDiscovery = import ./manual-packages/discover { inherit lib; };
 
-          filePkgs = lib.mapAttrsToList (name: _: lib.removeSuffix ".nix" name) (
-            lib.filterAttrs (
-              name: type: type == "regular" && lib.hasSuffix ".nix" name && name != "default.nix"
-            ) entries
-          );
+      manualPackageNames = manualPackageDiscovery.packageNames;
 
-          dirPkgs = lib.attrNames (
-            lib.filterAttrs (
-              name: type: type == "directory" && builtins.pathExists (dir + "/${name}/package.nix")
-            ) entries
-          );
-        in
-        lib.unique (filePkgs ++ dirPkgs);
-
-      manualPackagePathFor =
-        name:
-        let
-          dir = ./manual-packages;
-        in
-        if builtins.pathExists (dir + "/${name}.nix") then
-          dir + "/${name}.nix"
-        else if builtins.pathExists (dir + "/${name}/package.nix") then
-          dir + "/${name}/package.nix"
-        else
-          throw "Cannot find manual package file for ${name}";
-
-      manualPackagesFor =
+      manualPackageOutputsFor =
         system:
         let
           pkgs = importPkgs nixpkgs { inherit system; };
 
-          emacs = pkgs.emacs-git;
-
-          epkgs = pkgs.emacsPackagesFor emacs;
-
-          manualScope =
-            pkgs
-            // epkgs
-            // {
-              inherit emacs;
-            };
-
-          callManualPackage = pkgs.lib.callPackageWith manualScope;
+          epkgs = pkgs.emacsPackages;
         in
-        lib.genAttrs manualPackageNames (name: callManualPackage (manualPackagePathFor name) { });
+        # These flat flake package outputs are for local builds and the manual
+        # updater. Downstream users should consume manual packages through the
+        # generic overlay API: pkgs.emacsPackagesFor <chosen-emacs>.
+        lib.genAttrs manualPackageNames (
+          name:
+          if builtins.hasAttr name epkgs then
+            epkgs.${name}
+          else
+            throw "Manual Emacs package '${name}' was not found in pkgs.emacsPackages"
+        );
 
       packages' = forAllSystems (
         system:
@@ -121,12 +92,10 @@
 
       overlay = self.overlays.default;
 
-      inherit manualPackageNames;
-
-      packages = forAllSystems (system: packages'.${system}.packages // manualPackagesFor system);
+      packages = forAllSystems (system: packages'.${system}.packages // manualPackageOutputsFor system);
 
       # Non-derivation helper outputs from the overlay.
-      lib = forAllSystems (system: packages'.${system}.lib);
+      lib = forAllSystems (system: packages'.${system}.lib // { inherit manualPackageNames; });
 
       hydraJobs = lib.genAttrs [ "x86_64-linux" "aarch64-linux" ] (
         system:

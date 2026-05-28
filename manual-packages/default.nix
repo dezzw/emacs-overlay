@@ -8,34 +8,22 @@
 let
   lib = pkgs.lib;
 
-  dir = ./.;
-
-  entries = builtins.readDir dir;
+  discovery = import ./discover { inherit lib; };
 
   scope =
     pkgs
     // eself
     // {
-      inherit emacs;
+      inherit emacs pkgs;
     };
 
   callPackage = lib.callPackageWith scope;
 
-  isPackageFile = name: type: type == "regular" && lib.hasSuffix ".nix" name && name != "default.nix";
-
-  isPackageDir =
-    name: type: type == "directory" && builtins.pathExists (dir + "/${name}/package.nix");
-
-  filePackages = lib.mapAttrsToList (name: _type: {
-    name = lib.removeSuffix ".nix" name;
-    value = callPackage (dir + "/${name}") { };
-  }) (lib.filterAttrs isPackageFile entries);
-
-  dirPackages = lib.mapAttrsToList (name: _type: {
+  packageFor = name: {
     inherit name;
-    value = callPackage (dir + "/${name}/package.nix") { };
-  }) (lib.filterAttrs isPackageDir entries);
+    value = callPackage (discovery.packagePathFor name) { };
+  };
 
 in
 
-builtins.listToAttrs (filePackages ++ dirPackages)
+builtins.listToAttrs (map packageFor discovery.packageNames)

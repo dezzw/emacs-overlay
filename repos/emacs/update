@@ -6,22 +6,36 @@ SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 cd $SCRIPTPATH
 
 function update_savannah_branch() {
-    branch=$1
-    echo emacs $branch
+    local branch="$1"
+    local url="https://git.savannah.gnu.org/git/emacs.git"
 
-    url="https://https.git.savannah.gnu.org/git/emacs.git"
+    echo "emacs $branch"
 
     # extract the latest commit sha
-    commit_sha=$(git ls-remote --branches "$url" refs/heads/$branch | cut -f 1)
+    local commit_sha
+    commit_sha=$(git ls-remote --branches "$url" "refs/heads/$branch" | cut -f1)
 
-    source_info=$(nix-prefetch-git --rev $commit_sha "$url")
+    if [ -z "$commit_sha" ]; then
+        echo "Failed to resolve branch '$branch' from $url" >&2
+        return 1
+    fi
 
-    digest=$(echo $source_info | jq -r .sha256)
+    local source_info
+    source_info=$(nix-prefetch-git --rev "$commit_sha" "$url")
+
+    local digest
+    digest=$(echo "$source_info" | jq -r .sha256)
+
     # build a version number based on date: YYYYMMDD.0
-    version_number=$(echo $source_info | jq -r .date | cut -d 'T' -f 1 | sed 's/-//g').0
-    output_branch=$(echo $branch | sed s/"\/"/"_"/)
-    echo "{\"type\": \"savannah\", \"url\": \"${url}\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > emacs-$output_branch.json
+    local version_number
+    version_number="$(echo "$source_info" | jq -r .date | cut -d 'T' -f 1 | sed 's/-//g').0"
+
+    local output_branch
+    output_branch=$(echo "$branch" | sed 's/\//_/g')
+
+    echo "{\"type\": \"savannah\", \"url\": \"${url}\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > "emacs-${output_branch}.json"
 }
+
 
 function update_github_repo() {
     owner=$1
@@ -41,13 +55,7 @@ function update_github_repo() {
     echo "{\"type\": \"github\", \"owner\": \"${owner}\", \"repo\": \"${repo}\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > $repo-$output_name.json
 }
 
-function update_unstable() {
-    echo emacs unstable
-    python3 ./update-unstable.py
-}
-
 update_savannah_branch master
 update_savannah_branch feature/igc3
-update_unstable
 
 nix-build --no-out-link --show-trace ./test.nix

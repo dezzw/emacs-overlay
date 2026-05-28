@@ -15550,16 +15550,16 @@
   "repo": "LuciusChen/clutch",
   "unstable": {
    "version": [
-    20260527,
-    1159
+    20260528,
+    1004
    ],
    "deps": [
     "mysql",
     "pg",
     "transient"
    ],
-   "commit": "5c4d693d54a420cf505b516d0a3912faed4b8c0c",
-   "sha256": "0h4y5cv1fsqa3nrs0z8qgnsihlqa3a6shr77fs0h3abjiq22zyjg"
+   "commit": "b00d323588b0d70456e497d86b4e4b657ca1022e",
+   "sha256": "1km4ivyi12s4hcpq8hki7yjk4qclyj34v17h3q8msjnzcnknjr98"
   }
  },
  {

@@ -2371,15 +2371,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260522,
-    1415
+    20260529,
+    21
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "f2cb1857b19950aeca5990eaaf9490386b1a42c5",
-   "sha256": "0xwjmzxya8s2d15mpg60xlx6n0haxfx6rqfijfzwq8dsxbwwlmf0"
+   "commit": "336b4c42537ceabdc4585fae0fd6091b1a054f6c",
+   "sha256": "1xyka8csb4yw95idvy8n632lrvnlnhppy02k2j5mp9c2sawzr450"
   },
   "stable": {
    "version": [
@@ -56863,10 +56863,10 @@
   "unstable": {
    "version": [
     20260528,
-    1557
+    1920
    ],
-   "commit": "7e5774e6fa0eec522e62cea1b47ef7feb08eb3ff",
-   "sha256": "1cmm722pc3ww4dxhag6k9dx5kx3s5f00hql9lwahplpjki9yzil6"
+   "commit": "53032e85478257bbe0cb8c82cd9955bffdd96493",
+   "sha256": "1wmapsbh5r2wxzsl1sv1wh6dx42y6iaz3xq98cp5i55664dndpmh"
   },
   "stable": {
    "version": [
@@ -64713,11 +64713,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20260525,
-    526
+    20260528,
+    1626
    ],
-   "commit": "242dbb232b6cd812a1f66cabb12059f429e735a9",
-   "sha256": "0rfjkvkfx0pi8jzbld5pim4hbjc2payfwiyhlzhf6qxl07kqn6ca"
+   "commit": "9ef5fb795c68f2881911a90a79f399efef9e32d6",
+   "sha256": "1si531v76r607rgdnhivndlqdpn78k51wpl451nrcxwvlxk8aapd"
   },
   "stable": {
    "version": [
@@ -103320,10 +103320,10 @@
   "unstable": {
    "version": [
     20260527,
-    1145
+    1207
    ],
-   "commit": "7422d213692a4863f8b0aba565e39856792fd115",
-   "sha256": "19pnxvs6dzcrqh5dds6rmc4kzc4ilhxgzzvqvp4n0pmlpigcy98g"
+   "commit": "1cf1318c2920af5712c31e9ad14b28abf0b4246f",
+   "sha256": "1nkc208ibcs1rgga2p48hqjndjfhpgf8m21xnyz4x0q42vkq5zrl"
   },
   "stable": {
    "version": [
@@ -118984,11 +118984,11 @@
   "repo": "xenodium/shell-maker",
   "unstable": {
    "version": [
-    20260524,
-    1706
+    20260528,
+    1936
    ],
-   "commit": "e8bdf6dca18f39d592728e8440118d9f57092e65",
-   "sha256": "0cnbxnsh00ikd0d94knv9vzmdjk8psf73m2m0brjih99c3smjs5n"
+   "commit": "0100df0cbd7ae90b4d908d7d072a39e627e5c80c",
+   "sha256": "1bfx2m7r1n4bm4zfas7a70ar2p7ryv48zw0wm9plcp16ahhp52py"
   },
   "stable": {
    "version": [
@@ -119008,11 +119008,11 @@
   "repo": "kyagi/shell-pop-el",
   "unstable": {
    "version": [
-    20260527,
-    1146
+    20260529,
+    56
    ],
-   "commit": "866f18caaf3e6df12e3af3a8ac8f64116017bfc4",
-   "sha256": "1is9qfrv8s50kw0xfwdq3wsnnzyc0ra5xmndr9s13pfq86r4xzy5"
+   "commit": "dae41e9856768e79eb47acf8cc1ae4dd33f6c9a1",
+   "sha256": "1vjlj9wi7a4bmnj8c45lvcm6zjjn9i3yqwywr1zf3w465mr2c156"
   },
   "stable": {
    "version": [
@@ -136590,11 +136590,11 @@
   "repo": "akermu/emacs-libvterm",
   "unstable": {
    "version": [
-    20260511,
-    19
+    20260528,
+    1919
    ],
-   "commit": "92add72b728e47852ea1e95dc9f08d01b33d4bf0",
-   "sha256": "0y369xiyvlh9yggpq1c5ajfizbrf7wspga87rysgdv23nzl8w132"
+   "commit": "d8157e74339e02b70fa5dcd9d572960dd5c8214a",
+   "sha256": "15n6qhqfd9k504w1vm4abdfagzxa50a387f1kjg9azj6v84hawnb"
   }
  },
  {

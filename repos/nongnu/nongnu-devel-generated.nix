@@ -9,10 +9,10 @@
     elpaBuild {
       pname = "adoc-mode";
       ename = "adoc-mode";
-      version = "0.8.0.0.20260528.19";
+      version = "0.8.0.0.20260529.20";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.8.0.0.20260528.19.tar";
-        sha256 = "053gljv55l3pki75pzfxj8ndi432rfhw8n7xw84hwgzjgn9sn6v4";
+        url = "https://elpa.nongnu.org/nongnu-devel/adoc-mode-0.8.0.0.20260529.20.tar";
+        sha256 = "1sp0zwrx3q4mndaqv7wvrh04y1xn82s2fxy7lz9z9r94gqfi21rk";
       };
       packageRequires = [ ];
       meta = {
@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "1.22.0.20260528.143";
+      version = "1.22.0.20260529.146";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0.20260528.143.tar";
-        sha256 = "0dld8chlbxknim8yrlhr25i9rsyz2cvgk2cajd2zimmflbvc2m12";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-1.22.0.20260529.146.tar";
+        sha256 = "0pww5n9jz64x0yvdzazzv1fax1mvivwjhg6p6i102nawxai2nhrd";
       };
       packageRequires = [
         clojure-mode
@@ -1307,10 +1307,10 @@
     elpaBuild {
       pname = "elfeed";
       ename = "elfeed";
-      version = "3.4.2.0.20260526.467";
+      version = "3.4.2.0.20260529.469";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260526.467.tar";
-        sha256 = "0rismzx0yx7i8593ll9873rnqwjwhqzj6rkpq9imq8d6g26dzb98";
+        url = "https://elpa.nongnu.org/nongnu-devel/elfeed-3.4.2.0.20260529.469.tar";
+        sha256 = "0b7cp4vymff3qf27msfr70v4qvpvrvdiqf2gyvnbrkf8v8nb6j19";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2608,10 +2608,10 @@
     elpaBuild {
       pname = "go-mode";
       ename = "go-mode";
-      version = "1.6.0.0.20260510.170713";
+      version = "1.6.0.0.20260529.24";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/go-mode-1.6.0.0.20260510.170713.tar";
-        sha256 = "1bsyj1frmby7xwyj1ham510s799lpzxpx2l64m34bx8abm85xxak";
+        url = "https://elpa.nongnu.org/nongnu-devel/go-mode-1.6.0.0.20260529.24.tar";
+        sha256 = "0m69khwj17fp6fhl6xgqsmxqc3729x679rpxph7gv5hgdpqks7ha";
       };
       packageRequires = [ ];
       meta = {
@@ -3393,10 +3393,10 @@
     elpaBuild {
       pname = "julia-mode";
       ename = "julia-mode";
-      version = "1.1.0.0.20260226.104209";
+      version = "1.1.0.0.20260529.7";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-1.1.0.0.20260226.104209.tar";
-        sha256 = "0ks6a1h9mfcc5fjjs6dwg0gv4w5l56kifxl59gpxfn3ahca3y2z0";
+        url = "https://elpa.nongnu.org/nongnu-devel/julia-mode-1.1.0.0.20260529.7.tar";
+        sha256 = "0h0aahyw658zqkzk7h39lsc5vmab4b9jzkqrmwn3q5zgnqy5nfcr";
       };
       packageRequires = [ ];
       meta = {

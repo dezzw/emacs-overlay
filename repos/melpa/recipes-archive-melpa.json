@@ -30630,8 +30630,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260520,
-    1846
+    20260529,
+    1500
    ],
    "deps": [
     "compat",
@@ -30640,8 +30640,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "f573c1a5bfc832321725032fb373860ce9bc513c",
-   "sha256": "1hpb4zzr755i5mdclp2kmgmlw5szl6mybs693jymhpk89iklgalq"
+   "commit": "f700be30f1e59686dc0c805725d6260de4d936c1",
+   "sha256": "18207hwlvr60syb3x52kzia9kxk6238j2fw0mn7g25ph13xdc3c8"
   },
   "stable": {
    "version": [
@@ -32074,18 +32074,18 @@
   "unstable": {
    "version": [
     20260529,
-    642
+    1409
    ],
-   "commit": "bd01a862c9de8b9fafff8c1c6fa31480ae91d49e",
-   "sha256": "0nyp9g5hg9szvnh4mzciwrjhb8lsqac01nsxdfijn41z8x97pimq"
+   "commit": "ec3b0a052bf2f90f30c51042ddb06471b35c7ab6",
+   "sha256": "1qmgrkwyv8irfsagz0n960z7ihw0q995d2s2cazyxcxzhw6817vx"
   },
   "stable": {
    "version": [
     5,
-    1
+    2
    ],
-   "commit": "bfffd553f4c72b818e9ee94f05458eae7a16056b",
-   "sha256": "1awyh9ffd6a4cia239s89asb88ddqlnrv757d76vcb701pq412bz"
+   "commit": "ec3b0a052bf2f90f30c51042ddb06471b35c7ab6",
+   "sha256": "1qmgrkwyv8irfsagz0n960z7ihw0q995d2s2cazyxcxzhw6817vx"
   }
  },
  {
@@ -54367,15 +54367,15 @@
   "repo": "dominikh/go-mode.el",
   "unstable": {
    "version": [
-    20260510,
-    1707
+    20260529,
+    1355
    ],
    "deps": [
     "cl-lib",
     "go-mode"
    ],
-   "commit": "144dc7d312d260f8dad7dfa6168537ae57f8e436",
-   "sha256": "154yhmkcdfwdhkgy4bi20wfz0mhgarm3wq5rz2zs2n0xx84437pj"
+   "commit": "3a71d28ab47df685e54ca6046a7a3dd3e28b682c",
+   "sha256": "0hm3917kxqgx23ig7617vv5nk8wc17qd26rlxbj141ag0ifwqs32"
   },
   "stable": {
    "version": [
@@ -56862,11 +56862,11 @@
   "repo": "bormoge/guava-themes",
   "unstable": {
    "version": [
-    20260528,
-    1920
+    20260529,
+    1505
    ],
-   "commit": "53032e85478257bbe0cb8c82cd9955bffdd96493",
-   "sha256": "1wmapsbh5r2wxzsl1sv1wh6dx42y6iaz3xq98cp5i55664dndpmh"
+   "commit": "302ba7191044c70477a17ae64badae814be902e9",
+   "sha256": "117jsr0x6gfwzmnnlnznvfk464vsx36s1b314ql3mfaxw832s97k"
   },
   "stable": {
    "version": [
@@ -56886,14 +56886,14 @@
   "repo": "tmalsburg/guess-language.el",
   "unstable": {
    "version": [
-    20240528,
-    1319
+    20260529,
+    1228
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "a17203d26135b970e4d7c5d101955d41303a758f",
-   "sha256": "1v9wwpfjl7a37jx0s2w5g48mv58vw8b3d0552v5ksxw21mbkya8s"
+   "commit": "78508e91d60064de398e118d452c8f61180fc17f",
+   "sha256": "0n3zxny07q79802xicazsywgwqcl62b8l291nb71d73lc27g6493"
   }
  },
  {
@@ -71462,11 +71462,11 @@
   "repo": "JuliaEditorSupport/julia-emacs",
   "unstable": {
    "version": [
-    20260204,
-    807
+    20260529,
+    1424
    ],
-   "commit": "aadf29523a120c666939cd7adac4b7dece5bd6ef",
-   "sha256": "0kw79pz3l40d533hhrrw21hskayr38nffnp0cnwjq0zv9fvxwin1"
+   "commit": "1b5a4c2f5b7c3f842785985bf8778b8805cc6766",
+   "sha256": "00by1x900gzg42lwzd59awhsl5z73pna4cmzjpp2dflwvddy7vn6"
   },
   "stable": {
    "version": [
@@ -105057,16 +105057,16 @@
   "repo": "dnouri/pi-coding-agent",
   "unstable": {
    "version": [
-    20260527,
-    2159
+    20260529,
+    1305
    ],
    "deps": [
     "markdown-table-wrap",
     "md-ts-mode",
     "transient"
    ],
-   "commit": "2ce94c0979a050a01bb39ca25ebc8ea4e4425305",
-   "sha256": "0y6nfpsrzh1d217fkz0sx1lvlybgz8887fljb51f0mw05dh3qnym"
+   "commit": "ebf239d9cc6d29dc4a24e3da32f07ce0f295bbc2",
+   "sha256": "1v2cd1fy1gir4924ivpirsis63pz9089l0gs1jbbfz50dfyjy554"
   },
   "stable": {
    "version": [
@@ -118984,11 +118984,11 @@
   "repo": "xenodium/shell-maker",
   "unstable": {
    "version": [
-    20260528,
-    1936
+    20260529,
+    1108
    ],
-   "commit": "0100df0cbd7ae90b4d908d7d072a39e627e5c80c",
-   "sha256": "1bfx2m7r1n4bm4zfas7a70ar2p7ryv48zw0wm9plcp16ahhp52py"
+   "commit": "904f8dcb1164291c2486048e19ed76fd60062e90",
+   "sha256": "0d0i50n60h2dm5nlwq2jx6a6nrzrr4c1g32dlnfsjhih25i5haqs"
   },
   "stable": {
    "version": [
@@ -127258,14 +127258,14 @@
   "repo": "mclear-tools/tabspaces",
   "unstable": {
    "version": [
-    20260516,
-    51
+    20260529,
+    1452
    ],
    "deps": [
     "project"
    ],
-   "commit": "ea95efb5b2ef265e3c48059801554042ab0813b3",
-   "sha256": "0lwnj37xrcf7838dnprrdspp92yh5sz9ihks6xr759vjd6iahksj"
+   "commit": "d3a74c0d39a0029d956dc37ddbf540802fb76973",
+   "sha256": "1hgsg01l17l61g3ky6r7c6579bm9j1hm93chdajfnlzcpaz4b9p1"
   }
  },
  {

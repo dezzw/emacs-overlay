@@ -50390,15 +50390,15 @@
   "repo": "jojojames/fussy",
   "unstable": {
    "version": [
-    20260527,
-    1523
+    20260530,
+    128
    ],
    "deps": [
     "compat",
     "flx"
    ],
-   "commit": "02f962d67012df17c98eda5d83c75f8416a56982",
-   "sha256": "0pn2bf6spviihjkv3d1ld8ak0djkrzc0cca5jix5g3lv9mlhi6ag"
+   "commit": "0bdf5d43c414b10e82ea65814644d8d09520cee4",
+   "sha256": "026lgaxsfrycxlk89sch21w3yx3x1b8adarcfdszhlw9khc2rbnm"
   },
   "stable": {
    "version": [
@@ -56862,11 +56862,11 @@
   "repo": "bormoge/guava-themes",
   "unstable": {
    "version": [
-    20260529,
-    1505
+    20260530,
+    552
    ],
-   "commit": "302ba7191044c70477a17ae64badae814be902e9",
-   "sha256": "117jsr0x6gfwzmnnlnznvfk464vsx36s1b314ql3mfaxw832s97k"
+   "commit": "7535a39184502e387dbccf3ef131a91cf3707b6a",
+   "sha256": "1xaavf81qgqq4xxlj5il2h03lvlhd015zspxcp0k3jqhxm603mh4"
   },
   "stable": {
    "version": [
@@ -72293,15 +72293,15 @@
   "repo": "ogdenwebb/emacs-kaolin-themes",
   "unstable": {
    "version": [
-    20260528,
-    1433
+    20260530,
+    10
    ],
    "deps": [
     "autothemer",
     "cl-lib"
    ],
-   "commit": "8d9007a72123f887e4963b84a80273d576743a14",
-   "sha256": "0265g1mdznhda93fi0rs6br3lmy8qz8mlkqag3kvwc5i8cmrdz4p"
+   "commit": "111121b6dde7a8b045334cb8150756e75d0e47bd",
+   "sha256": "117b253vhvl9f8lwfjmkjwjpnn8q3qcz873dc78ypg5rrgw8r2x4"
   },
   "stable": {
    "version": [
@@ -82123,11 +82123,11 @@
   "repo": "ideasman42/emacs-meep",
   "unstable": {
    "version": [
-    20260507,
-    1310
+    20260530,
+    503
    ],
-   "commit": "01441807a29fd902a9f1c08167781d85cb330a6b",
-   "sha256": "0wwhn70r1lr3aqyslin3wr46lx8b2yygdlk3bv9wk1z6qdjhd0yi"
+   "commit": "a4a8f4c8960cc2884f239ca7901102e54fedc8e2",
+   "sha256": "1ms7xk87lp7mdfdixgg5f88fggzyh63ilkwdn33mz8kjygp8mpkz"
   }
  },
  {

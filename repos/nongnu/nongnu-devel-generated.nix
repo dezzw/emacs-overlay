@@ -892,10 +892,10 @@
     elpaBuild {
       pname = "dart-mode";
       ename = "dart-mode";
-      version = "1.0.7.0.20251203.195437";
+      version = "1.0.7.0.20260529.50";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20251203.195437.tar";
-        sha256 = "1l4p4ybw69ni2vx016bi2nz3kjqziy6nk3vv1nr9gjbslpmkck5k";
+        url = "https://elpa.nongnu.org/nongnu-devel/dart-mode-1.0.7.0.20260529.50.tar";
+        sha256 = "12akqain0y9m0hr6dcz2gzca0khcwndrsvv2cx1n51zfx9b0xzk5";
       };
       packageRequires = [ ];
       meta = {
@@ -1873,10 +1873,10 @@
     elpaBuild {
       pname = "exec-path-from-shell";
       ename = "exec-path-from-shell";
-      version = "2.2.0.20260423.183347";
+      version = "2.2.0.20260529.11";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/exec-path-from-shell-2.2.0.20260423.183347.tar";
-        sha256 = "0s80hah6795p2k97qpnqj3baaw1cy9c54g38vbcczq4mn8faimk6";
+        url = "https://elpa.nongnu.org/nongnu-devel/exec-path-from-shell-2.2.0.20260529.11.tar";
+        sha256 = "0dg61kcp7x36wma0rbylrfv4jnj5z2hrr01zl3wzcljxjx3l58xl";
       };
       packageRequires = [ ];
       meta = {
@@ -2694,10 +2694,10 @@
     elpaBuild {
       pname = "gptel";
       ename = "gptel";
-      version = "0.9.9.5.0.20260524.233304";
+      version = "0.9.9.5.0.20260529.26";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260524.233304.tar";
-        sha256 = "1yb0174bkyayxn16ylhh4jb33sgg75gvmrlmlmmcgai4ny02i5fq";
+        url = "https://elpa.nongnu.org/nongnu-devel/gptel-0.9.9.5.0.20260529.26.tar";
+        sha256 = "0gby08dy2y66imgqwzr7xa96vxpfgz8zp2fppkxrav67v7vqis21";
       };
       packageRequires = [
         compat

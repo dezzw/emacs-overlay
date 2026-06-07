@@ -127434,8 +127434,8 @@
  },
  {
   "ename": "tabspaces",
-  "commit": "099c58c6668d882bbbe6cade4c1b794363539504",
-  "sha256": "1yswbnyy3qjkd6wxjhbxpxkjsp5aphjw3scqrd45pqydyz1k0z5w",
+  "commit": "c333f3b3397a05eb38df3b631fbc1dc1ef87e622",
+  "sha256": "0lzbg0abxfa5cr7g76mq3ykxcq1an9wvrb2wjbx1brhk5ns69ix6",
   "fetcher": "git",
   "url": "https://codeberg.org/mclear-tools/tabspaces.git",
   "unstable": {

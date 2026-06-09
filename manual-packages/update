@@ -18,6 +18,7 @@ from typing import Any, Callable
 AUTO_COMMIT = os.environ.get("AUTO_COMMIT", "1")
 BUILD_AFTER_UPDATE = os.environ.get("BUILD_AFTER_UPDATE", "1")
 GITHUB_API = os.environ.get("GITHUB_API", "https://api.github.com").rstrip("/")
+FAKE_SHA256 = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
 
 
 class UpdateError(Exception):
@@ -223,17 +224,19 @@ def replace_src_fetch_from_github_hash_field(text: str, file: Path, value: str) 
     pattern = re.compile(r'(\bhash\s*=\s*)("[^"]+"|lib\.fakeHash)(;)')
 
     def replacement(match: re.Match[str]) -> str:
-        rendered_value = "lib.fakeHash" if value == "lib.fakeHash" else f'"{value}"'
-        return f"{match.group(1)}{rendered_value}{match.group(3)}"
+        return f'{match.group(1)}"{value}"{match.group(3)}'
 
     return replace_in_src_fetch_from_github(text, file, pattern, replacement)
 
 
 def assert_no_secondary_fake_hash(text: str, file: Path) -> None:
     match = re.search(r"zig\.fetchDeps\s*\{(.*?)\};", text, flags=re.DOTALL)
-    if match and re.search(r"hash\s*=\s*lib\.fakeHash\s*;", match.group(1)):
+    if match and re.search(
+        rf'hash\s*=\s*(lib\.fakeHash|"{re.escape(FAKE_SHA256)}")\s*;',
+        match.group(1),
+    ):
         raise UpdateError(
-            f"ERROR: zig.fetchDeps.hash was changed to lib.fakeHash in {file}\n"
+            f"ERROR: zig.fetchDeps.hash was changed to a fake hash in {file}\n"
             "This updater should only modify src.fetchFromGitHub.hash."
         )
 
@@ -244,8 +247,8 @@ def extract_got_hash_from_build_output(output: str) -> str:
 
 
 def update_src_hash_by_building(pkg: str, file: Path) -> None:
-    print("==> Setting src.hash to lib.fakeHash")
-    text = replace_src_fetch_from_github_hash_field(read_text(file), file, "lib.fakeHash")
+    print(f"==> Setting src.hash to {FAKE_SHA256}")
+    text = replace_src_fetch_from_github_hash_field(read_text(file), file, FAKE_SHA256)
     assert_no_secondary_fake_hash(text, file)
     write_text(file, text)
 
@@ -253,7 +256,7 @@ def update_src_hash_by_building(pkg: str, file: Path) -> None:
     result = run(["nix", "build", f".#{pkg}"], capture=True, check=False, stderr_to_stdout=True)
 
     if result.returncode == 0:
-        print("Build succeeded with lib.fakeHash; no source hash mismatch found.")
+        print("Build succeeded with fake source hash; no source hash mismatch found.")
         return
 
     print(result.stdout, end="")

@@ -8,16 +8,13 @@ import os
 import re
 import subprocess
 import sys
-import urllib.error
 import urllib.parse
-import urllib.request
 from pathlib import Path
 from typing import Any, Callable
 
 
 AUTO_COMMIT = os.environ.get("AUTO_COMMIT", "1")
 BUILD_AFTER_UPDATE = os.environ.get("BUILD_AFTER_UPDATE", "1")
-GITHUB_API = os.environ.get("GITHUB_API", "https://api.github.com").rstrip("/")
 FAKE_SHA256 = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
 
 
@@ -42,7 +39,6 @@ Default:
 Environment:
   AUTO_COMMIT=0          Do not commit changes
   BUILD_AFTER_UPDATE=0   Do not build after update
-  GITHUB_TOKEN=...       Optional GitHub token for higher GitHub API rate limit
 
 Per-package options:
   By default, the updater follows the repository's GitHub default branch.
@@ -99,62 +95,55 @@ def package_file_for(pkg: str) -> Path:
     raise UpdateError(f"Cannot find package file for manual package: {pkg}")
 
 
-def github_api_get_json(url: str) -> Any:
-    headers = {
-        "Accept": "application/vnd.github+json",
-        "User-Agent": "emacs-overlay-manual-package-updater",
-    }
-
-    token = os.environ.get("GITHUB_TOKEN")
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
-
-    request = urllib.request.Request(url, headers=headers)
-
-    try:
-        with urllib.request.urlopen(request) as response:
-            return json.loads(response.read().decode("utf-8"))
-    except urllib.error.HTTPError as error:
-        body = error.read().decode("utf-8", errors="replace").strip()
-        detail = f": {body}" if body else ""
-        raise UpdateError(f"GitHub API request failed ({error.code}) for {url}{detail}") from error
-    except urllib.error.URLError as error:
-        raise UpdateError(f"GitHub API request failed for {url}: {error.reason}") from error
-    except json.JSONDecodeError as error:
-        raise UpdateError(f"GitHub API returned invalid JSON for {url}") from error
+def github_repo_url(owner: str, repo: str) -> str:
+    quoted_owner = urllib.parse.quote(owner, safe="")
+    quoted_repo = urllib.parse.quote(repo, safe="")
+    return f"https://github.com/{quoted_owner}/{quoted_repo}.git"
 
 
-def github_repo_path(owner: str, repo: str) -> str:
-    return f"repos/{urllib.parse.quote(owner, safe='')}/{urllib.parse.quote(repo, safe='')}"
+def git_ls_remote(owner: str, repo: str, *refs: str) -> str:
+    url = github_repo_url(owner, repo)
+    result = run(["git", "ls-remote", "--symref", url, *refs], capture=True, check=False, stderr_to_stdout=True)
+
+    if result.returncode != 0:
+        raise UpdateError(f"Could not query Git refs for {owner}/{repo}\n{result.stdout.rstrip()}")
+
+    return result.stdout
 
 
-def github_repo(owner: str, repo: str) -> dict[str, Any]:
-    data = github_api_get_json(f"{GITHUB_API}/{github_repo_path(owner, repo)}")
-    if not isinstance(data, dict):
-        raise UpdateError(f"Unexpected GitHub repository metadata for {owner}/{repo}")
-    return data
+def github_default_branch_head(owner: str, repo: str) -> tuple[str, str]:
+    output = git_ls_remote(owner, repo, "HEAD")
+    branch = ""
+    sha = ""
 
+    for line in output.splitlines():
+        symref_match = re.fullmatch(r"ref: refs/heads/(.+)\s+HEAD", line)
+        if symref_match:
+            branch = symref_match.group(1)
+            continue
 
-def github_repo_default_branch(owner: str, repo: str) -> str:
-    branch = github_repo(owner, repo).get("default_branch")
-    if not isinstance(branch, str) or not branch:
-        raise UpdateError(f"Could not determine update branch for {owner}/{repo}")
-    return branch
+        sha_match = re.fullmatch(r"([0-9a-f]{40})\s+HEAD", line)
+        if sha_match:
+            sha = sha_match.group(1)
+
+    if not branch:
+        raise UpdateError(f"Could not determine default branch for {owner}/{repo}")
+    if not sha:
+        raise UpdateError(f"Could not determine latest commit for {owner}/{repo} branch {branch}")
+
+    return branch, sha
 
 
 def github_branch_head(owner: str, repo: str, branch: str) -> str:
-    quoted_branch = urllib.parse.quote(branch, safe="")
-    url = f"{GITHUB_API}/{github_repo_path(owner, repo)}/commits/{quoted_branch}"
-    data = github_api_get_json(url)
+    ref = f"refs/heads/{branch}"
+    output = git_ls_remote(owner, repo, ref)
 
-    if not isinstance(data, dict):
-        raise UpdateError(f"Unexpected GitHub commit metadata for {owner}/{repo} branch {branch}")
+    for line in output.splitlines():
+        match = re.fullmatch(rf"([0-9a-f]{{40}})\s+{re.escape(ref)}", line)
+        if match:
+            return match.group(1)
 
-    sha = data.get("sha")
-    if not isinstance(sha, str) or not sha:
-        raise UpdateError(f"Could not fetch latest commit for {owner}/{repo} branch {branch}")
-
-    return sha
+    raise UpdateError(f"Could not fetch latest commit for {owner}/{repo} branch {branch}")
 
 
 def read_text(file: Path) -> str:
@@ -308,15 +297,15 @@ def update_one(pkg: str) -> None:
     branch = package_update_branch_override(text)
     if branch:
         branch_source = "package override"
+        new_rev = github_branch_head(owner, repo, branch)
     else:
-        branch = github_repo_default_branch(owner, repo)
+        branch, new_rev = github_default_branch_head(owner, repo)
         branch_source = "GitHub default"
 
     print(f"==> GitHub repo: {owner}/{repo}")
     print(f"==> Branch: {branch} ({branch_source})")
     print(f"==> Old rev: {old_rev}")
 
-    new_rev = github_branch_head(owner, repo, branch)
     print(f"==> New rev: {new_rev}")
 
     if old_rev == new_rev:

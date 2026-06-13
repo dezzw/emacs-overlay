@@ -3596,15 +3596,15 @@
   "repo": "kickingvegas/anju",
   "unstable": {
    "version": [
-    20260610,
-    2313
+    20260612,
+    2342
    ],
    "deps": [
     "casual",
     "markdown-mode"
    ],
-   "commit": "a0d65606071dba7259d6c1ca96bf66c7b1bebab5",
-   "sha256": "0rsr63xli4jxn5gxz1arfwzfjzph5r2f39nch7knlj6c87j75spi"
+   "commit": "bb21f41c90814dcc1286296e26a27b7dc0d1a569",
+   "sha256": "1sfdfcc6qbbhazakl36hzwmy1r3sa3cvdl5nc2yrpg05lf8s4ghv"
   },
   "stable": {
    "version": [
@@ -25675,14 +25675,14 @@
   "repo": "dgutov/diff-hl",
   "unstable": {
    "version": [
-    20260609,
-    333
+    20260613,
+    127
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "759e7f18bf8c92fdf742e678d360d660f6d41f10",
-   "sha256": "0wlhnmvm5834czd274kpalync96zm3ccvq9mh9lzw288dm582qwz"
+   "commit": "2f1623d98a29cee791fac2b879a45d53eec3ba82",
+   "sha256": "0822n8xgkjsfjhm0aqay39ywb39fqv10xl3rqbdpsl89bldw9igi"
   },
   "stable": {
    "version": [
@@ -26095,11 +26095,11 @@
   "repo": "gonewest818/dimmer.el",
   "unstable": {
    "version": [
-    20260612,
-    1453
+    20260613,
+    330
    ],
-   "commit": "f2340e51faa9a0b1e04667f3c6bb2c6f37c3132b",
-   "sha256": "0kwgrgi1v87i7l809dz4mwg3jcb4zfpfhdzmhswjr4hcpvh67aay"
+   "commit": "6ce67fdcae1a41e5c7b03a9d6f271d3fc1b24a71",
+   "sha256": "1s9pr0ml3byc90nycw96sl44h1d3cgm08wf6ndpgv9mmqjwl1ahy"
   },
   "stable": {
    "version": [
@@ -42216,11 +42216,11 @@
   "repo": "ideasman42/emacs-fancy-fill-paragraph",
   "unstable": {
    "version": [
-    20260612,
-    2322
+    20260613,
+    630
    ],
-   "commit": "66e695466933accf5f8cf9e2e445ab4a0226b171",
-   "sha256": "0zq4kgg05qjr3841262b21sha6ph6pxw83agl6hcvwncnfmqgqvn"
+   "commit": "4fc1daaf24643676106827f9636ea7811db360b4",
+   "sha256": "1ky1chd3i2r51dqaa1y7kfhibflasdisc7vxp2hflm1v5z4h5xgs"
   }
  },
  {
@@ -82145,11 +82145,11 @@
   "repo": "laurynas-biveinis/mcp-server-lib.el",
   "unstable": {
    "version": [
-    20260601,
-    1423
+    20260613,
+    600
    ],
-   "commit": "dfb4417821187115bcd9d7c48d0848239dfd037f",
-   "sha256": "1ihbah0xnfy598fbsd5rfidpiidr21ibrnggcpnx47y9mjnb9kv3"
+   "commit": "6a33350e768af0029af224a14b526ab6246d29b4",
+   "sha256": "13qgf4v2zsn6b1435x6qa54pfrzyhj2q55p3475c7bwc5d7bhdlv"
   },
   "stable": {
    "version": [
@@ -131793,14 +131793,11 @@
   "repo": "purplg/treebundel",
   "unstable": {
    "version": [
-    20260404,
-    2133
+    20260613,
+    317
    ],
-   "deps": [
-    "compat"
-   ],
-   "commit": "35e55a21914772e2f125fd1c4682f7e239f192d3",
-   "sha256": "1ipypcrc2xgyrvwv6hk3hvwrkamsf4rrpnm13xczz19bqp1svjqp"
+   "commit": "9b64c358338e90c02e9aedb4689a3c1a8be29abf",
+   "sha256": "0987rpd4zpc7wprva533gnl1l97pj10bkjkawlg7dqxhcipj2xig"
   },
   "stable": {
    "version": [

@@ -20,7 +20,6 @@ let
         drv.override (
           {
             srcRepo = true;
-            withXwidgets = false;
           }
           // args
         )
@@ -94,7 +93,10 @@ let
 
   emacs-git =
     let
-      base = (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) { };
+      base = (mkGitEmacs "emacs-git" ../repos/emacs/emacs-master.json) {
+        withGTK3 = true;
+        withXwidgets = true;
+      };
       emacs = emacs-git;
     in
     base.overrideAttrs (oa: {
@@ -105,7 +107,10 @@ let
 
   emacs-git-pgtk =
     let
-      base = (mkGitEmacs "emacs-git-pgtk" ../repos/emacs/emacs-master.json) { withPgtk = true; };
+      base = (mkGitEmacs "emacs-git-pgtk" ../repos/emacs/emacs-master.json) {
+        withPgtk = true;
+        withXwidgets = true;
+      };
       emacs = emacs-git-pgtk;
     in
     base.overrideAttrs (oa: {
@@ -116,7 +121,10 @@ let
 
   emacs-igc =
     let
-      base = (mkGitEmacs "emacs-igc" ../repos/emacs/emacs-feature_igc3.json) { };
+      base = (mkGitEmacs "emacs-igc" ../repos/emacs/emacs-feature_igc3.json) {
+        withGTK3 = true;
+        withXwidgets = true;
+      };
       emacs = emacs-igc;
     in
     base.overrideAttrs (oa: {
@@ -129,7 +137,10 @@ let
 
   emacs-igc-pgtk =
     let
-      base = (mkGitEmacs "emacs-igc-pgtk" ../repos/emacs/emacs-feature_igc3.json) { withPgtk = true; };
+      base = (mkGitEmacs "emacs-igc-pgtk" ../repos/emacs/emacs-feature_igc3.json) {
+        withPgtk = true;
+        withXwidgets = true;
+      };
       emacs = emacs-igc-pgtk;
     in
     base.overrideAttrs (oa: {

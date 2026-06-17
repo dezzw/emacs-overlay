@@ -13807,7 +13807,7 @@
   "unstable": {
    "version": [
     20260617,
-    1229
+    1555
    ],
    "deps": [
     "clojure-mode",
@@ -13819,8 +13819,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "7bba70a194fa6687274a85d17b6201201f732223",
-   "sha256": "0lfkh1q4nw3kzj3885ipkmzlnppv6nc1badzqw3p6i9cgaqjfq55"
+   "commit": "2a55e2b0e61007a2c7ec971f6b90be1bc2c96568",
+   "sha256": "0q9y3jjwb5cg3yim4p127rgwwfxy47gqcr8vphvgczf884mzjs0f"
   },
   "stable": {
    "version": [
@@ -23539,11 +23539,11 @@
   "repo": "fommil/darcula-theme.el",
   "unstable": {
    "version": [
-    20171227,
-    1845
+    20260617,
+    1603
    ],
-   "commit": "d9b82b58ded9014985be6658f4ab17e26ed9e93e",
-   "sha256": "1y8rsc63nl4n43pvn283f1vcpqyjnv6xl60fwyscwrqaz19bsnl1"
+   "commit": "89e81a156f375306aa0aa639b3d0161543ce514f",
+   "sha256": "0i8x4a9kds8v0j3rdlrs3rl2k4vkksp1w4ik61r5zk79ip8lnpy0"
   },
   "stable": {
    "version": [

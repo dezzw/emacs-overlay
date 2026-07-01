@@ -902,10 +902,10 @@
     elpaBuild {
       pname = "breadcrumb";
       ename = "breadcrumb";
-      version = "1.0.1.0.20260507.73535";
+      version = "1.0.1.0.20260630.15";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20260507.73535.tar";
-        sha256 = "1ccx08zczmkgdm9xb1bnz0v4a4yrf3zy5nnfyax57anw3m8yliz2";
+        url = "https://elpa.gnu.org/devel/breadcrumb-1.0.1.0.20260630.15.tar";
+        sha256 = "12l1bi4gynmgfffbj7w6za21a3n6776iqixm33rh7zkbzfhafvxl";
       };
       packageRequires = [ project ];
       meta = {
@@ -3446,10 +3446,10 @@
     elpaBuild {
       pname = "erc";
       ename = "erc";
-      version = "5.70.20260605.12";
+      version = "5.70.20260630.20";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/erc-5.70.20260605.12.tar";
-        sha256 = "0nxvjbmy9lf4px6p4ndkwxn32540s841byn5zb8vnc238al8h2k5";
+        url = "https://elpa.gnu.org/devel/erc-5.70.20260630.20.tar";
+        sha256 = "1igv23flidy8a5k7dkl2f29rimhax32r1m8mwgznxkkjg97krmxq";
       };
       packageRequires = [ compat ];
       meta = {

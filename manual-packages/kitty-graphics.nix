@@ -10,7 +10,7 @@ melpaBuild {
   src = fetchFromGitHub {
     owner = "cashmeredev";
     repo = "kitty-graphics.el";
-    rev = "586ff4b36f2ae44b12d35b0d4f256da23bc71f08";
-    hash = "sha256-YqZ82zg303Ss2qlDTMM3xy8lG0BO8+/vdXMO6FxVX5E=";
+    rev = "4c0ce4c229c6bc15e934d29c94bd4eccd2f92772";
+    hash = "sha256-Tzmb1TLjqgxknhChCTyy0A9eUnonBKArxNeu4lu5JdM=";
   };
 }

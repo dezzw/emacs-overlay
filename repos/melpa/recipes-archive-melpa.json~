@@ -2182,15 +2182,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260719,
-    1729
+    20260720,
+    1009
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "d5675782a24e6e6ea850d5015e6b7cacf305854c",
-   "sha256": "1l6pv6zr5630lygaf7lmbaic2pbjxbf5n873c8lzg60cfswfydnz"
+   "commit": "3ed71ccf45103500ebcaa1394c4c2fbf1ece45d5",
+   "sha256": "1x9j9lv3vmfs1r1dp0nvcnscjig4k37c3cfkad707gf326ywyr7w"
   },
   "stable": {
    "version": [
@@ -2450,16 +2450,16 @@
   "repo": "MatthewZMD/aidermacs",
   "unstable": {
    "version": [
-    20260719,
-    1435
+    20260720,
+    952
    ],
    "deps": [
     "compat",
     "markdown-mode",
     "transient"
    ],
-   "commit": "c548c5cf0d4a427a9c59d6e384ac1d96c285adbe",
-   "sha256": "0rk8h2vjzkrwzmqsrw2pf3hikbj10v5n6z7jjjjil8pqj146whjy"
+   "commit": "3ce8b3c0f8e659d80d6acde4fd8f48fa6a6c0cac",
+   "sha256": "0nj6xa0fc4hzwyq7hpflkgmwiz1ss6d99lrp1d5bpw4gk6iabxsn"
   },
   "stable": {
    "version": [
@@ -20857,14 +20857,14 @@
   "repo": "minad/corfu",
   "unstable": {
    "version": [
-    20260719,
-    2241
+    20260720,
+    1240
    ],
    "deps": [
     "compat"
    ],
-   "commit": "991224fc0387f005f4ffa896b35eca70b54c651a",
-   "sha256": "0bmbljl6xz7ml312sisy6j9sl9lsfzh7g6hk15fda4464lfx8jcl"
+   "commit": "44b926838376626c661e2ddbe9082a0ef097928c",
+   "sha256": "16dj6f9kpvl45n52ap1vvaddnafawwah5k4jnsxf2dnlyhd2jyqs"
   },
   "stable": {
    "version": [
@@ -31691,20 +31691,20 @@
   "repo": "egison/egison",
   "unstable": {
    "version": [
-    20260217,
-    1013
+    20260720,
+    1006
    ],
-   "commit": "448dc7ee9db1e2778261f295715fcb64496ba19e",
-   "sha256": "1jgv77v6wkbc8ixmifvwlc6izn9rkr8nnca7g9cbzzp4npys2d5n"
+   "commit": "cbd50c069e9b0791268a2a6bf136ea17f7f995fb",
+   "sha256": "1iyd25vfy6f9hwki6gs6diwrrxpchqiir4blcv6m36i95vibch2j"
   },
   "stable": {
    "version": [
     5,
-    0,
+    1,
     0
    ],
-   "commit": "3a5b520c6b5bc4a78523573d06e3be887e02d1dd",
-   "sha256": "04rk39z345wm8byrg0kk02d5l2i6vvjnmaa3h817kns1d3gsdk9s"
+   "commit": "cbd50c069e9b0791268a2a6bf136ea17f7f995fb",
+   "sha256": "1iyd25vfy6f9hwki6gs6diwrrxpchqiir4blcv6m36i95vibch2j"
   }
  },
  {
@@ -44414,13 +44414,13 @@
   "unstable": {
    "version": [
     20260720,
-    531
+    1242
    ],
    "deps": [
     "seq"
    ],
-   "commit": "7e44b59718318abb4bf9732de2538f4e0281ce49",
-   "sha256": "1gr5b4n2ljmvd40a35g3xwsrkafg4rf4mfc294690kzh3y0lgmbz"
+   "commit": "32206f45579eddfdf18c0680b0526dbee7cf12da",
+   "sha256": "0788zjs569khxfb4sfzbmlvclc2yi1d5x5mxbk6c6rg2qa0mim1r"
   },
   "stable": {
    "version": [
@@ -58624,15 +58624,15 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20260716,
-    1207
+    20260719,
+    820
    ],
    "deps": [
     "helm-core",
     "wfnames"
    ],
-   "commit": "0046ed9ab32d6fa3e60865e84b27cf62fe386b67",
-   "sha256": "0d7faxj2si3x76kmxfq2qnlhl85yrpmcgfnl2j6hybc2q402m6ni"
+   "commit": "c6b3e31a5ed90bb93a7084793bc7ea82f33f6938",
+   "sha256": "0kkiyyd013lkr6rgdj3mcyzd9xz2p85c0pqladc6kvf8xrc5isnz"
   },
   "stable": {
    "version": [
@@ -59435,14 +59435,14 @@
   "repo": "emacs-helm/helm",
   "unstable": {
    "version": [
-    20260618,
-    1908
+    20260720,
+    1307
    ],
    "deps": [
     "async"
    ],
-   "commit": "558427bf221a61014e25d1be3a29dbebad277973",
-   "sha256": "1brd3q69yfhw5dr0bwmlsjsjh9m32wdkr3llv6y7rx35bh4rhdf5"
+   "commit": "ab09703effe69217b97a2097ff3b8742bb39c6a3",
+   "sha256": "0ijn2r9smn210qga9b91h868x2xqn0myr0d8iy8rhh6871c429fx"
   },
   "stable": {
    "version": [
@@ -128803,15 +128803,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20260711,
-    827
+    20260720,
+    1026
    ],
    "deps": [
     "transient",
     "visual-fill-column"
    ],
-   "commit": "fc6a4d1ec6edba6b3c65b3f069cce0398c2fb7a5",
-   "sha256": "1lcv7nq08llr8s0yhjbaj33lk169nyn60ldrmvjkbdra8qzy9chp"
+   "commit": "f3e69f4fb5103fafd37a267039e092edf35351c5",
+   "sha256": "0jg06finm3mijqhcz6f964n2wrk60mlp4c5jf98js348clr6jn0g"
   },
   "stable": {
    "version": [

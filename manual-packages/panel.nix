@@ -13,8 +13,8 @@ melpaBuild {
   src = fetchFromGitHub {
     owner = "LuciusChen";
     repo = "panel";
-    rev = "e4ddbec00c3b973644c557a491a3f55356ab136c";
-    hash = "sha256-J6YiSvWMBTP3X5sJZSU78WFKGO2QsW9OmSBtRS9kSgk=";
+    rev = "aada318ea3d0e67e6f108143a29a0dc1bbd499f9";
+    hash = "sha256-awsR93KWzS6g6TyPpMxBOXAPoA8rTKe6IgeNJEkrAVY=";
   };
 
   packageRequires = [

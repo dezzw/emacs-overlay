@@ -10,7 +10,7 @@ melpaBuild {
   src = fetchFromGitHub {
     owner = "roife";
     repo = "symbol-overlay";
-    rev = "00203ddc4363d906976f7b2153dc8dd6ae78373b";
-    hash = "sha256-sYfY+vExSOaEg/uUPwxK8TjodPqH6Bz39NFYsDM0twg=";
+    rev = "14e4022aeb6ad8a5bdd66ab9535c0815b8c54afe";
+    hash = "sha256-NCIWVb83p3ZShe8SMVWMcPQRxBOVoD6JpACC+CNBbuA=";
   };
 }

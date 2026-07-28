@@ -2182,15 +2182,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260727,
-    2040
+    20260728,
+    953
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "04455dd3fa9871c0dcb53d367fad170e4f626d5e",
-   "sha256": "1698dzb7nbawk9jgqiwy2sgak6zin9y1lgd54b7gdwp1fcgwnxx7"
+   "commit": "a59891a9d8f1d26afb8358239346e081708cf2cb",
+   "sha256": "101bxd4p58df6ql5r0v5lyixg1drjdxfdq9vyfjirschbzg30gc3"
   },
   "stable": {
    "version": [
@@ -2383,15 +2383,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260726,
-    2000
+    20260727,
+    2322
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "1367dca8b37de3eb31a87aab037fc404e9c25e73",
-   "sha256": "1chnv4jg8r7wcqibv14hh8hkdx6j3bq920420asza70al4bw9xf2"
+   "commit": "8471c1a56c012fc5fbb93eb2a25fd17bd0533e4a",
+   "sha256": "1wsr4hnaid921zrs2m9g3qy8d4c9ibjf7bblywm5xym41cl7025w"
   },
   "stable": {
    "version": [
@@ -13884,8 +13884,8 @@
   "repo": "clojure-emacs/cider",
   "unstable": {
    "version": [
-    20260727,
-    1208
+    20260728,
+    944
    ],
    "deps": [
     "clojure-mode",
@@ -13897,8 +13897,8 @@
     "spinner",
     "transient"
    ],
-   "commit": "dacc11fac486c68910fc251c0394c5fd2c000240",
-   "sha256": "0ysgqvhga7fnphipydxb92ak9saahznrgd64l6bl8vaykzqdsq89"
+   "commit": "57dbc53158213cb17da6b4b797b4275f31b39550",
+   "sha256": "1h3w8bi9nygls9kjyhr5sc6s506p5ysz0z8hfxwkk8lnazaabql4"
   },
   "stable": {
    "version": [
@@ -14656,11 +14656,11 @@
   "repo": "parenworks/clatter.el",
   "unstable": {
    "version": [
-    20260720,
-    1609
+    20260728,
+    724
    ],
-   "commit": "cc1fdc014e9421a9c3d96929af7eb6c5149b2281",
-   "sha256": "0s9c23m2f6jjm46h3iln4cwx2h1lkb1fs6v8285jgd809llcnrsp"
+   "commit": "48ce55f2e70a225d8e4b8094f818d8871048d013",
+   "sha256": "0xyi0n66k1q0hlxq0hlxd6y8vbhha4clbny90ln0y72jwigq7lgb"
   },
   "stable": {
    "version": [
@@ -15692,26 +15692,26 @@
   "repo": "LuciusChen/clutch",
   "unstable": {
    "version": [
-    20260726,
-    1707
+    20260728,
+    555
    ],
    "deps": [
     "transient"
    ],
-   "commit": "b083deabff2b937e6b0eaae0f7daa6d09c3c4c64",
-   "sha256": "1z44iybzydf0mmvrk20x8algnpn31y02dvqxz9pqm4s2yhlrv130"
+   "commit": "bb90fa1a5b4a4f8e0a739a63ab9fb25c1e92451f",
+   "sha256": "1ddx2hvldil1awg7w4gnjsgaa6fzqij6473p1xrqii5l9s0pk3wa"
   },
   "stable": {
    "version": [
     0,
-    2,
-    4
+    3,
+    0
    ],
    "deps": [
     "transient"
    ],
-   "commit": "a4dfac80ebbf54df48f6fbf7936da0d6f1b6f321",
-   "sha256": "1cyjawbrfphdqcrwg10nrhcvmr45hlhjr3v1g8k0ypcgmfa7cmjs"
+   "commit": "bb90fa1a5b4a4f8e0a739a63ab9fb25c1e92451f",
+   "sha256": "1ddx2hvldil1awg7w4gnjsgaa6fzqij6473p1xrqii5l9s0pk3wa"
   }
  },
  {
@@ -20762,14 +20762,14 @@
   "repo": "emacs-php/emacs-auto-deployment",
   "unstable": {
    "version": [
-    20230402,
-    1829
+    20260728,
+    802
    ],
    "deps": [
     "compat"
    ],
-   "commit": "370b1586feb2690d3c72185bd4f17c31ce03673a",
-   "sha256": "0zidyfvjzi5ymbi4cfkqkvrhnf4c7nmxfy9qwqs0bz36l4adla5x"
+   "commit": "5c9b80897ecaad2c4f47a2a473b88c25ee7885e2",
+   "sha256": "090a7mzdgjs57c2lxmffhwxxhdnvgvizhvdsdnbwaxn71xijza5s"
   },
   "stable": {
    "version": [
@@ -55999,15 +55999,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20260726,
-    1903
+    20260728,
+    211
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "c91454c7b955f3ca8285375e937aa9b50c91c206",
-   "sha256": "15p4jzrxhygrvdk36v7almn9zckqkqm10d0557gfbqm44848lqph"
+   "commit": "513a6b74310d7bcc2a6138ccc1860b4577e73800",
+   "sha256": "1p51rgd51mvz30a5gxbbryw4qb8skvb7z29xvndnj8img9v9zyfd"
   },
   "stable": {
    "version": [
@@ -65223,11 +65223,11 @@
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20260725,
-    2235
+    20260727,
+    2332
    ],
-   "commit": "586fafde0f3313cfdc8571ddd5ac8bda455fc748",
-   "sha256": "1sn2rsh0q3wgipz7rldw1h1l6zvmwaz0dx231b7z4nv89m829dyj"
+   "commit": "89755af46aace89d2f2ab7c47ef48b4131d1fd08",
+   "sha256": "07r6zsvvzx7hbd9kbxzmwhr1lzjllg0axxgddc17nsayh4igjz1l"
   },
   "stable": {
    "version": [
@@ -77438,11 +77438,11 @@
   "repo": "jingtaozf/literate-elisp",
   "unstable": {
    "version": [
-    20260621,
-    1253
+    20260728,
+    123
    ],
-   "commit": "6cbe22aab87886cf61c4866653e24ebdb88b1523",
-   "sha256": "0xaz583wvk6510027kp73p7swkdi8z7929k8p0jmpav2x5n1207d"
+   "commit": "423df58f7e4565f842b9a220af04abce3c3dc818",
+   "sha256": "0vqcpbpjj01mzpfrvnl5qf9ixkffb041kpdq517wb7hiz1apk02j"
   },
   "stable": {
    "version": [

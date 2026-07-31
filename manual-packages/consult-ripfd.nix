@@ -11,8 +11,8 @@ melpaBuild {
   src = fetchFromGitHub {
     owner = "jdtsmith";
     repo = "consult-ripfd";
-    rev = "98776211c6a9969565f3e65dcbd40924198fb03e";
-    hash = "sha256-+Rhs/d1XpeSs8y7XocYyGIZlz3eOnligfTUgefKDhMw=";
+    rev = "f64ae7a4b30c605ec839b73d8e0768a73810a7de";
+    hash = "sha256-sPb8PNhJCQ13CtFj/7JELU5ZsxwDs6+pMnxBRyvDcOA=";
   };
 
   packageRequires = [ consult ];

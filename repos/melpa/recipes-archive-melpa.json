@@ -19257,8 +19257,8 @@
   "repo": "necaris/conda.el",
   "unstable": {
    "version": [
-    20260807,
-    2245
+    20260808,
+    51
    ],
    "deps": [
     "dash",
@@ -19266,8 +19266,8 @@
     "pythonic",
     "s"
    ],
-   "commit": "6b78fb0feb3279b32dbdf60243b5941ae233d0d0",
-   "sha256": "1pmq4l5l9g670i1ql8xiaxx1v76wm5q37via7j9qxwbw89hx7pch"
+   "commit": "58b43d5020b8a7cc55065031bae9d0a5020528e0",
+   "sha256": "1kp5il10w02yqnv7a0y2vpbn005ybka39zldyspj7fgy4vf5mpw2"
   },
   "stable": {
    "version": [
@@ -30723,10 +30723,10 @@
    "version": [
     1,
     2,
-    5
+    6
    ],
-   "commit": "8a195693ccc144f48d7dedf50e136be9a76b437c",
-   "sha256": "0yakk0n7n7m9x847pbva2qf700aygyls1qpwcc1xxd53n87aigcm"
+   "commit": "83a15da810f88d095b9e21619b70b6d801b0aac0",
+   "sha256": "0sgb29hq4ilnrllqcncfl3wc2v1hy7y3hdjwaq91ld4z1yw85njx"
   }
  },
  {
@@ -65421,10 +65421,10 @@
   "stable": {
    "version": [
     3,
-    5
+    6
    ],
-   "commit": "18b5ee327f6e7e3d82fe3a274c351137e6e0cecd",
-   "sha256": "0qjp85836gv4kbq580xrqvdx92h4f0m0k2pyg8cw28nd1mwj85ma"
+   "commit": "adde296858f4c468008eb8ed92ccad416e7e0391",
+   "sha256": "0b14slfnjb8s38k1qz8bzsbnw930gn7h5451rkjh786dvlbql3n5"
   }
  },
  {
@@ -80129,8 +80129,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20260731,
-    2248
+    20260808,
+    323
    ],
    "deps": [
     "compat",
@@ -80141,8 +80141,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "67f203853e74e926e2c99f60ed508840714f7ced",
-   "sha256": "0a2b0jfgsvkbg9i5k2q8i1xhrwwmqrb1yqag7mcpvzi95zcqmv4a"
+   "commit": "b1742562074e794348bdc56da838ac9d3ae40364",
+   "sha256": "0b144dclh5bff2n2cmkjgx5p4z4nl6jv0kwk2mwb4w5vpbrhffsi"
   },
   "stable": {
    "version": [
@@ -82830,11 +82830,11 @@
   "repo": "ideasman42/emacs-meep",
   "unstable": {
    "version": [
-    20260807,
-    1425
+    20260808,
+    300
    ],
-   "commit": "74c6783e826a998d01a5aade6fac2a105b88514a",
-   "sha256": "0r0fx4xf93ym8hi0f9mhfq3slvlpgc5k1ziyvyi68kddq5wz9x98"
+   "commit": "8782f2d2f39ebd06958ebe144fa33e08f9699c20",
+   "sha256": "1vf5dqv1zi5yq26i410vcx8jz5fi9hh7b9dwwvavlywn83hc7p7i"
   }
  },
  {

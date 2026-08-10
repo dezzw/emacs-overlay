@@ -2059,10 +2059,10 @@
     elpaBuild {
       pname = "flycheck";
       ename = "flycheck";
-      version = "39.0snapshot0.20260808.101";
+      version = "39.0snapshot0.20260810.102";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260808.101.tar";
-        sha256 = "06qrh4647jqks8ab52f3hv42y041fj16lwx99cwc8hkwpniam7gs";
+        url = "https://elpa.nongnu.org/nongnu-devel/flycheck-39.0snapshot0.20260810.102.tar";
+        sha256 = "1ghacf50y4c3whjvjkhb7dsf3qa3z3pnfw2jcs21mfnr2g57cszi";
       };
       packageRequires = [ seq ];
       meta = {

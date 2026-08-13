@@ -8329,11 +8329,11 @@
   "repo": "kristjoc/bible-gateway",
   "unstable": {
    "version": [
-    20260803,
-    1931
+    20260812,
+    2009
    ],
-   "commit": "6deb9b868c0ffa1e346952de6bf18f51580794a3",
-   "sha256": "1gmlc192bb3rz4p5d1ma4bsnri4c506l9v0i7hhrmpay2czm19zw"
+   "commit": "2c8367b10798b6f03a618f061cbcb7ce509b88e1",
+   "sha256": "0sz94gps5swm4j0rqwj6gwd6cvp4g87lcjapvcglyynmf671mxqd"
   },
   "stable": {
    "version": [
@@ -14740,8 +14740,8 @@
   "stable": {
    "version": [
     0,
-    9,
-    2
+    10,
+    0
    ],
    "deps": [
     "markdown-mode",
@@ -14749,8 +14749,8 @@
     "transient",
     "vterm"
    ],
-   "commit": "77b3edc129f947859e500a363ce767d0555e57e1",
-   "sha256": "04jag5vf8ma5z438cihmxyzxhsnawqw5i90h1pawbr7nkkk08nxn"
+   "commit": "ebc13e87c4c04e5df2c486c118570e1076fbc945",
+   "sha256": "0kf54d7mw4qby7jfhpc4gimymxbrd5q55iplvsj0hncdakhl31jn"
   }
  },
  {
@@ -56093,15 +56093,15 @@
   "repo": "karthink/gptel",
   "unstable": {
    "version": [
-    20260805,
-    313
+    20260812,
+    1855
    ],
    "deps": [
     "compat",
     "transient"
    ],
-   "commit": "fc6963634af2f76a9909ad674e2c0b3f005e60b5",
-   "sha256": "1n90ar2frskbsp0nm54l9fl5l68a68a64s6ajxld2scyvdh1q360"
+   "commit": "dc0280821c344ec10547e13179ea2095f6165f05",
+   "sha256": "1546p9xmw36z420b1n2628949ag5cnbwkac6296hs1j046jkczrw"
   },
   "stable": {
    "version": [
@@ -96099,26 +96099,26 @@
   "repo": "spiperac/org-grimoire",
   "unstable": {
    "version": [
-    20260402,
-    309
+    20260812,
+    1624
    ],
    "deps": [
     "org"
    ],
-   "commit": "0a15e6be54ded80882b4b25d00c48c29b34f4692",
-   "sha256": "0d2bl2dq4pi5pghnhbfpzvwxjrh8r398ag9n6jbiiphcpgsy3lin"
+   "commit": "23075cbdacc65e1fbc22dd7a3c0b3ced4d96a74d",
+   "sha256": "1259f5hx14vf4m8g32pdg01hawjf081liknishl5ixbr8b3nfnwh"
   },
   "stable": {
    "version": [
     0,
-    1,
+    2,
     0
    ],
    "deps": [
     "org"
    ],
-   "commit": "0a15e6be54ded80882b4b25d00c48c29b34f4692",
-   "sha256": "0d2bl2dq4pi5pghnhbfpzvwxjrh8r398ag9n6jbiiphcpgsy3lin"
+   "commit": "23075cbdacc65e1fbc22dd7a3c0b3ced4d96a74d",
+   "sha256": "1259f5hx14vf4m8g32pdg01hawjf081liknishl5ixbr8b3nfnwh"
   }
  },
  {

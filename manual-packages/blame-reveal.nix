@@ -10,7 +10,7 @@ melpaBuild {
   src = fetchFromGitHub {
     owner = "LuciusChen";
     repo = "blame-reveal";
-    rev = "815e0ae2fc2c9c7805a1249158fe55fd00e99808";
-    hash = "sha256-wFeKgFqpgsJdNI7+UoKQ0cZNhijOcaws3LTHe9OIncY=";
+    rev = "7645a1f49c9b716ab5e0edaabe2f76b328af4ea0";
+    hash = "sha256-DFfyd9zGs9FhEoER9j3Gcavut0Gp5omCUbIM9aIdwio=";
   };
 }

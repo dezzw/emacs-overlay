@@ -11,8 +11,8 @@ melpaBuild {
   src = fetchFromGitHub {
     owner = "vmargb";
     repo = "region-pin";
-    rev = "a6fc98ee2bf75b34c473cf843f45c837f1cfaebb";
-    hash = "sha256-qZKLiAgcqVdatZ50k8XXTARdh35PZw6cFKR855vnyjA=";
+    rev = "75df76c0e0ab9a55b38363f16d27ae56d36c00f7";
+    hash = "sha256-YEiifoRr27twod2CdJHJLUyvYiQlq2ppOn4faqnbcxQ=";
   };
 
   meta = with lib; {

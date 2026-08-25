@@ -106598,7 +106598,7 @@
   "stable": {
    "version": [
     2,
-    7,
+    8,
     0
    ],
    "deps": [
@@ -106606,8 +106606,8 @@
     "md-ts-mode",
     "transient"
    ],
-   "commit": "60c53bde4500214db0afb7495c20c634bb90f7fe",
-   "sha256": "07rkg1qlv5xwnd30zzvbzwlhrxamyrk8y9g3pnv49ixk4l2y5qwq"
+   "commit": "1824dad6178548daf15286b0b0dc4430ede67c32",
+   "sha256": "0kxxrgwkriy2w971jk0cm173712anwab41yfidg0kgb63bqy0cgk"
   }
  },
  {
@@ -125341,11 +125341,11 @@
   "repo": "condy0919/spdx.el",
   "unstable": {
    "version": [
-    20260717,
-    154
+    20260825,
+    45
    ],
-   "commit": "e839ca0184713dd954aba57d59c618b7afdb678e",
-   "sha256": "04k4jmxx0znh605nzlqkfr9zv2xi0djhp123zgik09zcqdh68hc6"
+   "commit": "4f425ea54133444c5bc6a1377239c984778581c6",
+   "sha256": "100b19dwnr84i490pdd7q44wfj9x9c4497qva9hkhbnz01p1d3k8"
   }
  },
  {

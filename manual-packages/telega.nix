@@ -27,8 +27,8 @@ let
     src = fetchFromGitHub {
       owner = "tdlib";
       repo = "td";
-      rev = "bc9c263e2bfee06aaab41e82db51a103376030bc";
-      hash = "sha256-1MreABa9ydLAmyVhzD7QZlZ4uYYkBjM3lsh8yRBvPn0=";
+      rev = "d1085f9cebc5a62379991ae1652673954f229c1f";
+      hash = "sha256-knrR1ppu+M7ib3UssWeoEdgRt+GkV3MbEcCVpeEoLxc=";
     };
     preConfigure = ''
       rm -rf build

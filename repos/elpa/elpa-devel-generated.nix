@@ -740,10 +740,10 @@
     elpaBuild {
       pname = "bicep-ts-mode";
       ename = "bicep-ts-mode";
-      version = "0.1.4.0.20260808.85";
+      version = "0.1.4.0.20260825.88";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20260808.85.tar";
-        sha256 = "0hnnrlk2ssp7nal5l4mkcx64i84gsbnasw8kjgjrmga8px27zwn4";
+        url = "https://elpa.gnu.org/devel/bicep-ts-mode-0.1.4.0.20260825.88.tar";
+        sha256 = "1dyy30m69isncwj1366944s5lvi85gq5604canmnbvizw4jay1y0";
       };
       packageRequires = [ ];
       meta = {
@@ -9320,10 +9320,10 @@
     elpaBuild {
       pname = "substitute";
       ename = "substitute";
-      version = "0.6.1.0.20260728.0";
+      version = "0.6.1.0.20260825.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/substitute-0.6.1.0.20260728.0.tar";
-        sha256 = "1y2hxshh3mbwqci9v4wh2r9hvpfc3dgxjx9q20hbw7l06fqsnzys";
+        url = "https://elpa.gnu.org/devel/substitute-0.6.1.0.20260825.3.tar";
+        sha256 = "1j91c8sg9zqm0lzriv1i5n9msby1544flngd17r3isz4ph8079a7";
       };
       packageRequires = [ ];
       meta = {
@@ -10643,10 +10643,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.13.0.20260821.0";
+      version = "2.13.0.20260825.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.13.0.20260821.0.tar";
-        sha256 = "1a5gwhgiqhdrm30spkwbnmdfhhjqpa7lggj6zdhmzg1dww1c73b6";
+        url = "https://elpa.gnu.org/devel/vertico-2.13.0.20260825.1.tar";
+        sha256 = "0bc7r9dpll7jdjwflj5v530b3f69kccncyc593vwghl9ad0jbvwf";
       };
       packageRequires = [ compat ];
       meta = {

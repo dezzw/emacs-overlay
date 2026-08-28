@@ -619,10 +619,10 @@
     elpaBuild {
       pname = "cider";
       ename = "cider";
-      version = "2.1.0snapshot0.20260827.94";
+      version = "2.1.0snapshot0.20260828.95";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260827.94.tar";
-        sha256 = "03a4piabmnnlayg5b9j76vibhir9hkn30d645qvc8hzssknvizkd";
+        url = "https://elpa.nongnu.org/nongnu-devel/cider-2.1.0snapshot0.20260828.95.tar";
+        sha256 = "04mx6gcb87g9wy8y9qqidk29yhj2zsrgjddjcbmk3dgj21rymlii";
       };
       packageRequires = [
         clojure-mode
@@ -3426,10 +3426,10 @@
     elpaBuild {
       pname = "jabber";
       ename = "jabber";
-      version = "0.13.1.0.20260824.8";
+      version = "0.13.2.0.20260828.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.13.1.0.20260824.8.tar";
-        sha256 = "1wiqjkf1685bkliaamm3w6mbx2j2v73dmm24cvzd22i68bgb46aw";
+        url = "https://elpa.nongnu.org/nongnu-devel/jabber-0.13.2.0.20260828.0.tar";
+        sha256 = "12h47y0rsn852xhc9qrjip4sg483avq30p22lx6bkjvyl7h1yg02";
       };
       packageRequires = [
         fsm
@@ -5373,10 +5373,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20260827.60";
+      version = "2.32snapshot0.20260828.62";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260827.60.tar";
-        sha256 = "1jcl6v54fsjlpy32ra6ffp4s7pq0jd0zmnlb597bz26i1kcnfszc";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20260828.62.tar";
+        sha256 = "1wbl84s8bk8abmr9y78kk5ddq00pysjp9wj8kmx9fpagjbrz871y";
       };
       packageRequires = [ macrostep ];
       meta = {

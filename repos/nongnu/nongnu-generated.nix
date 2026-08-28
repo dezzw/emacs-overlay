@@ -5175,10 +5175,10 @@
     elpaBuild {
       pname = "sapling";
       ename = "sapling";
-      version = "0.2.3";
+      version = "0.3.1";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/sapling-0.2.3.tar";
-        sha256 = "18jgajkzbmgqix11qr5j5wm1zrnv52lqwyd2s81ri9dfd7kq3xxi";
+        url = "https://elpa.nongnu.org/nongnu/sapling-0.3.1.tar";
+        sha256 = "1ivaqz3v7rqvaaxh8151gb761a07j33rrzp63djfy6m244c0swvn";
       };
       packageRequires = [ ];
       meta = {

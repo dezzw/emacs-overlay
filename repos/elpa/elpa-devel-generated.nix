@@ -719,10 +719,10 @@
     elpaBuild {
       pname = "beframe";
       ename = "beframe";
-      version = "1.5.0.0.20260822.6";
+      version = "1.5.0.0.20260827.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/beframe-1.5.0.0.20260822.6.tar";
-        sha256 = "1cbngyracbv4qci67zzyfawqlaqdkd3k4ngp68kqjgi7cismflw5";
+        url = "https://elpa.gnu.org/devel/beframe-1.5.0.0.20260827.16.tar";
+        sha256 = "1dzzd0s9kmfi4hsfimzjcpqbj9h91k86hd6j56fcmqjdx7hbbjbp";
       };
       packageRequires = [ ];
       meta = {
@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.14.0.20260826.6";
+      version = "2.14.0.20260827.7";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.14.0.20260826.6.tar";
-        sha256 = "1z3dd6k137xlplv6pcy6ql7lzfx32x3sqbfz23pfrrmh0bkrfb2f";
+        url = "https://elpa.gnu.org/devel/corfu-2.14.0.20260827.7.tar";
+        sha256 = "06sx3qvg6plxay3r2ljqkl5i9lnydf45qi3a3hk2qh6kazzgid3j";
       };
       packageRequires = [ compat ];
       meta = {
@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20260824.22";
+      version = "4.2.3.0.20260827.23";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20260824.22.tar";
-        sha256 = "0mbyl8raxmnfgycvsy0drb8jgwxy33s6613f7x6v0rarf8sbnqmq";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20260827.23.tar";
+        sha256 = "0j5w8ij8ndg66560zi93m09jw4jwpidpgxddrjdbqjgiil1zdlgm";
       };
       packageRequires = [ ];
       meta = {
@@ -2795,10 +2795,10 @@
     elpaBuild {
       pname = "doric-themes";
       ename = "doric-themes";
-      version = "1.2.1.0.20260825.20";
+      version = "1.2.1.0.20260827.21";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260825.20.tar";
-        sha256 = "0qlwqdi6a0p33hksqk8i59kahajrs2vh19yydj00x0g4d0d10fjs";
+        url = "https://elpa.gnu.org/devel/doric-themes-1.2.1.0.20260827.21.tar";
+        sha256 = "079z97jrjrmr5rmfccvzxaf69p1g0pxikgsbpydvajjfxvlkp3v0";
       };
       packageRequires = [ ];
       meta = {
@@ -10062,10 +10062,10 @@
     elpaBuild {
       pname = "transient";
       ename = "transient";
-      version = "0.13.7.0.20260806.0";
+      version = "0.13.7.0.20260825.3";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/transient-0.13.7.0.20260806.0.tar";
-        sha256 = "01xk8l5pq4kxlfz3y12v55q7xhfsdmmbpryh1164cijzrp6azj0a";
+        url = "https://elpa.gnu.org/devel/transient-0.13.7.0.20260825.3.tar";
+        sha256 = "0vma5f0qxyp5kn38xqzb11ali3kqalbxx8rzqxvmavyy6c2amgck";
       };
       packageRequires = [
         compat
@@ -10664,10 +10664,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.13.0.20260826.9";
+      version = "2.13.0.20260827.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.13.0.20260826.9.tar";
-        sha256 = "1m3z55gsbasqrjfairslb61a1r9rjxp0l3zgn841zixsdgpgl2i3";
+        url = "https://elpa.gnu.org/devel/vertico-2.13.0.20260827.10.tar";
+        sha256 = "0xykxb4ixvcn2qg6yhc72p0fwz61cq01i577vsahk1rxl94ix34m";
       };
       packageRequires = [ compat ];
       meta = {

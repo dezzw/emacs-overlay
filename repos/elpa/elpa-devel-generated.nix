@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.1.2.0.20260825.69";
+      version = "14.1.2.0.20260828.70";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260825.69.tar";
-        sha256 = "0a8rkplp4sg27kyyfk7alh7jckijv138cbslw6c39blxmi6bmv15";
+        url = "https://elpa.gnu.org/devel/auctex-14.1.2.0.20260828.70.tar";
+        sha256 = "04pgg55023r8fs99gavdfyk4s1v25qfgb5hfci8s7fi5nxhhl8iy";
       };
       packageRequires = [ ];
       meta = {
@@ -1686,10 +1686,10 @@
     elpaBuild {
       pname = "corfu";
       ename = "corfu";
-      version = "2.14.0.20260827.7";
+      version = "2.14.0.20260828.10";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/corfu-2.14.0.20260827.7.tar";
-        sha256 = "06sx3qvg6plxay3r2ljqkl5i9lnydf45qi3a3hk2qh6kazzgid3j";
+        url = "https://elpa.gnu.org/devel/corfu-2.14.0.20260828.10.tar";
+        sha256 = "0017givj3023pp6zd26f4b6f1whx50qx6k0dhq30h5i1iylvqc8z";
       };
       packageRequires = [ compat ];
       meta = {
@@ -4717,10 +4717,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.1.0.0.20260826.34";
+      version = "9.1.0.0.20260827.36";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260826.34.tar";
-        sha256 = "0fyx5px94r99gv2np4g4w9dvvav1bxs3993afh2gbcp9ny3d6ncl";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260827.36.tar";
+        sha256 = "19giiab5bbsqfbx9lwm1k189yn192y06xnm4n9fkqwpvkh6glk45";
       };
       packageRequires = [ ];
       meta = {
@@ -10664,10 +10664,10 @@
     elpaBuild {
       pname = "vertico";
       ename = "vertico";
-      version = "2.13.0.20260827.10";
+      version = "2.13.0.20260828.17";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/vertico-2.13.0.20260827.10.tar";
-        sha256 = "0xykxb4ixvcn2qg6yhc72p0fwz61cq01i577vsahk1rxl94ix34m";
+        url = "https://elpa.gnu.org/devel/vertico-2.13.0.20260828.17.tar";
+        sha256 = "17lpyssjnq7zijfynr85f0gpg5b7l6xylaynp7mrv2qs55g0q7n0";
       };
       packageRequires = [ compat ];
       meta = {

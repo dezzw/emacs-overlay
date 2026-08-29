@@ -2182,15 +2182,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260827,
-    856
+    20260828,
+    1532
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "833b2a8031a22068c0528a1f7600926b7359154a",
-   "sha256": "1hvfp571frfgpy7h04jsz1iq0vjdwh8752wihy228v57k1cl7r42"
+   "commit": "cb6471b99623621eb56a2dad5f6f1453050d07ba",
+   "sha256": "18v1c69hz8dbbgfizk56964n7765bbyprfb9l1z0vm7iqs77qn1q"
   },
   "stable": {
    "version": [
@@ -2383,15 +2383,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20260827,
-    429
+    20260829,
+    155
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "3b1474f0c50cf276df1c8e4bca7cb9c00b484fd3",
-   "sha256": "1ibb6lcw8wh9d87vydva99g6x4qqsfn2pq0jkqasq19k8if3sxam"
+   "commit": "5d63bef0700e29e8c85d0bad73ca2da8233dd47a",
+   "sha256": "04dvi8v3z7f7p0233vrw0dfx6jgxq7pnlwv0sy8lf6s3nyg1gqbp"
   },
   "stable": {
    "version": [
@@ -14781,10 +14781,10 @@
   "unstable": {
    "version": [
     20260828,
-    855
+    1728
    ],
-   "commit": "209a0c99e512de0ff8f945c67582be29fa9ccd11",
-   "sha256": "06h4y2h52ssxgwp08k7kqgwikf8k02fnbh0vhhmza5y7vlb1vmg8"
+   "commit": "76cdef1722ba5c4943d547d6802e36c35a4979b2",
+   "sha256": "0d9hpy26yr4czs8bk7ywwdbbs9dnghp3j8cgvx3wxmbgz3yim5bp"
   },
   "stable": {
    "version": [
@@ -26065,14 +26065,14 @@
   "repo": "dgutov/diff-hl",
   "unstable": {
    "version": [
-    20260811,
-    347
+    20260828,
+    1714
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "6f1df2b83d1140a2938409b35de7f4c9c7b1defd",
-   "sha256": "01id1wch4jc1y6zcn4ddzdw1iq0sfar7w2s6yarg0q5nbzydpsi0"
+   "commit": "8dca5a562289adc3eabc4f0a15a8c856aa799268",
+   "sha256": "120xxhipj0f0akchzmschk7rfd3p2xcsfq427vhifp8qxh3v26q7"
   },
   "stable": {
    "version": [
@@ -36548,13 +36548,13 @@
   "unstable": {
    "version": [
     20260828,
-    1749
+    2231
    ],
    "deps": [
     "inheritenv"
    ],
-   "commit": "7c9cbbfd1d43a4e575aa666f3eb7554e37ed049b",
-   "sha256": "042n69n8qh87zgcl66l6hvmspywbpyh4k6wk80bdv6dzd6xr50zk"
+   "commit": "1089ca8215b18216832a6c1599f3610b8f47dfd5",
+   "sha256": "1n8i7d4mbgjscl6k7c6dlrdbyyfm1sv92irlafmp4f63cvh0ca66"
   },
   "stable": {
    "version": [
@@ -65552,10 +65552,10 @@
   "unstable": {
    "version": [
     20260828,
-    1551
+    1851
    ],
-   "commit": "983b8b43885c0a3aeffbe1d8ed2e7e804f7dfb7e",
-   "sha256": "06198zdjdd7k4xwij27wx7s7s5d47dqrcryz1m6052k96z5mvkdl"
+   "commit": "15d966309baf0de622749ecf3a14b2c96f611a31",
+   "sha256": "1wkc8nrsfsm6nkx4fjy7r5pbk42p088f9k4bf86697scn3pg1a93"
   },
   "stable": {
    "version": [
@@ -79293,14 +79293,14 @@
   "repo": "ltex-plus/emacs-ltex-plus",
   "unstable": {
    "version": [
-    20260626,
-    618
+    20260828,
+    2151
    ],
    "deps": [
     "lsp-mode"
    ],
-   "commit": "dc617ed2a21f6453053d218601fee38d1bfd6c70",
-   "sha256": "00fnyw9s7nhkr6l4f9lv10zar13crcj5jrlq7i85py3s37xfmrbh"
+   "commit": "ac71c1b3542e692901c80bebf758bdfbb9da50d3",
+   "sha256": "10f1w2fq5lhvahzfxhgqv8x0zkn6d5il0q0i45c5kxa20hmzmagc"
   },
   "stable": {
    "version": [
@@ -80421,15 +80421,15 @@
   "repo": "roadrunner1776/magik",
   "unstable": {
    "version": [
-    20260828,
-    1443
+    20260829,
+    131
    ],
    "deps": [
     "compat",
     "yasnippet"
    ],
-   "commit": "fb372c480d5aa671cc7ebb6e81109a81474f9684",
-   "sha256": "1hiwh4wvw674zmhhxlmlspc90a98nj0zncmqm68yczp4wrkxfyba"
+   "commit": "1f39b0b9587251441f7cfb751d47ac1a4f133e42",
+   "sha256": "1pa3vaayww8p9p3wnzx89n9nwj6gi5ikb8zxvqpwm130mys7nlv4"
   },
   "stable": {
    "version": [
@@ -89330,11 +89330,11 @@
   "repo": "mrcnski/nimbus-theme",
   "unstable": {
    "version": [
-    20260827,
-    2111
+    20260828,
+    2059
    ],
-   "commit": "78b39a5cd4d3d7265d685736721363b35eac1f88",
-   "sha256": "08w00hgz7aygjvvzb46yr8q29qwqrvnig3jz5hdfbzfv7h52asrp"
+   "commit": "8210e08b2b51484140126c976936e787357d09ad",
+   "sha256": "0nc5w1sk8lb6g1h3dwp62aawzl0sd5wbvvhsh9qkladhmj3506qv"
   },
   "stable": {
    "version": [
@@ -95624,11 +95624,7 @@
     "org"
    ],
    "commit": "dda8ba65f186384169b0025c0696f4a784674e0e",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2956-1424481073/nix-shell-3146-470712573/nix-shell-3211-792445928/git-checkout-tmp-xaKF2j1j/clone/.git/\nfatal: unable to access 'https://repo.or.cz/org-contacts.git/': Failed to connect to repo.or.cz:443 after 134183 ms: Could not connect to server\nfatal: unable to access 'https://repo.or.cz/org-contacts.git/': Recv failure: Connection reset by peer\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://repo.or.cz/org-contacts.git/': Recv failure: Connection reset by peer\nUnable to checkout dda8ba65f186384169b0025c0696f4a784674e0e from https://repo.or.cz/org-contacts.git.\n"
-   ]
+   "sha256": "0l679jfv9n8lqkb6490klji12yc8gahinc2x45m9mrnfhjmk6p4r"
   }
  },
  {
@@ -108977,11 +108973,11 @@
   "repo": "tumashu/posframe",
   "unstable": {
    "version": [
-    20260816,
-    2356
+    20260829,
+    203
    ],
-   "commit": "ec0ec37c0d6397422a07def499e87591ca037af7",
-   "sha256": "0hmvi1r4f249ww5c4rdb68n8jmrgq0jyj9zpnvqxh47dfq21xiw7"
+   "commit": "6f89c0acd29306cb2cd023418d18134cfc507800",
+   "sha256": "1xbfpmjcw2csw6d65h5k3i4kjdzmqrnc3wh1vi8rqvkqanyckxhj"
   },
   "stable": {
    "version": [
@@ -121309,14 +121305,14 @@
   "repo": "xuchunyang/shr-tag-pre-highlight.el",
   "unstable": {
    "version": [
-    20260821,
-    1012
+    20260829,
+    154
    ],
    "deps": [
     "language-detection"
    ],
-   "commit": "f2b390a6297a9bf6a4527f79527f582a1ecced66",
-   "sha256": "10lm8c7sbbrjircsc925nijh80vcpcq8fk8xlv4w5cfd4yvhlf9s"
+   "commit": "9f674822afb9ba09ce1ced776af003374d1c5ccf",
+   "sha256": "0rqq6a23j8id9fm62x9gkbx445kpi8c3hrxvv7k39jqahgzavcyn"
   },
   "stable": {
    "version": [
@@ -122608,8 +122604,8 @@
   "repo": "emacs-slack/emacs-slack",
   "unstable": {
    "version": [
-    20260825,
-    1520
+    20260829,
+    55
    ],
    "deps": [
     "alert",
@@ -122621,8 +122617,8 @@
     "ts",
     "websocket"
    ],
-   "commit": "c0a18be3aea898f79a38fee4907e6b4d54d555cb",
-   "sha256": "1c9pv00yppprwli4ahrnh9z2cbpi7qzs2smsvxj3vnhqafyjd5p7"
+   "commit": "9ed2e40e9a5c43a6b54d3333dde37f0d6f6e251f",
+   "sha256": "04lcjg1y756cjfc42c76s3ap0349vcwpjy4dxbq2ixbf59l8f26y"
   }
  },
  {

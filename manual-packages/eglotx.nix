@@ -14,8 +14,8 @@ melpaBuild {
   src = fetchFromGitHub {
     owner = "cxa";
     repo = "eglotx";
-    rev = "2d5d2fbbd0ebbf2d07972a6b260ff6d9023a4586";
-    hash = "sha256-kSoZZ2sUX/a8mlBFfKCorSbUQjrQN8OTitD8/5s1ybE=";
+    rev = "d6f56bf343c0c137eec52c2a819dc01e648c9cb3";
+    hash = "sha256-5BGQ4uDCsK3fk0M3Ow4p3ofI4VSMY7sweJ3tB4DuNfc=";
   };
 
   packageRequires = [

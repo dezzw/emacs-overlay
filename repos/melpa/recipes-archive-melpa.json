@@ -2175,8 +2175,21 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260910,
-    1048
+    20260911,
+    42
+   ],
+   "deps": [
+    "acp",
+    "shell-maker"
+   ],
+   "commit": "9716a9e6cdaf72429fcab3f4eae6e076d966404e",
+   "sha256": "1wjrc9fyimaazqf4qa4jxr95i6iix0irhf2bb29h6nr74xnm1sa4"
+  },
+  "stable": {
+   "version": [
+    0,
+    75,
+    3
    ],
    "deps": [
     "acp",
@@ -2184,19 +2197,6 @@
    ],
    "commit": "82364bc1ff94a8f15210f74a336b7ecc85c076d8",
    "sha256": "0rv79himpnnizmjzvp1n0wwnh0qgyvznp5qp5xa5nlasms1z4xk1"
-  },
-  "stable": {
-   "version": [
-    0,
-    75,
-    2
-   ],
-   "deps": [
-    "acp",
-    "shell-maker"
-   ],
-   "commit": "d027d8de2b74019ae83e36b1edcd0b968295ac31",
-   "sha256": "0n1z7f2qrwj6fn0d2nggw1lj9i05448pzrd1j5iajgbknzs1c88r"
   }
  },
  {
@@ -19692,13 +19692,13 @@
   "unstable": {
    "version": [
     20260910,
-    1121
+    1909
    ],
    "deps": [
     "compat"
    ],
-   "commit": "ad07150e96f41a4e0a8ce0b2d6ccddd5de2f8077",
-   "sha256": "0mpa76qk38hc87fqsa9j4h1w9az6cq68yndiv0pk968isq56lyqs"
+   "commit": "f10cf28d3df1e43a8069f5a507c82654834c8b09",
+   "sha256": "199fp8wpg2a1n3fjycn01a8wxz0aywk330rrz4bfhxhinvq4h65z"
   },
   "stable": {
    "version": [
@@ -39478,14 +39478,14 @@
   "repo": "emacs-evil/evil-collection",
   "unstable": {
    "version": [
-    20260905,
-    2034
+    20260910,
+    2204
    ],
    "deps": [
     "evil"
    ],
-   "commit": "783c96b9901417cb8b6df63ab606387fa72dc922",
-   "sha256": "1jkbjviv68lfvyam9qiv74g03aiajxq4hx9v0mzaqzshk56xs4ry"
+   "commit": "1513aae3652101caf3227bcf7349e2e6fded3210",
+   "sha256": "0p23yx3nwwl92zpqvnsdp41bj0xkbmmzgsdwb9l0s3cx9rv17d9s"
   },
   "stable": {
    "version": [
@@ -99409,7 +99409,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3066-315549893/nix-shell-3258-665326545/nix-shell-3322-2224951192/git-checkout-tmp-kt2eAqLs/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2897-1072723931/nix-shell-3087-3817711112/nix-shell-3151-3999919280/git-checkout-tmp-laJT73F2/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {

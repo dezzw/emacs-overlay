@@ -99411,7 +99411,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3007-153186923/nix-shell-3198-1154994893/nix-shell-3266-1005370092/git-checkout-tmp-aqx4039D/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2796-2827416093/nix-shell-2987-61506237/nix-shell-3052-1041402903/git-checkout-tmp-7i7jZaNV/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -131533,20 +131533,20 @@
   "repo": "xenodium/time-zones",
   "unstable": {
    "version": [
-    20260910,
-    135
+    20260912,
+    1438
    ],
-   "commit": "dc6c438031f5c279bf1bbf39c053f22807460bbf",
-   "sha256": "1l6yrihwmspkdxy8mqp2qnbhh8d0ahg23fxmpdrly8g5crfmy89q"
+   "commit": "6fe85710c9dd4b87c613a345e5c0191ecb6ec386",
+   "sha256": "01is0p0wibqwmp7m9vd29y4x4r0a9q0qvwgfkiva59sxpzq570jr"
   },
   "stable": {
    "version": [
     0,
     5,
-    2
+    3
    ],
-   "commit": "fd94705f04b1e5bc4a9b08ef9092fea839fe92d7",
-   "sha256": "1bc3i7ljl03dikl5ldsm2gvh3s1w49vrcn4r9r12a05x10f4k4jn"
+   "commit": "6fe85710c9dd4b87c613a345e5c0191ecb6ec386",
+   "sha256": "01is0p0wibqwmp7m9vd29y4x4r0a9q0qvwgfkiva59sxpzq570jr"
   }
  },
  {

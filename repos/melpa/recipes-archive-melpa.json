@@ -31131,8 +31131,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260911,
-    1528
+    20260914,
+    1844
    ],
    "deps": [
     "compat",
@@ -31141,8 +31141,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "b0851744294bbba7429a2f837a1d86223dd6a59f",
-   "sha256": "0qdkbkiv9ysx5aqw5qv7w7r0nwrxsndvv30y06mk9wgnmwkaqhrf"
+   "commit": "a2cae5431be49b255861063f7fddfbe1bd967ee2",
+   "sha256": "0jply70qijma6z6rpv7fgg093s3g72aspsfknnliv9ghsxpfmhhw"
   },
   "stable": {
    "version": [
@@ -44069,7 +44069,7 @@
   "unstable": {
    "version": [
     20260914,
-    1038
+    1700
    ],
    "deps": [
     "compat",
@@ -44078,13 +44078,13 @@
     "tp",
     "transient"
    ],
-   "commit": "0884ccdfb85ad27e66e72417b2a225b7bdb8b389",
-   "sha256": "1gncfdb70dslm9bdda5382mbrrqy13svy4c9d8r42p6160bpxkl7"
+   "commit": "fc8f28f5f62a2f9f88e6215bd38ff409f049b4e6",
+   "sha256": "121cq2vygcwzq6a179nlq7vkdi3lq087djnk0lrav18a38gc32n8"
   },
   "stable": {
    "version": [
     0,
-    44
+    45
    ],
    "deps": [
     "compat",
@@ -44093,8 +44093,8 @@
     "tp",
     "transient"
    ],
-   "commit": "0884ccdfb85ad27e66e72417b2a225b7bdb8b389",
-   "sha256": "1gncfdb70dslm9bdda5382mbrrqy13svy4c9d8r42p6160bpxkl7"
+   "commit": "fc8f28f5f62a2f9f88e6215bd38ff409f049b4e6",
+   "sha256": "121cq2vygcwzq6a179nlq7vkdi3lq087djnk0lrav18a38gc32n8"
   }
  },
  {
@@ -99520,7 +99520,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2986-941141876/nix-shell-3181-2427346854/nix-shell-3245-502691215/git-checkout-tmp-6YrjqNhY/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2953-16725979/nix-shell-3173-3245518382/nix-shell-3237-1601569900/git-checkout-tmp-Re5rxv3k/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -111022,14 +111022,14 @@
   "repo": "mrcnski/promptu.el",
   "unstable": {
    "version": [
-    20260910,
-    2252
+    20260914,
+    2126
    ],
    "deps": [
     "transient"
    ],
-   "commit": "2a69977071fa7345e186eb0a187abb8b0a38224f",
-   "sha256": "0wdr7vrjkhm85bzkwin191k46kn74imnnq3bxrjql3dxnawh2w10"
+   "commit": "94de6816fe9f847f33e3f22ccaf52efbfb25a0b8",
+   "sha256": "0l2dpci2lz1y5kyni4i5ld9cf6v1pmys89c5789j4d1ybkpq8lsy"
   },
   "stable": {
    "version": [
@@ -130173,16 +130173,16 @@
   "repo": "kostafey/temporary-persistent",
   "unstable": {
    "version": [
-    20230115,
-    1425
+    20260914,
+    1800
    ],
    "deps": [
     "dash",
     "names",
     "s"
    ],
-   "commit": "edbde738769e79ac212ae84ae7898ffd5f19e0f1",
-   "sha256": "0v99azfslg8p6wxs3yf3qq3dzy0f6n9dw5ydj94jrys2ka5gbw1s"
+   "commit": "b441e78649f0b612d5946a443d320ded27bbee20",
+   "sha256": "0irdpiph8yj7084wapwb87x90kbjsyns3yvdb5841x95x1gfql8m"
   }
  },
  {

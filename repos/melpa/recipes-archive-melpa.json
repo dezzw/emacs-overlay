@@ -971,16 +971,16 @@
   "repo": "xcwen/ac-php",
   "unstable": {
    "version": [
-    20260911,
-    454
+    20260921,
+    522
    ],
    "deps": [
     "ac-php-core",
     "auto-complete",
     "yasnippet"
    ],
-   "commit": "b626cc6b3a343b2431f2e13b241b1612da5fc3f4",
-   "sha256": "0j6mzs0agmbnvcxdjxlp03ndpw7yp3pq1x458l39q2k4crdw5sx8"
+   "commit": "ab7f0275e0dd73dfe66c6cad271b9282f6e8a276",
+   "sha256": "0dp94z77rbmnap9m5l9wfp1v5c1hrvs3ai2mmfabv4v42w284bba"
   },
   "stable": {
    "version": [
@@ -1005,8 +1005,8 @@
   "repo": "xcwen/ac-php",
   "unstable": {
    "version": [
-    20260920,
-    1106
+    20260921,
+    1039
    ],
    "deps": [
     "dash",
@@ -1016,8 +1016,8 @@
     "s",
     "xcscope"
    ],
-   "commit": "48785207045b31311f7ea298106bc9d04071122d",
-   "sha256": "04wmz8nzv7iqbbbjb638v2x55ml8rlir258r3jlhn27fp4q4l1gy"
+   "commit": "ef5654e63a48098dfc42a4a4bbe17c503070f8c5",
+   "sha256": "12zn4cmkjbikd0c9ivh2g6r8ml8n1jq0ywwnba3myjs12nrswbpz"
   },
   "stable": {
    "version": [
@@ -2175,28 +2175,28 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20260920,
-    1357
+    20260921,
+    1008
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "3bd32a16f4eededd54e190d94318f536ed4fac7c",
-   "sha256": "0h0489n22ayi5w6kwsaw23p0ccc8khqjdmg6s4pbxkhav5n386pv"
+   "commit": "a8fb506a537f7347fef71976dae37212dabc1f11",
+   "sha256": "16xqhfvn3588jf7zv3xcxh2hg3zqyma37f8iwvamc945l71f60h1"
   },
   "stable": {
    "version": [
     0,
-    77,
-    2
+    78,
+    1
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "278a8e191155d6ae151e1a56af99c65b7cb18c99",
-   "sha256": "0rgczvbk6i4nli6dnr4lnlzi7l7h62mn042bbmp9vvzwh14wqb9l"
+   "commit": "a8fb506a537f7347fef71976dae37212dabc1f11",
+   "sha256": "16xqhfvn3588jf7zv3xcxh2hg3zqyma37f8iwvamc945l71f60h1"
   }
  },
  {
@@ -9641,11 +9641,11 @@
   "repo": "rwv/bluesound-el",
   "unstable": {
    "version": [
-    20260616,
-    831
+    20260921,
+    1148
    ],
-   "commit": "3a99edc4232d41a9cd13b846c7a4f27036256d29",
-   "sha256": "0jrch7sbry41r630yxwvcqzzi1w6nszr615xmx4v2dly70w3khj0"
+   "commit": "b4dc3538a14b306caae1dcd23a0b7f622618a2b2",
+   "sha256": "1vnr2zmvhdjkap8n8bi57f5pfjpl6dwvil9pjs7hj3lqmgn75gc0"
   },
   "stable": {
    "version": [
@@ -14429,16 +14429,16 @@
   "repo": "emacs-citar/citar",
   "unstable": {
    "version": [
-    20260706,
-    1221
+    20260921,
+    617
    ],
    "deps": [
     "citeproc",
     "org",
     "parsebib"
    ],
-   "commit": "d2289669fea76ae7b2f7ad04794fcc230d65e055",
-   "sha256": "0gnh7lajg6sirr1dyygl3bczp13zdll9wq5zimylvh7l916x03y9"
+   "commit": "a8be76d04f4343776afef77154bf6bda4a696b5f",
+   "sha256": "0za037d8y2zj10c9p10mdzsawi5r96q9am2w7sn5xfjl9jxplsbq"
   },
   "stable": {
    "version": [
@@ -15910,14 +15910,14 @@
   "repo": "LuciusChen/clutch",
   "unstable": {
    "version": [
-    20260920,
-    158
+    20260921,
+    1113
    ],
    "deps": [
     "transient"
    ],
-   "commit": "8849f9073793cad79a463088af498a6ee960bdbc",
-   "sha256": "15c7djcm235yfnqz6iqj6sq6sdg40sb9jiaj0bypdckmwmhxgzq0"
+   "commit": "fc26edad6fda900649f70232eaa35d478419448e",
+   "sha256": "06k90v2s9zfjrli9iyk8dbj0gvlyvs1d6s4zhzkdpy66sbpk07nj"
   },
   "stable": {
    "version": [
@@ -18297,16 +18297,16 @@
   "repo": "xcwen/ac-php",
   "unstable": {
    "version": [
-    20260920,
-    1104
+    20260921,
+    522
    ],
    "deps": [
     "ac-php-core",
     "cl-lib",
     "company"
    ],
-   "commit": "07f008af2c04dc396454be560640e47c83b033c9",
-   "sha256": "12265a0vfvss7s18y7q5m6155k1k89kvq1ba475jkk24rndfhigk"
+   "commit": "ab7f0275e0dd73dfe66c6cad271b9282f6e8a276",
+   "sha256": "0dp94z77rbmnap9m5l9wfp1v5c1hrvs3ai2mmfabv4v42w284bba"
   },
   "stable": {
    "version": [
@@ -36642,14 +36642,14 @@
   "repo": "purcell/envrc",
   "unstable": {
    "version": [
-    20260905,
-    2028
+    20260921,
+    1016
    ],
    "deps": [
     "inheritenv"
    ],
-   "commit": "55a69ae6325c06fdde9a94b55c8f3dbc901686ff",
-   "sha256": "0fvwi9l6f01y0ghkn67v8w29581cdjklv310m4qnxhijkwjhsx8j"
+   "commit": "1ecb82e01745d700578754eb35d6c1758290b869",
+   "sha256": "13k4prjwhx2s54710zbmvd214w1rcpqw9j63ca16hw75d53bw2kp"
   },
   "stable": {
    "version": [
@@ -37542,11 +37542,11 @@
   "repo": "erlang/otp",
   "unstable": {
    "version": [
-    20260825,
-    940
+    20260921,
+    1150
    ],
-   "commit": "9b155fcc2bc05efa1bc8aa05db540852151c5a11",
-   "sha256": "1605xpzf6rxmbz3q5c44cw9p181jn04g95zal0ab8x4r8j6b3ir6"
+   "commit": "45693a65cdcda876a496ac56b9b3b93adffc5265",
+   "sha256": "1bgz22k39d3qvaaq4lpnn8hd8gh09kysfcqx7fyr0pvba2gyglm5"
   },
   "stable": {
    "version": [
@@ -44091,8 +44091,8 @@
   "repo": "martianh/fj.el",
   "unstable": {
    "version": [
-    20260915,
-    1800
+    20260921,
+    1150
    ],
    "deps": [
     "compat",
@@ -44101,8 +44101,8 @@
     "tp",
     "transient"
    ],
-   "commit": "d13fd40e2a546ec654a24ad450d052f9eebe8904",
-   "sha256": "0cdn9mmqsx52jr586yrd0jzmcffhy831g1n9pc8h90c4ypwfnnws"
+   "commit": "73ea6263be5c0959e94688ca24a89265b4a172ad",
+   "sha256": "1809n4gh0vwplz23xnr09wkwwl1j7fqwm9xid6b6002knqphc3p0"
   },
   "stable": {
    "version": [
@@ -54509,15 +54509,15 @@
   "url": "https://git.thanosapollo.org/emacs-gnosis",
   "unstable": {
    "version": [
-    20260920,
-    1417
+    20260921,
+    456
    ],
    "deps": [
     "compat",
     "keymap-popup"
    ],
-   "commit": "1eb319966ccfb7b5d1e5f50f3738d5962dc21441",
-   "sha256": "14fvxl128d63wbjsf3vc129wbny9p937hm5jx7rjkkvx8yjr4fnj"
+   "commit": "497149ab7ab88c2acbd398803b15c3f9b9ab910a",
+   "sha256": "03vvig5y7bh4b5jzng9hv5kljbk38y98mbcr5dn2ranzd5zv4xkb"
   },
   "stable": {
    "version": [
@@ -72443,14 +72443,15 @@
   "repo": "tpapp/julia-repl",
   "unstable": {
    "version": [
-    20260211,
-    1502
+    20260921,
+    852
    ],
    "deps": [
+    "compat",
     "s"
    ],
-   "commit": "0173237a43d9a42f0d69a5405283fabe1ac602a0",
-   "sha256": "0xq9cg7l4v85h9xwnss38k8j665zzn0kwf4zq8mkn6xxvcf2wq53"
+   "commit": "a3a0582691f343d5984a34a85263165c2fe44f43",
+   "sha256": "0vp9mh7c2dqi5mw5q2f48n8j915a33rsxnmy6na208dc7wa7d2ck"
   },
   "stable": {
    "version": [
@@ -80495,8 +80496,8 @@
   "repo": "Jamie-Cui/magent",
   "unstable": {
    "version": [
-    20260913,
-    1042
+    20260921,
+    904
    ],
    "deps": [
     "acp",
@@ -80505,8 +80506,8 @@
     "gptel",
     "yaml"
    ],
-   "commit": "851fff0bfc62d2d41486dc2633a227544aaa66b6",
-   "sha256": "089k0b8f0vf0g3342azc3arv6bxj67jl63pgls2y0hywwk6l8vwc"
+   "commit": "3cc0fa11b1bb079b2e2b5eff86ab2400d60e54be",
+   "sha256": "13jdv35c5h6ic4dz5wql1627yarzhy398p9nl7xl0jii6hic4mp7"
   }
  },
  {
@@ -85712,11 +85713,11 @@
   "repo": "protesilaos/modus-themes",
   "unstable": {
    "version": [
-    20260918,
-    844
+    20260921,
+    912
    ],
-   "commit": "9427ba44964a292f03273e5be4d7a0f3c00b5029",
-   "sha256": "0a1nb3sa0fr1iz0xsl70zdaa7k9cyd78iw8qsibbyd27zfpy302j"
+   "commit": "4fcc8d00540a81936a213d608a69c4c85df8f970",
+   "sha256": "07ra0vl36hjsr30wapzjxxya5ckg46lb09gmdwqq2cy778kdkp6k"
   },
   "stable": {
    "version": [
@@ -96682,14 +96683,14 @@
   "repo": "spiperac/org-grimoire",
   "unstable": {
    "version": [
-    20260812,
-    1624
+    20260921,
+    1000
    ],
    "deps": [
     "org"
    ],
-   "commit": "23075cbdacc65e1fbc22dd7a3c0b3ced4d96a74d",
-   "sha256": "1259f5hx14vf4m8g32pdg01hawjf081liknishl5ixbr8b3nfnwh"
+   "commit": "5622795eb943f529af03af04ced49d613dad1d77",
+   "sha256": "0012x3ld2mlxjvrcrh850szhql2cx2vpz9a40g3ydyggixn8i89h"
   },
   "stable": {
    "version": [
@@ -99687,7 +99688,7 @@
    "error": [
     "exited abnormally with code 128\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3045-1927798860/nix-shell-3235-1828887563/nix-shell-3301-3518681970/git-checkout-tmp-na3tC58y/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3050-2035407403/nix-shell-3243-3979900866/nix-shell-3307-1007776129/git-checkout-tmp-aSh5yzBG/clone/.git/\nFrom https://git.andros.dev/org-social/org-social.el\n * branch            94915a57b619ff9e43088915b8844ce46e8143f9 -> FETCH_HEAD\nSwitched to a new branch 'fetchgit'\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\nfatal: No url found for submodule path 'melpazoid' in .gitmodules\n"
    ]
   },
   "stable": {
@@ -100701,15 +100702,15 @@
   "repo": "unhammer/org-upcoming-modeline",
   "unstable": {
    "version": [
-    20241028,
-    1217
+    20260921,
+    1029
    ],
    "deps": [
     "org-ql",
     "ts"
    ],
-   "commit": "66bfdbe847f398f87e8a05c0cf472eb673fac522",
-   "sha256": "1nmyrrqjmja3x318pjqcw208l2ir5v3fl9dhyvkah27nh0xxk11y"
+   "commit": "d4b52d40e9d6fd252094a856d24e2a2334a6dd47",
+   "sha256": "0nkipbjsdgihxqdd9fvbcffxyvab7s5ybszc90cpfkygra4vy97j"
   },
   "stable": {
    "version": [
@@ -116510,20 +116511,20 @@
   "repo": "kickingvegas/restlib",
   "unstable": {
    "version": [
-    20260914,
-    1526
+    20260921,
+    347
    ],
-   "commit": "3bde75339f0e6f64698f0d829f13a675ac4042a8",
-   "sha256": "1vsf1awd0bbjair9hxnhqvqfsm7kvz24z49qgg91mpj1gxw5pa8d"
+   "commit": "a2ee43ecab7fb7fb4b230cd2697db15adfcf32ff",
+   "sha256": "1yfsixv7sbjz0dng7x9f53wbjsh66qnap85gm8w9j7pspf8s251x"
   },
   "stable": {
    "version": [
     0,
     1,
-    3
+    4
    ],
-   "commit": "3bde75339f0e6f64698f0d829f13a675ac4042a8",
-   "sha256": "1vsf1awd0bbjair9hxnhqvqfsm7kvz24z49qgg91mpj1gxw5pa8d"
+   "commit": "a2ee43ecab7fb7fb4b230cd2697db15adfcf32ff",
+   "sha256": "1yfsixv7sbjz0dng7x9f53wbjsh66qnap85gm8w9j7pspf8s251x"
   }
  },
  {
@@ -130097,15 +130098,15 @@
   "repo": "zevlg/telega.el",
   "unstable": {
    "version": [
-    20260916,
-    1221
+    20260921,
+    1153
    ],
    "deps": [
     "transient",
     "visual-fill-column"
    ],
-   "commit": "bf4b3659d6c02ac6a558f58e852de01923b3951f",
-   "sha256": "01wla1b67v655cxa9gs2bgd5i0k3rwrh7g0c228l94i1jhlbjykz"
+   "commit": "901d99f12d46a3eec7333fea1e09fe54c635f327",
+   "sha256": "0dlnx6swnybnzaz76avp0dvpc8w0b81gq196bn5k7ypz6vhvrw82"
   },
   "stable": {
    "version": [
@@ -136249,14 +136250,14 @@
   "repo": "tbanel/uniline",
   "unstable": {
    "version": [
-    20260915,
-    749
+    20260921,
+    624
    ],
    "deps": [
     "hydra"
    ],
-   "commit": "bff9d27a497c6aafdaa791a9633f456dec741f52",
-   "sha256": "1rfwyzl8hfsc8ff4avp6lgarc3zlm7wwp4dx630xnz0b37cqb80h"
+   "commit": "debb3a4ead66f91e14ce065bc579cdc26cad60cc",
+   "sha256": "0fpwjyyfnakir1qa44hwl37iksmyq0jzzl5j01vd0fdqad4p9rq0"
   }
  },
  {

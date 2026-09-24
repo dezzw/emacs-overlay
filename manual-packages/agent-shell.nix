@@ -13,7 +13,7 @@ melpaBuild {
   src = fetchFromGitHub {
     owner = "dezzw";
     repo = "agent-shell";
-    rev = "426091ed3329b1d1f2426f400f0ae1debab8b80e";
+    rev = "a1a5d0f9cd0f198220d4598ae0e9ee8755e70d3c";
     hash = "sha256-dw0mb0OmW2bVZreARZjV+Iy5xFN83lIf3xM7Pj4ccok=";
   };
 

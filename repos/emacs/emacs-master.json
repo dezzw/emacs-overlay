@@ -1,1 +1,1 @@
-{"type": "savannah", "url": "https://git.savannah.gnu.org/git/emacs.git", "rev": "7c188d9bf232bf7ff04356b4459e9a9101098b50", "sha256": "13c0l3h594xkzi8wk8g6k79g7l14krp4l4nasswq4df19c2ldqmw", "version": "20260915.0"}
+{"type": "github", "owner": "emacs-mirror", "repo": "emacs", "rev": "d956b4c04c013f003bafb06db8e3d882680d1cf1", "sha256": "1jrfsh55vxvap54c9dzrxzl1s41vk34xr0v1yavnl10qgflngf3y", "version": "20261002.0"}

@@ -5,13 +5,17 @@ set -euxo pipefail
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 cd $SCRIPTPATH
 
-function update_savannah_branch() {
+# Savannah's git HTTP endpoint currently redirects to a broken URL and often
+# returns HTTP 500. The emacs-mirror GitHub repo tracks the same branches.
+EMACS_GIT_OWNER="emacs-mirror"
+EMACS_GIT_REPO="emacs"
+
+function update_github_branch() {
     local branch="$1"
-    local url="https://git.savannah.gnu.org/git/emacs.git"
+    local url="https://github.com/${EMACS_GIT_OWNER}/${EMACS_GIT_REPO}.git"
 
     echo "emacs $branch"
 
-    # extract the latest commit sha
     local commit_sha
     commit_sha=$(git ls-remote --branches "$url" "refs/heads/$branch" | cut -f1)
 
@@ -33,29 +37,10 @@ function update_savannah_branch() {
     local output_branch
     output_branch=$(echo "$branch" | sed 's/\//_/g')
 
-    echo "{\"type\": \"savannah\", \"url\": \"${url}\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > "emacs-${output_branch}.json"
+    echo "{\"type\": \"github\", \"owner\": \"${EMACS_GIT_OWNER}\", \"repo\": \"${EMACS_GIT_REPO}\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > "emacs-${output_branch}.json"
 }
 
-
-function update_github_repo() {
-    owner=$1
-    repo=$2
-    branch=$3
-    output_name=$4
-    echo $repo $branch
-
-    # Get relevant data (commit id and timestamp) for the latest commit
-    commit_data=$(curl "https://github.com/$owner/$repo/commits/$branch.atom" | xmlstarlet sel -N atom="http://www.w3.org/2005/Atom" -t -m /atom:feed/atom:entry -v "concat(atom:id,'/',atom:updated)" -n | head -n 1)
-
-    # Extract commit sha and build a version number based on date: YYYYMMDD.0
-    commit_sha=$(echo $commit_data | cut -d '/' -f 2)
-    version_number=$(echo $commit_data | cut -d '/' -f 3 | cut -d 'T' -f 1 | sed 's/-//g').0
-
-    digest=$(nix-prefetch-url --unpack "https://github.com/$owner/$repo/archive/${commit_sha}.tar.gz")
-    echo "{\"type\": \"github\", \"owner\": \"${owner}\", \"repo\": \"${repo}\", \"rev\": \"${commit_sha}\", \"sha256\": \"${digest}\", \"version\": \"${version_number}\"}" > $repo-$output_name.json
-}
-
-update_savannah_branch master
-update_savannah_branch feature/igc3
+update_github_branch master
+update_github_branch feature/igc3
 
 nix-build --no-out-link --show-trace ./test.nix

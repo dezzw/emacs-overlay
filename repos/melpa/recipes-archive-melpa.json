@@ -2203,15 +2203,15 @@
   "stable": {
    "version": [
     0,
-    84,
-    2
+    85,
+    3
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "c9def6efb656a0688e65a8d54b00a37fb8372648",
-   "sha256": "0a8ivg1rq16dnsn3zacgmlkhh8iadihzv4cwkvkww6alz9qv53iz"
+   "commit": "f44c96b2ab577065d5f5409629b4df588af88433",
+   "sha256": "0xj6hs4y2pzana8145fqfk3scwhx6dix0jyp52x9dvyy56nfxw6w"
   }
  },
  {
@@ -16004,13 +16004,13 @@
   "unstable": {
    "version": [
     20261006,
-    1319
+    1556
    ],
    "deps": [
     "transient"
    ],
-   "commit": "03a78275f9c227bd165543cb09003579eab62299",
-   "sha256": "090p9vkm3i6gm90hafzlm9737kk87jdglnw2bl94j820jw6nxcrg"
+   "commit": "ab2965725d00bdffcd4d4600a8c060ac2f8d2250",
+   "sha256": "0vh3din07z5zdp1l7gmwmnj2ryn5dqp9sn037x5zgkixsi28jwgf"
   },
   "stable": {
    "version": [
@@ -32557,16 +32557,16 @@
   "repo": "kostafey/ejc-sql",
   "unstable": {
    "version": [
-    20261005,
-    1229
+    20261006,
+    1704
    ],
    "deps": [
     "clomacs",
     "dash",
     "spinner"
    ],
-   "commit": "84759a0e7c5ca6360e04144e18c78044c39ab5bc",
-   "sha256": "0py8zky1a5ff723z0dvzfddhd5cgfl7g91r564r4rhi061chpby9"
+   "commit": "db21d60790e67f4bc41582d15188bc72b41ed048",
+   "sha256": "1a3lmrm97gyfbhzk2qv05nh6mwawlcqc529zafpcsiimvg0y0qrg"
   },
   "stable": {
    "version": [
@@ -65839,7 +65839,7 @@
    "error": [
     "exited abnormally with code 1\n",
     "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3003-2712796068/nix-shell-3230-3898961087/nix-shell-3294-2944621308/git-checkout-tmp-QG7IbdBA/clone/.git/\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': Failed to connect to git.savannah.gnu.org:443 after 136383 ms: Could not connect to server\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': Failed to connect to git.savannah.gnu.org:443 after 135097 ms: Could not connect to server\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': Failed to connect to git.savannah.gnu.org:443 after 135107 ms: Could not connect to server\nUnable to checkout de57d1774e9989fc866cc6f68b6fd8a0c1ecc1b1 from https://git.savannah.gnu.org/git/hyperbole.git.\n"
+    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3030-1374938123/nix-shell-3227-2291662140/nix-shell-3291-4165851947/git-checkout-tmp-X0z3UiPM/clone/.git/\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': Failed to connect to git.savannah.gnu.org:443 after 133763 ms: Could not connect to server\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': Failed to connect to git.savannah.gnu.org:443 after 135108 ms: Could not connect to server\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': Failed to connect to git.savannah.gnu.org:443 after 135115 ms: Could not connect to server\nUnable to checkout de57d1774e9989fc866cc6f68b6fd8a0c1ecc1b1 from https://git.savannah.gnu.org/git/hyperbole.git.\n"
    ]
   },
   "stable": {
@@ -79676,11 +79676,11 @@
   "repo": "ltex-plus/emacs-ltex-plus",
   "unstable": {
    "version": [
-    20261005,
-    2240
+    20261006,
+    1727
    ],
-   "commit": "5d3440dbf77d3c9aaaca97d6398081b04e3a9504",
-   "sha256": "0dxzknwgqpmcihckfnm1pdyw1sb6m42i6pci0wa073hkxry8f4cl"
+   "commit": "a239d58182bcf3ef957ac98a97c732b0427e954d",
+   "sha256": "12y6q2nqfm66sx0asia5fbvbydd37z7hmph1b2yykn75ld3w5hdj"
   },
   "stable": {
    "version": [
@@ -80768,14 +80768,14 @@
   "repo": "zk-phi/magic-latex-buffer",
   "unstable": {
    "version": [
-    20260908,
-    843
+    20261006,
+    1650
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "31eb152b61b33a4017dd254a560be67e4b5ddd3c",
-   "sha256": "13h06nva61d1pr3inw1dm7z1ys7162f9ydagc92jd3cv4qpq2c1z"
+   "commit": "e80a2b98e714a975ace23790f4278f1fbdd7c258",
+   "sha256": "02i2vl3x5zaccc0c9nmlnlg6bhx3g67g2czc0yiry0n4fkp5dy73"
   }
  },
  {
@@ -101488,11 +101488,11 @@
   "repo": "kostafey/organic-green-theme",
   "unstable": {
    "version": [
-    20261001,
-    1416
+    20261006,
+    1756
    ],
-   "commit": "858fbb67da99835836f6128b6438deaee9636499",
-   "sha256": "15151q9r73lbwijmm3nikh8sch2459yb29sxk11j2mf3ic97y0jp"
+   "commit": "e0a1feeed58ce7d3eb26f96bb4d048b732c14fcc",
+   "sha256": "15nvgrisamhd9i6jngvdf26cwxj9vz3ma7gyi2k7lnp24jwpiqr0"
   }
  },
  {
@@ -127797,20 +127797,20 @@
   "repo": "jamescherti/stripspace.el",
   "unstable": {
    "version": [
-    20260826,
-    244
+    20261006,
+    1349
    ],
-   "commit": "2286cab28317283f1aa54a59cd4bbfcad106c50b",
-   "sha256": "0zyfpbvl4n4ws7jssqlrmh4nblp7nnpxwab4vhbg6p8zxv9d6az3"
+   "commit": "3c720ff4b674bb4b489f993f8e0681d1ffbbab8c",
+   "sha256": "1hls9wm6n9p92bhsbd52nca2jycy0yx2fj22hv8sdacclpd1i0xv"
   },
   "stable": {
    "version": [
     1,
     0,
-    5
+    6
    ],
-   "commit": "c8a53e2bce4347f5d6d8ae8d3050e3bbf3f96562",
-   "sha256": "1yfc0fwzpfi08p50ymmi3g8s947hdzdf42g0kic519rp4g9bd5cg"
+   "commit": "3c720ff4b674bb4b489f993f8e0681d1ffbbab8c",
+   "sha256": "1hls9wm6n9p92bhsbd52nca2jycy0yx2fj22hv8sdacclpd1i0xv"
   }
  },
  {
@@ -131679,11 +131679,11 @@
   "repo": "monkeyjunglejuice/matrix-emacs-theme",
   "unstable": {
    "version": [
-    20260615,
-    1213
+    20261006,
+    1134
    ],
-   "commit": "fe0b8776191744359767ecc4113dda1ade4a5adb",
-   "sha256": "0yyd4z2acz48h3d6j6d7kbb4kacqhy5b47vrbsw4xnvmzyjfsiik"
+   "commit": "5dae3ee8210c320d99cb0da8e2a4292a20c94f24",
+   "sha256": "1ncq886ws8hbincarqnf5001fmvzkszymw87vh4cz2zmx353vqil"
   }
  },
  {

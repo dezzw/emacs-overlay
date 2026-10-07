@@ -1892,10 +1892,10 @@
   "unstable": {
    "version": [
     20261007,
-    1244
+    1718
    ],
-   "commit": "2309bd667fdd1464ebd67b50dab02124fe90791c",
-   "sha256": "0ji0wvmmbkhaihjj444zr2jwxjkwgz5iflz5glmvqykb99crn0bh"
+   "commit": "3ea04302c3cf8608971e528de25680266e50a837",
+   "sha256": "0ibzafhg4gwz9z7rzw94fsz2wmpb84zbgcw8f1ijg1dq7bzvmcs5"
   },
   "stable": {
    "version": [
@@ -31322,8 +31322,8 @@
   "repo": "editor-code-assistant/eca-emacs",
   "unstable": {
    "version": [
-    20260928,
-    1827
+    20261007,
+    1657
    ],
    "deps": [
     "compat",
@@ -31332,8 +31332,8 @@
     "markdown-mode",
     "s"
    ],
-   "commit": "d4356ae7d20b8f0630ffafec7500aabeda59bbad",
-   "sha256": "0yynlrqkj8b580sj3s6kz8gj53pqyyxa8p4nk23j0jn11cidfacq"
+   "commit": "d8093beaf356056592e5deff013849296dfa5eb1",
+   "sha256": "1409d4chcyxpw7nz4grxaii8aypvsmjfcxv0dj3b97gzmsnjs3hd"
   },
   "stable": {
    "version": [
@@ -32557,16 +32557,16 @@
   "repo": "kostafey/ejc-sql",
   "unstable": {
    "version": [
-    20261006,
-    1704
+    20261007,
+    1647
    ],
    "deps": [
     "clomacs",
     "dash",
     "spinner"
    ],
-   "commit": "db21d60790e67f4bc41582d15188bc72b41ed048",
-   "sha256": "1a3lmrm97gyfbhzk2qv05nh6mwawlcqc529zafpcsiimvg0y0qrg"
+   "commit": "ac51ed0bd8ee9bbe0b433599ec8e5acd37e1ac67",
+   "sha256": "1jfmcqi3p90sy6zr1jx33ic10sm0jwx9wddnwa29bc8x7dh37s8b"
   },
   "stable": {
    "version": [
@@ -57406,10 +57406,10 @@
   "unstable": {
    "version": [
     20261007,
-    1036
+    1445
    ],
-   "commit": "fa5dc512eac835545063813e28bcf9f8da57e0db",
-   "sha256": "17ibvis7l3fy0crn60scrflkhpiywqbjyldalyvcwg9nyirj3r56"
+   "commit": "f249df1f59866f55620afbf0d7dfb07546ac9a32",
+   "sha256": "1g10xnq3c0zpyvahc0m4xivxyvwc4wyzfnlxv4zrb3d5h4dyv5a1"
   },
   "stable": {
    "version": [
@@ -75789,28 +75789,28 @@
   "repo": "enricoflor/latex-table-wizard",
   "unstable": {
    "version": [
-    20261002,
-    1459
+    20261007,
+    1500
    ],
    "deps": [
     "auctex",
     "transient"
    ],
-   "commit": "0eece7940a32eb82e5418fadba0189b0dd84ddd1",
-   "sha256": "1x1dyrkvcdqhjy3vr18cwiqjldbbkih44crf4wnvl7ja74yf14j8"
+   "commit": "7e30b492ec594e641727fb31d07291e767d0897a",
+   "sha256": "1z8xkf2lrin6579hhl5qmnqkw33wj4ncn1r8f85zxx10qkmwwp4j"
   },
   "stable": {
    "version": [
     1,
     6,
-    1
+    2
    ],
    "deps": [
     "auctex",
     "transient"
    ],
-   "commit": "0eece7940a32eb82e5418fadba0189b0dd84ddd1",
-   "sha256": "1x1dyrkvcdqhjy3vr18cwiqjldbbkih44crf4wnvl7ja74yf14j8"
+   "commit": "7e30b492ec594e641727fb31d07291e767d0897a",
+   "sha256": "1z8xkf2lrin6579hhl5qmnqkw33wj4ncn1r8f85zxx10qkmwwp4j"
   }
  },
  {
@@ -82907,30 +82907,30 @@
   "repo": "martianh/mastodon.el",
   "unstable": {
    "version": [
-    20260930,
-    1449
+    20261007,
+    1543
    ],
    "deps": [
     "compat",
     "persist",
     "tp"
    ],
-   "commit": "fdc3890adf8a9eade52ba2f53c23f1dc48f21464",
-   "sha256": "09bddjyykggsdblsi20vkj5aidsicl24p8h33jlj4m84i0qr3yar"
+   "commit": "3861f8c1a3fbf24acd7e5513bfd6c2c28ea4758a",
+   "sha256": "12m3zhpna04yzvxzs5xlvpys03ryzrv0i9p9maxzsrj6pa5j07jm"
   },
   "stable": {
    "version": [
     2,
     1,
-    6
+    7
    ],
    "deps": [
     "compat",
     "persist",
     "tp"
    ],
-   "commit": "fdc3890adf8a9eade52ba2f53c23f1dc48f21464",
-   "sha256": "09bddjyykggsdblsi20vkj5aidsicl24p8h33jlj4m84i0qr3yar"
+   "commit": "3861f8c1a3fbf24acd7e5513bfd6c2c28ea4758a",
+   "sha256": "12m3zhpna04yzvxzs5xlvpys03ryzrv0i9p9maxzsrj6pa5j07jm"
   }
  },
  {
@@ -89689,11 +89689,11 @@
   "repo": "aaronjensen/night-owl-emacs",
   "unstable": {
    "version": [
-    20250224,
-    1841
+    20261007,
+    1631
    ],
-   "commit": "13d9966ffda746231eef0dc905b50303309f115e",
-   "sha256": "0w50g67j2kbfbx590iky4di7vngqfvg71c40h33ammmckl7wn2hq"
+   "commit": "1b56ab29b322103287d97990108681d389188c65",
+   "sha256": "18n8wxh9zgw1mv8snikr53644cj75jakdwgf1337fsisl2673n18"
   },
   "stable": {
    "version": [
@@ -91773,15 +91773,15 @@
   "repo": "eddof13/ob-agent-shell",
   "unstable": {
    "version": [
-    20260727,
-    2317
+    20261007,
+    1612
    ],
    "deps": [
     "agent-shell",
     "org"
    ],
-   "commit": "3e110db0da3bd8fe93cac0851b0e0a70f674aeff",
-   "sha256": "11926yr6iylxj6958yv3d90gf4in4sr5x1s5k3jp5afn6dq4nb9z"
+   "commit": "494608c80da381de93f0f9ef1fcabbf8aa371343",
+   "sha256": "11hjkc8gr5hlprmsxr5pkiq5x4knh7q21qyxznbj3s5s38h9gd64"
   },
   "stable": {
    "version": [

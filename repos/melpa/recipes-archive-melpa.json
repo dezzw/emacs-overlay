@@ -44258,8 +44258,8 @@
   "repo": "martianh/fj.el",
   "unstable": {
    "version": [
-    20260921,
-    1150
+    20261006,
+    1914
    ],
    "deps": [
     "compat",
@@ -44268,13 +44268,13 @@
     "tp",
     "transient"
    ],
-   "commit": "73ea6263be5c0959e94688ca24a89265b4a172ad",
-   "sha256": "1809n4gh0vwplz23xnr09wkwwl1j7fqwm9xid6b6002knqphc3p0"
+   "commit": "e3e2b461102b050aead991a065d513c6109c25da",
+   "sha256": "0z4xjw8v97qjv2d6d9mwnp965rlk7xn1ig3qqgar0a6z5kxyw6p9"
   },
   "stable": {
    "version": [
     0,
-    47
+    48
    ],
    "deps": [
     "compat",
@@ -44283,8 +44283,8 @@
     "tp",
     "transient"
    ],
-   "commit": "73ea6263be5c0959e94688ca24a89265b4a172ad",
-   "sha256": "1809n4gh0vwplz23xnr09wkwwl1j7fqwm9xid6b6002knqphc3p0"
+   "commit": "e3e2b461102b050aead991a065d513c6109c25da",
+   "sha256": "0z4xjw8v97qjv2d6d9mwnp965rlk7xn1ig3qqgar0a6z5kxyw6p9"
   }
  },
  {
@@ -57901,11 +57901,11 @@
   "repo": "bormoge/guava-themes",
   "unstable": {
    "version": [
-    20260925,
-    2142
+    20261006,
+    2204
    ],
-   "commit": "c3faccde138eb5d9b35d1c68676199b22070decb",
-   "sha256": "1p1cq9llbjx2w9cabfpkscwi1wkj5af88k0ipwmyj4qlpnamw1y6"
+   "commit": "3a572193bcf78f226126ca83efac8f8b82e9e612",
+   "sha256": "1bn7icqi3ii4wzs2yhwi3wccw5gxp4z9cg4fcgsycqnm0gvwqclq"
   },
   "stable": {
    "version": [
@@ -65836,11 +65836,7 @@
     1629
    ],
    "commit": "de57d1774e9989fc866cc6f68b6fd8a0c1ecc1b1",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-3030-1374938123/nix-shell-3227-2291662140/nix-shell-3291-4165851947/git-checkout-tmp-X0z3UiPM/clone/.git/\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': Failed to connect to git.savannah.gnu.org:443 after 133763 ms: Could not connect to server\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': Failed to connect to git.savannah.gnu.org:443 after 135108 ms: Could not connect to server\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://git.savannah.gnu.org/git/hyperbole.git/': Failed to connect to git.savannah.gnu.org:443 after 135115 ms: Could not connect to server\nUnable to checkout de57d1774e9989fc866cc6f68b6fd8a0c1ecc1b1 from https://git.savannah.gnu.org/git/hyperbole.git.\n"
-   ]
+   "sha256": "1ybkr33j3dylyhjswnym1fplrl11d1i48brjr3hhjwc6wi8d2m9s"
   },
   "stable": {
    "version": [
@@ -106387,14 +106383,14 @@
   "repo": "nex3/perspective-el",
   "unstable": {
    "version": [
-    20260717,
-    1853
+    20261006,
+    2017
    ],
    "deps": [
     "cl-lib"
    ],
-   "commit": "352a06502582646c8a79d5e1a0c36f1b61b6e6cc",
-   "sha256": "02l9hhp6qk6djs1p3q5zg4yjr8m46ax7n6553had1b1kvhbxbxm5"
+   "commit": "718518e4cbfe6d34161bf9415a8d083777b2fbba",
+   "sha256": "0wmlbfwq76pgvqvgk3chybfdq6sdvza4ggivykjsydxjjr8wz9k9"
   },
   "stable": {
    "version": [
@@ -132207,20 +132203,20 @@
   "repo": "RobertPlant/time-uuid-mode",
   "unstable": {
    "version": [
-    20260923,
-    1347
+    20261006,
+    2040
    ],
-   "commit": "54f7fc6093163b88042fa7dbaa33f32a35709290",
-   "sha256": "0d50cslsj0kjm295rd6wy5sf266kq8n2x7clm55zj2rp6yd46dfd"
+   "commit": "bf29490fc85d5c88e88fe4af65199f9f5cdc8b01",
+   "sha256": "02rpjhahrifv43hgsy8n34ipky95l5fdn0diyrdy9yzjpqqrlypl"
   },
   "stable": {
    "version": [
     0,
     0,
-    3
+    4
    ],
-   "commit": "54f7fc6093163b88042fa7dbaa33f32a35709290",
-   "sha256": "0d50cslsj0kjm295rd6wy5sf266kq8n2x7clm55zj2rp6yd46dfd"
+   "commit": "bf29490fc85d5c88e88fe4af65199f9f5cdc8b01",
+   "sha256": "02rpjhahrifv43hgsy8n34ipky95l5fdn0diyrdy9yzjpqqrlypl"
   }
  },
  {

@@ -2190,15 +2190,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20261009,
-    1244
+    20261010,
+    3
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "2ab0aba06a4dbf4225efdff47380f40a5d1f8898",
-   "sha256": "1clx9yw0ms9k5ap80hgf062v10r3fxnnm38agwiwhz74x20ljgna"
+   "commit": "718b8b7f62aa5269a5984eef27c8108986aea9b4",
+   "sha256": "1zfkky519vz236zm4xcd524hx998b8d3f84y8x2h95ngwzadf2dp"
   },
   "stable": {
    "version": [
@@ -57220,15 +57220,15 @@
   "repo": "michelangelo-rodriguez/greader",
   "unstable": {
    "version": [
-    20260627,
-    1651
+    20261009,
+    2254
    ],
    "deps": [
     "compat",
     "seq"
    ],
-   "commit": "5c304ad008d8688e4eccd9947ba5e410399bf021",
-   "sha256": "150d9jjb3famg1phvdn4gifd5xcc3zm543m6w5czfy44khps4ll0"
+   "commit": "f5deabe3b490fa72365922ce76f6df3dd0b5a27c",
+   "sha256": "1zcsf4r1hcyasnwhvz6nmbgh8lbpvav2nhcf6c5vd1rw6591d3fs"
   },
   "stable": {
    "version": [
@@ -75906,13 +75906,13 @@
   "unstable": {
    "version": [
     20261009,
-    1347
+    1745
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "9e32304e5e10ddaa3d1ac604b9311f81a5b0841d",
-   "sha256": "0yfhhkaqrqh8wl2mf7qyy7hgqqwmgxwn3zfiklir6d7gl2svpmfl"
+   "commit": "3e579cd06ec45a643284bf2b6674682a0b722453",
+   "sha256": "1vg88nsljw0z9mz9p32msacaf0pi02ws1fcbgy812g9whbgw266r"
   },
   "stable": {
    "version": [
@@ -75936,13 +75936,13 @@
   "unstable": {
    "version": [
     20261009,
-    1347
+    1753
    ],
    "deps": [
     "latex-to-svg-backend"
    ],
-   "commit": "9e32304e5e10ddaa3d1ac604b9311f81a5b0841d",
-   "sha256": "0yfhhkaqrqh8wl2mf7qyy7hgqqwmgxwn3zfiklir6d7gl2svpmfl"
+   "commit": "61329e6b95810acaf85da8343276f667d8122bb7",
+   "sha256": "03h5sfbdpq2f32c9kvp590k43gv55z5ir44ays1r2vf5zpwkqg9p"
   },
   "stable": {
    "version": [
@@ -101484,11 +101484,11 @@
   "repo": "kostafey/organic-green-theme",
   "unstable": {
    "version": [
-    20261008,
-    2331
+    20261009,
+    1830
    ],
-   "commit": "da793dca2d36f46bf83508a3468e31466d91f02f",
-   "sha256": "0zpzzwalqpnvrzjb8jv6dis6nbwz03xfhhakfsy3ra99zzhppkn2"
+   "commit": "3240cda37d6511b1679a4eedfdf439c5ae633969",
+   "sha256": "1aiyj7dhx9gaakjlvmr2ynlzk94f7vqkkg7j9yag0mclnnj76n1n"
   }
  },
  {
@@ -109609,11 +109609,11 @@
   "repo": "tumashu/posframe",
   "unstable": {
    "version": [
-    20261008,
-    904
+    20261010,
+    114
    ],
-   "commit": "45450ee132d060d297550b7c43f3d72ba77df3c7",
-   "sha256": "1xqn5fk90cnpxx4hf3y482g1rj1h9p8k3n7pjnca6j51b13l67fy"
+   "commit": "1d833af5c43313e401be2e5c456bf03d4ce9519c",
+   "sha256": "15qarw3hdz959qryy9kk5s18harf54f3cwhz9zh4gjfzh47w9xn8"
   },
   "stable": {
    "version": [

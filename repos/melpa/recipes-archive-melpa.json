@@ -2191,14 +2191,14 @@
   "unstable": {
    "version": [
     20261010,
-    1430
+    2141
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "cba82e8a8af1aafb07cc3ff6e511f5e8d9acc7c9",
-   "sha256": "0xagr3qsjizbrcp37lljq9q4rzj31m053gybgpkgczxmr4ffxdya"
+   "commit": "ee760a022f8b8a0b3126c692460094451efc1605",
+   "sha256": "1qlq8qpf0fgzxl3cmh1w29d29ax15rqzrzn8x2bmwam1ha2kclic"
   },
   "stable": {
    "version": [
@@ -2423,15 +2423,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20261005,
-    345
+    20261011,
+    101
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "c06ddf9b39b42d8d514103191dc075571d6fb2fb",
-   "sha256": "0hghnsh4r7krinxzalr8q60z07pf7a3v9yk39gyfbbs49lvm08zb"
+   "commit": "fd3decaf652dce018571d6e06808bb56830d4ecb",
+   "sha256": "1cy3b04s90fcihm4jr4qgvwsap2jyxv0i528n9i8yqmv52c22mi3"
   },
   "stable": {
    "version": [
@@ -80814,8 +80814,8 @@
   "repo": "magit/magit",
   "unstable": {
    "version": [
-    20261009,
-    1317
+    20261010,
+    1116
    ],
    "deps": [
     "compat",
@@ -80826,8 +80826,8 @@
     "transient",
     "with-editor"
    ],
-   "commit": "f8962486cd0089aa51fc1a2138aab11336d64422",
-   "sha256": "1g0hj4mq99gxx45hxbx3wli2nm03q1lch5wvxgyw6lxhdxv29qd5"
+   "commit": "58a469820bc3dc388f0193e3024147fb55a6c98f",
+   "sha256": "0bmkb2kc8lrap1lbndlpv69927frcsazz4bm3r4hq2dm8gb7q1g3"
   },
   "stable": {
    "version": [
@@ -89713,11 +89713,11 @@
   "repo": "gregfelice/nightpanel-theme",
   "unstable": {
    "version": [
-    20260801,
-    22
+    20261010,
+    2119
    ],
-   "commit": "c4237f578c86dc473116fdd65a88764f4f03e7b1",
-   "sha256": "0k11myh3lml9phacrdh6mhnnc02i3vkkzhzvj41wqxc8vd2p0k3r"
+   "commit": "9835406644e0f6ab99619c86925f3182df4db9f7",
+   "sha256": "0m87wkdk04h2vzzvmla86iwxylpf2pmkgwnp0fajczjiga7w45i0"
   },
   "stable": {
    "version": [
@@ -104057,14 +104057,14 @@
   "repo": "melpa/package-build",
   "unstable": {
    "version": [
-    20261001,
-    1622
+    20261010,
+    1908
    ],
    "deps": [
     "compat"
    ],
-   "commit": "fe9592c844d7a8834e7cc74dc01c4747e2b90c5e",
-   "sha256": "1rb7p9y4qzd4di2avgq549j38j51adznjrldhljlv4sghv0mir84"
+   "commit": "4e9248a949531b1c781926dcbcf3768c4eccfc75",
+   "sha256": "0xqk1xg66h7p5qxy16qz643lr8hasak2dbknz3y1j4i9j0nhj302"
   },
   "stable": {
    "version": [

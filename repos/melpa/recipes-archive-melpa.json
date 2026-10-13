@@ -2191,7 +2191,20 @@
   "unstable": {
    "version": [
     20261012,
-    1454
+    2324
+   ],
+   "deps": [
+    "acp",
+    "shell-maker"
+   ],
+   "commit": "ff4f524d67b43882a9317c3682a1d79b73164160",
+   "sha256": "0j1c557xrp6szw2n6nij7nv0yb9yfjckpdxwa5j31f8jrp6l3qwx"
+  },
+  "stable": {
+   "version": [
+    0,
+    87,
+    7
    ],
    "deps": [
     "acp",
@@ -2199,19 +2212,6 @@
    ],
    "commit": "3e4b4ddf8a534ac287916663a246500444da284b",
    "sha256": "0gp23pjqhyj7n20wpd1zp4r2w63zkgjh66aga0bcf46nc3455b6i"
-  },
-  "stable": {
-   "version": [
-    0,
-    87,
-    4
-   ],
-   "deps": [
-    "acp",
-    "shell-maker"
-   ],
-   "commit": "99b9922285f5c5c5b38e5e4a0016cb9ef3c16ef7",
-   "sha256": "0bdafj70pnpini6mfrndhazzqq141siqaz2f339pagmwkf00q42f"
   }
  },
  {
@@ -2235,15 +2235,15 @@
   "stable": {
    "version": [
     0,
-    12,
+    13,
     0
    ],
    "deps": [
     "agent-shell",
     "latex-to-svg-backend"
    ],
-   "commit": "fdfcd34b5548693cc5d84154159a5c4c1faf3992",
-   "sha256": "1ynpmg9k1p83mrb9zxzd29slllp40y9qv8cg0wy25wwc30bmddg0"
+   "commit": "4d92db00a8430726d63ab50c4b5d8fc03fcd2620",
+   "sha256": "0nv7nk7w6n28dci0438l92kq8gvvavzlq20b8rs8z87qqi8y3y4w"
   }
  },
  {
@@ -14942,10 +14942,10 @@
   "unstable": {
    "version": [
     20261012,
-    1332
+    1829
    ],
-   "commit": "66a16349803cacd276ae57235fd19627e58dd563",
-   "sha256": "0va01ygfldrdf1hm8p3dsbaia9yg07z2ipwk46rmy4hrj0lnmyns"
+   "commit": "d8ef0fe2f5dcbaa8e143e0d149260c736267881d",
+   "sha256": "0188ws0h9bs6g4ck84b3a38y66s0rjvngn0qkaby7x40cw22imm4"
   },
   "stable": {
    "version": [
@@ -40417,10 +40417,10 @@
    "version": [
     4,
     1,
-    0
+    1
    ],
-   "commit": "8d0bca76ed9958fc5ad460e6085175c83695bbdb",
-   "sha256": "13pkx03h9qip09dfyngl7r54mjmd7lxxkqzjzggqrp7kyx7ngsrw"
+   "commit": "5dc85e7e624b65efe0b57f1c1ffc4695d6154e5d",
+   "sha256": "08immnvr7fvcjr6df07zhbjyaxi7pvw4z4xrn1brjrpdhvvzbfdz"
   }
  },
  {
@@ -75857,14 +75857,14 @@
   "stable": {
    "version": [
     0,
-    20,
+    21,
     0
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "0db30bbbdd549a2e712c2f1b5af38bac0a8cbd11",
-   "sha256": "0x91h3dd7y3mpl6dn6p9a4wq9k4w2hmqjjzvifby18dkhzsacjb0"
+   "commit": "cb2be59737281784c242501c9486c742403ab026",
+   "sha256": "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"
   }
  },
  {
@@ -75887,14 +75887,14 @@
   "stable": {
    "version": [
     0,
-    20,
+    21,
     0
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "0db30bbbdd549a2e712c2f1b5af38bac0a8cbd11",
-   "sha256": "0x91h3dd7y3mpl6dn6p9a4wq9k4w2hmqjjzvifby18dkhzsacjb0"
+   "commit": "cb2be59737281784c242501c9486c742403ab026",
+   "sha256": "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"
   }
  },
  {
@@ -75917,14 +75917,14 @@
   "stable": {
    "version": [
     0,
-    20,
+    21,
     0
    ],
    "deps": [
     "latex-to-svg-frontend"
    ],
-   "commit": "0db30bbbdd549a2e712c2f1b5af38bac0a8cbd11",
-   "sha256": "0x91h3dd7y3mpl6dn6p9a4wq9k4w2hmqjjzvifby18dkhzsacjb0"
+   "commit": "cb2be59737281784c242501c9486c742403ab026",
+   "sha256": "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"
   }
  },
  {
@@ -75935,26 +75935,26 @@
   "repo": "alberti42/latex-to-svg",
   "unstable": {
    "version": [
-    20261011,
-    1906
+    20261012,
+    1912
+   ],
+   "deps": [
+    "latex-to-svg-backend"
+   ],
+   "commit": "62a067dc0ec9ca7709e545095552854166dad116",
+   "sha256": "0ykvb27acyj5j10gycm5vylmhn9pz2rqsvz9plzagwznjgbkrk29"
+  },
+  "stable": {
+   "version": [
+    0,
+    21,
+    0
    ],
    "deps": [
     "latex-to-svg-backend"
    ],
    "commit": "cb2be59737281784c242501c9486c742403ab026",
    "sha256": "15qd6208kb1m5bx4jscggfa682jfm2gqmw5l8jdv5rk7vvwgiv6v"
-  },
-  "stable": {
-   "version": [
-    0,
-    20,
-    0
-   ],
-   "deps": [
-    "latex-to-svg-backend"
-   ],
-   "commit": "0db30bbbdd549a2e712c2f1b5af38bac0a8cbd11",
-   "sha256": "0x91h3dd7y3mpl6dn6p9a4wq9k4w2hmqjjzvifby18dkhzsacjb0"
   }
  },
  {
@@ -100006,8 +100006,8 @@
   "repo": "alhassy/org-special-block-extras",
   "unstable": {
    "version": [
-    20250715,
-    1754
+    20261013,
+    108
    ],
    "deps": [
     "dad-joke",
@@ -100018,8 +100018,8 @@
     "s",
     "seq"
    ],
-   "commit": "1a236c783958782a4027e29dafc1efe488f443f1",
-   "sha256": "1km4dr78j9wy3w1hpvcm9kgrvgfvp975rzgy4pb1phgqx0xq89l4"
+   "commit": "37a8b0e8a04fad97b6aecfa7ac6985a5c74107af",
+   "sha256": "09fcbpkq7cwfp85gb0nh1khix88vfjpjzbiihfdp65hna1aryx3l"
   },
   "stable": {
    "version": [
@@ -105942,13 +105942,13 @@
   "unstable": {
    "version": [
     20261012,
-    327
+    2145
    ],
    "deps": [
     "pdf-tools"
    ],
-   "commit": "253fb3b9c68f0bbfb8ee4eb77161bc0bdb5d5d18",
-   "sha256": "0agmhqzmnhdphha6y3ngz2s9ad9kbfmx42p26j5ha0vpl23lq762"
+   "commit": "dd7cc5409892dfccecfcb2a43144bce63a220be5",
+   "sha256": "0lrwazym9ycah0sgq6m1yac14fr7srnkj6navbs9lngmf8h77nn6"
   }
  },
  {
@@ -114491,11 +114491,7 @@
     "flycheck"
    ],
    "commit": "07b0fea92ab81c5fe860be77f13d434015484ad6",
-   "error": [
-    "exited abnormally with code 1\n",
-    "",
-    "Initialized empty Git repository in /home/runner/work/_temp/nix-shell-2842-1298770685/nix-shell-3032-2539363013/nix-shell-3096-193516816/git-checkout-tmp-IBQKIFIQ/clone/.git/\nfatal: unable to access 'https://repo.or.cz/emacs-rainbow-fart.git/': Recv failure: Connection reset by peer\nfatal: unable to access 'https://repo.or.cz/emacs-rainbow-fart.git/': TLS connect error: error:0A000126:SSL routines::unexpected eof while reading\nERROR: `git fetch' failed.\nThis might be due to the dumb transfer protocol not supporting shallow fetch or no-tag cloning. Trying with `--tags' and without `--depth=1'...\nfatal: unable to access 'https://repo.or.cz/emacs-rainbow-fart.git/': Recv failure: Connection reset by peer\nUnable to checkout 07b0fea92ab81c5fe860be77f13d434015484ad6 from https://repo.or.cz/emacs-rainbow-fart.git.\n"
-   ]
+   "sha256": "15x0s0ycf0a3zzq34ak3yamd1s8vrlv4gvlgj69889ijj4jiyxa2"
   }
  },
  {
@@ -123859,11 +123855,11 @@
   "repo": "joaotavora/sly",
   "unstable": {
    "version": [
-    20261006,
-    745
+    20261013,
+    22
    ],
-   "commit": "191fe38eaa83e4e7556a940aa4b234666215cced",
-   "sha256": "00p4ddqrnm0r62zyijvsiy0rrb31a1gi7vygn7p11d5h537sdh1x"
+   "commit": "9b3477a5dc6c9a4496d4fbb6804349961e861835",
+   "sha256": "0bhp5zlvzqdvjdnycsf5w2bmcpcnndy177d93w3k8gb04nc5nnpm"
   },
   "stable": {
    "version": [
@@ -127497,20 +127493,20 @@
   "repo": "stacked-git/stgit",
   "unstable": {
    "version": [
-    20260622,
-    407
+    20261012,
+    259
    ],
-   "commit": "faa026a62a423762b9821d332aa0f13d59b339e0",
-   "sha256": "08hw37c1l4lrfkpch4vk1z6zcgvf89pkm7wsad51lhnkkaqrf7cr"
+   "commit": "b284e3826e0314693e2f61039b9167ce1b2d7e1d",
+   "sha256": "1cki93hwg1mjxdp7snml24v2k39yvmqp743k93riyhar9cjm7y7d"
   },
   "stable": {
    "version": [
     2,
-    6,
-    1
+    7,
+    0
    ],
-   "commit": "faa026a62a423762b9821d332aa0f13d59b339e0",
-   "sha256": "08hw37c1l4lrfkpch4vk1z6zcgvf89pkm7wsad51lhnkkaqrf7cr"
+   "commit": "b284e3826e0314693e2f61039b9167ce1b2d7e1d",
+   "sha256": "1cki93hwg1mjxdp7snml24v2k39yvmqp743k93riyhar9cjm7y7d"
   }
  },
  {
@@ -131993,21 +131989,21 @@
   "repo": "facebook/fbthrift",
   "unstable": {
    "version": [
-    20261005,
-    943
+    20261012,
+    1345
    ],
-   "commit": "ee4b51d9751f36e732d2ac9312fa67b3a78e3cfe",
-   "sha256": "1dzny5mlw5jzfx9i5yas3aynw5ayipaaqhvhqy3mbsasw4kyn69g"
+   "commit": "74a05852ec0c57cbe2d672b717accbdd4835c1c3",
+   "sha256": "0c06w1dr3wsxzffj22p141dh8x0sajs5faxgc9xzbqhv917ipmng"
   },
   "stable": {
    "version": [
     2026,
     10,
-    5,
+    12,
     0
    ],
-   "commit": "ee4b51d9751f36e732d2ac9312fa67b3a78e3cfe",
-   "sha256": "1dzny5mlw5jzfx9i5yas3aynw5ayipaaqhvhqy3mbsasw4kyn69g"
+   "commit": "74a05852ec0c57cbe2d672b717accbdd4835c1c3",
+   "sha256": "0c06w1dr3wsxzffj22p141dh8x0sajs5faxgc9xzbqhv917ipmng"
   }
  },
  {
@@ -139777,15 +139773,15 @@
   "repo": "d12frosted/vulpea-ui",
   "unstable": {
    "version": [
-    20260929,
-    1339
+    20261012,
+    2004
    ],
    "deps": [
     "vui",
     "vulpea"
    ],
-   "commit": "c21204116b3cf3e921fa8f7849c932c8b0ad3181",
-   "sha256": "0f78x9g8m5ly055js6zmsnddx1r2x4lf7pr8jfhy53c7dywbw1nq"
+   "commit": "7b332ce86c114e69f462bf3b44ef2f0de4363ea0",
+   "sha256": "01dx6y64c6x4cfr1g98kkqx6lfa5c2778g4gyx2z0vl2n2hjcjmf"
   },
   "stable": {
    "version": [

@@ -2190,15 +2190,15 @@
   "repo": "xenodium/agent-shell",
   "unstable": {
    "version": [
-    20261015,
-    1055
+    20261016,
+    111
    ],
    "deps": [
     "acp",
     "shell-maker"
    ],
-   "commit": "6c35ec02775e0c1767f1c71ffbc860fe2e222f0b",
-   "sha256": "13l5mql4k9s1pd3f4g2mxv959qx5n9yz3zq2x0516m42mfrd0hvq"
+   "commit": "9e3dd48f9aaa8be314c4012a1f9bff69208f2c00",
+   "sha256": "0d0kg5gaqx1jhsndm8p583fana65i4vlkmlkicxx64rrlgllbawz"
   },
   "stable": {
    "version": [
@@ -7837,11 +7837,11 @@
   "repo": "bazelbuild/emacs-bazel-mode",
   "unstable": {
    "version": [
-    20261008,
-    23
+    20261015,
+    2302
    ],
-   "commit": "5986655b5785e3fff3770af0fada2173a96d4030",
-   "sha256": "0hscq408v8npy3nksdqzzmq6mrpmcqhcdzvr1gb1qygl5zv8g6fs"
+   "commit": "eb27245c02fb596d2836ab9f3e2b0d81d1d47c39",
+   "sha256": "18k3a6vcy0sx97q55fxmaxqfv4nx1srrwaa32rhj2xdbzl7m3178"
   },
   "stable": {
    "version": [
@@ -16003,13 +16003,13 @@
   "unstable": {
    "version": [
     20261015,
-    1606
+    2313
    ],
    "deps": [
     "transient"
    ],
-   "commit": "ea43c059bc3c679cf7612c9cc1301dc6cf764023",
-   "sha256": "1swsjlxqc1inzk3vcq8gaplvnw3rziz2qqj507ys8hbifjm4bpgd"
+   "commit": "9b8111f38201d13d1eb926e26c0d1b3288bc4d0a",
+   "sha256": "19hsd61a0akzp4jp7yd0yar66g3psa92qjc509dlr1vx4r2j5qil"
   },
   "stable": {
    "version": [
@@ -20278,28 +20278,28 @@
   "repo": "dakra/ghostel",
   "unstable": {
    "version": [
-    20261009,
-    754
+    20261015,
+    1933
    ],
    "deps": [
     "consult",
     "ghostel"
    ],
-   "commit": "a269cce7d1f583a64712a7d7ee2218e728b3e505",
-   "sha256": "0zi763b72algb8w41rx8ppqkmvfjlmazbap74df5v7zryiwa1xxw"
+   "commit": "d239a3c3b8cd9a7210169bb7dd50c94fccfb95c6",
+   "sha256": "0p6gp5ai9fvdlk0h1ff1z6crp6gibkp1wbpnj6d0cv26i93j7d7r"
   },
   "stable": {
    "version": [
     0,
-    57,
+    58,
     0
    ],
    "deps": [
     "consult",
     "ghostel"
    ],
-   "commit": "a269cce7d1f583a64712a7d7ee2218e728b3e505",
-   "sha256": "0zi763b72algb8w41rx8ppqkmvfjlmazbap74df5v7zryiwa1xxw"
+   "commit": "d239a3c3b8cd9a7210169bb7dd50c94fccfb95c6",
+   "sha256": "0p6gp5ai9fvdlk0h1ff1z6crp6gibkp1wbpnj6d0cv26i93j7d7r"
   }
  },
  {
@@ -29587,14 +29587,14 @@
   "url": "https://salsa.debian.org/emacsen-team/dpkg-dev-el.git",
   "unstable": {
    "version": [
-    20260727,
-    749
+    20261015,
+    1810
    ],
    "deps": [
     "debian-el"
    ],
-   "commit": "11a92e9ecaaf68deff5cf4e7f5b3867318d10693",
-   "sha256": "1x8lm5z40p6xf1i6d9a7phjjw3fdva21slmkzcxrgxmx638b2n4i"
+   "commit": "da9f096c37ea4d6da35657bf4e5d7fd9214286a6",
+   "sha256": "1pkgncyrlfw7msflfldi5gxz1din1z0y1514ql9y1zll72ka18gh"
   },
   "stable": {
    "version": [
@@ -32556,16 +32556,16 @@
   "repo": "kostafey/ejc-sql",
   "unstable": {
    "version": [
-    20261007,
-    1647
+    20261015,
+    1709
    ],
    "deps": [
     "clomacs",
     "dash",
     "spinner"
    ],
-   "commit": "ac51ed0bd8ee9bbe0b433599ec8e5acd37e1ac67",
-   "sha256": "1jfmcqi3p90sy6zr1jx33ic10sm0jwx9wddnwa29bc8x7dh37s8b"
+   "commit": "7d8b050eebe386ace60a4f8b396497abae422374",
+   "sha256": "1k56mrijvg2wrxd52yv9lxis355m49gbz31nffi8v84833bgzhrx"
   },
   "stable": {
    "version": [
@@ -39997,28 +39997,28 @@
   "repo": "dakra/ghostel",
   "unstable": {
    "version": [
-    20261012,
-    1148
+    20261015,
+    1933
    ],
    "deps": [
     "evil",
     "ghostel"
    ],
-   "commit": "abaae8b3ba5501566a376d8b6f23c12fb6f55d2a",
-   "sha256": "02n1wqvjkyhrbwjv73ysv16jh98jcwnv2na23iwp0qz61cdql6ry"
+   "commit": "d239a3c3b8cd9a7210169bb7dd50c94fccfb95c6",
+   "sha256": "0p6gp5ai9fvdlk0h1ff1z6crp6gibkp1wbpnj6d0cv26i93j7d7r"
   },
   "stable": {
    "version": [
     0,
-    57,
+    58,
     0
    ],
    "deps": [
     "evil",
     "ghostel"
    ],
-   "commit": "a269cce7d1f583a64712a7d7ee2218e728b3e505",
-   "sha256": "0zi763b72algb8w41rx8ppqkmvfjlmazbap74df5v7zryiwa1xxw"
+   "commit": "d239a3c3b8cd9a7210169bb7dd50c94fccfb95c6",
+   "sha256": "0p6gp5ai9fvdlk0h1ff1z6crp6gibkp1wbpnj6d0cv26i93j7d7r"
   }
  },
  {
@@ -52617,26 +52617,26 @@
   "repo": "dakra/ghostel",
   "unstable": {
    "version": [
-    20261013,
-    1318
+    20261015,
+    1933
    ],
    "deps": [
     "compat"
    ],
-   "commit": "7de74d4ab208eb6f93b6bf79e02770e841bb4a53",
-   "sha256": "0b3c41gb6949gmwx8zihzg40g5nalnvlzy9n9d5rzzk5yykg9din"
+   "commit": "d239a3c3b8cd9a7210169bb7dd50c94fccfb95c6",
+   "sha256": "0p6gp5ai9fvdlk0h1ff1z6crp6gibkp1wbpnj6d0cv26i93j7d7r"
   },
   "stable": {
    "version": [
     0,
-    57,
+    58,
     0
    ],
    "deps": [
     "compat"
    ],
-   "commit": "a269cce7d1f583a64712a7d7ee2218e728b3e505",
-   "sha256": "0zi763b72algb8w41rx8ppqkmvfjlmazbap74df5v7zryiwa1xxw"
+   "commit": "d239a3c3b8cd9a7210169bb7dd50c94fccfb95c6",
+   "sha256": "0p6gp5ai9fvdlk0h1ff1z6crp6gibkp1wbpnj6d0cv26i93j7d7r"
   }
  },
  {
@@ -65825,17 +65825,17 @@
  },
  {
   "ename": "hyperbole",
-  "commit": "cc0dbece50cc4f6eb35f6f6a80af8ca2774410b5",
-  "sha256": "17q2rbk8k9hxawlwb8xz9l2jyjqsggl13izp3dnpm5xschbsm781",
+  "commit": "d416df29c5fbc5a23425119e83f474dfe2992a6f",
+  "sha256": "014w323ivwnh61my4li5mxnl8dqwi0al6byf69sshqqh2xkqv9p8",
   "fetcher": "git",
   "url": "https://git.savannah.gnu.org/git/hyperbole.git",
   "unstable": {
    "version": [
-    20261014,
-    2135
+    20261015,
+    2144
    ],
-   "commit": "dcede820d7589f10ac9096d0a0af929e8c44e8fd",
-   "sha256": "0k255llgw6kid72xgkxvdwv216y7wd03m2r7s8b0j7wkxg1fb3fw"
+   "commit": "555e986434e83feb285d14fdeb770821e077dbcb",
+   "sha256": "0mpnwm7rxw7jlmdk6jyxxm3bfx3kk8604bwi47cmnh0zdyiclv6l"
   },
   "stable": {
    "version": [
@@ -78572,10 +78572,10 @@
  },
  {
   "ename": "lobsters",
-  "commit": "16b214185e847a8c19091fc77b4828b122035f29",
-  "sha256": "05gj4k9h06n85r7w7qyxsk99p1lc7hw2gmf4m5a1r8y5fhy0vhnn",
-  "fetcher": "github",
-  "repo": "tanrax/lobsters.el",
+  "commit": "32006594f08f1c71a343ce3ec945158a51e8eadf",
+  "sha256": "0kaa3p93awk0cy31294rm9wrz8vskj00d27129bqzcrc9rw3k5nf",
+  "fetcher": "git",
+  "url": "https://git.andros.dev/andros/lobsters.el.git",
   "unstable": {
    "version": [
     20260623,
@@ -100006,7 +100006,7 @@
   "unstable": {
    "version": [
     20261015,
-    1713
+    2024
    ],
    "deps": [
     "dash",
@@ -100015,8 +100015,8 @@
     "s",
     "seq"
    ],
-   "commit": "f3f51c58da0c63515730e8e56aa5f1859645482f",
-   "sha256": "00yvn991q7c5qnkr2g70wyh4yjqpxxa6n3ysp8r6q2iirss62y2f"
+   "commit": "4dd9c9e5bed8967c624ae0eab0cdb451de4ad082",
+   "sha256": "0lwqjz1w90k2wbi8cahxyjc0lfvaa6zg63gnz36d81rqm2x48x7l"
   },
   "stable": {
    "version": [
@@ -126967,11 +126967,11 @@
   "repo": "srfi-explorations/emacs-srfi",
   "unstable": {
    "version": [
-    20261008,
-    2148
+    20261015,
+    1914
    ],
-   "commit": "46aa6fdaa75e7ddc2b0a519aaa561b1fe54d4f0a",
-   "sha256": "1ldamcbcl840ir5rgfzm2j6m2hv3yak2wl2nsb8lpzphxqawphls"
+   "commit": "f42ac3c1b222da72a1900665dece8741c425c2ae",
+   "sha256": "14kvpz1b40p3gwnw734fsz7and59irgfy516k5fap17ghz4d3b2c"
   },
   "stable": {
    "version": [
@@ -130059,28 +130059,28 @@
   "repo": "magnars/tagedit",
   "unstable": {
    "version": [
-    20161121,
-    855
+    20261015,
+    2035
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "b3a70101a0dcf85498c92b7fcfa7fdbac869746c",
-   "sha256": "0xq9i3axlq9wgsr27nbhi5k9hxr1wahygkb73xkvxlgmvkmikcrw"
+   "commit": "a3ab7c73f044511f36c1ccbeba3fdd3b1a09e314",
+   "sha256": "067abchhr2qzc01ll90g62yamf4nivrw760n54b4ma9mhqh55riy"
   },
   "stable": {
    "version": [
     1,
     4,
-    0
+    1
    ],
    "deps": [
     "dash",
     "s"
    ],
-   "commit": "3fcf54b824b75c5ad68f5438d5638103049a389f",
-   "sha256": "0kq40g46s8kgiafrhdq99h79rz9h5fvgz59k7ralmf86bl4sdmdb"
+   "commit": "a3ab7c73f044511f36c1ccbeba3fdd3b1a09e314",
+   "sha256": "067abchhr2qzc01ll90g62yamf4nivrw760n54b4ma9mhqh55riy"
   }
  },
  {
@@ -131715,10 +131715,10 @@
  },
  {
   "ename": "thankful-eyes-theme",
-  "commit": "a93b3d998590e77fcf6bf4438ee98dacc839c067",
-  "sha256": "0h4br1a2aymx6dp6139ps4n1ny0dmqhi3rr5s8cllf8clwmznrhc",
-  "fetcher": "github",
-  "repo": "tanrax/thankful-eyes-theme.el",
+  "commit": "32006594f08f1c71a343ce3ec945158a51e8eadf",
+  "sha256": "1352fps02qa2bhp506dw341kwqswd9mz3ajpkpwvmlhl227f4gk3",
+  "fetcher": "git",
+  "url": "https://git.andros.dev/andros/thankful-eyes-theme.el.git",
   "unstable": {
    "version": [
     20251010,

@@ -461,10 +461,10 @@
     elpaBuild {
       pname = "auctex";
       ename = "auctex";
-      version = "14.2.0.0.20261026.15";
+      version = "14.2.0.0.20261027.16";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261026.15.tar";
-        sha256 = "1yy95p0926l0w3x9lcnph1pzsxqyvznld5bdh8wdzsqws4lh2bdy";
+        url = "https://elpa.gnu.org/devel/auctex-14.2.0.0.20261027.16.tar";
+        sha256 = "0f1cqd64fx41k4jw1pqy270b3pzcqk7jibp267hrclpc65akaaj0";
       };
       packageRequires = [ ];
       meta = {
@@ -1297,10 +1297,10 @@
     elpaBuild {
       pname = "cobol-mode";
       ename = "cobol-mode";
-      version = "1.1.0.20250810.203242";
+      version = "1.1.0.20261027.14";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/cobol-mode-1.1.0.20250810.203242.tar";
-        sha256 = "16hkkrg551jsapnraf4vl19r53yl4ll3wdr49yxyy9qkiqvv2l25";
+        url = "https://elpa.gnu.org/devel/cobol-mode-1.1.0.20261027.14.tar";
+        sha256 = "12vc855xfnzx5q8gy2rhzqdiw1725j79lrnn46h9k8bk9y5d9lhz";
       };
       packageRequires = [ ];
       meta = {
@@ -2122,10 +2122,10 @@
     elpaBuild {
       pname = "denote";
       ename = "denote";
-      version = "4.2.3.0.20261026.184";
+      version = "4.2.3.0.20261027.189";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261026.184.tar";
-        sha256 = "1zfz7953zqppkcb5mpk2zha5l931x583as065n16mfl7cm8k37yd";
+        url = "https://elpa.gnu.org/devel/denote-4.2.3.0.20261027.189.tar";
+        sha256 = "18h7qxdnwkcjf5z78g8dj9sw4ckldgs3f09dcjh2j52l7f77ynbp";
       };
       packageRequires = [ ];
       meta = {
@@ -3290,10 +3290,10 @@
     elpaBuild {
       pname = "emacs-lisp-intro-nl";
       ename = "emacs-lisp-intro-nl";
-      version = "0.0.20261006.52";
+      version = "0.0.20261027.53";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261006.52.tar";
-        sha256 = "055jqbiz8q2kd4l6rqyzgk5wvrs7578naq73ni7f01964v1j3bya";
+        url = "https://elpa.gnu.org/devel/emacs-lisp-intro-nl-0.0.20261027.53.tar";
+        sha256 = "16a2g1vs3z6pgdv5vnhr4fwlj1622kgzh56jkwpkdpgd69rhnxp8";
       };
       packageRequires = [ ];
       meta = {
@@ -5243,10 +5243,10 @@
     elpaBuild {
       pname = "jsonrpc";
       ename = "jsonrpc";
-      version = "1.0.29.0.20261014.1";
+      version = "1.0.30.0.20261028.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.29.0.20261014.1.tar";
-        sha256 = "158zrqdl34cfqkn5w5hi8gg0kpxjhrp6aq3l897ji6qs0hvjx41q";
+        url = "https://elpa.gnu.org/devel/jsonrpc-1.0.30.0.20261028.0.tar";
+        sha256 = "15w6qsfss15wbmwcmm8q1vv329bnp0aq76ww4lpmw4m569y2ysmr";
       };
       packageRequires = [ ];
       meta = {

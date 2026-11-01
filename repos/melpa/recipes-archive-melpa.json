@@ -2453,15 +2453,15 @@
   "repo": "tninja/ai-code-interface.el",
   "unstable": {
    "version": [
-    20261030,
-    2132
+    20261031,
+    2326
    ],
    "deps": [
     "magit",
     "transient"
    ],
-   "commit": "5c1361625c4fc877e35bc36bf5c27fbc312a0697",
-   "sha256": "08pjsd7jx2mmlj5h73bwjax9c3q0lvk7xhy9rvd0b8nwxjp3z4x6"
+   "commit": "936bcf9e0097398bb09130cd9ac565a094c8d3a9",
+   "sha256": "1jvqxpcksk21qn24v2fwsm94kpcd96w05c12a38ch25jfzr90zhz"
   },
   "stable": {
    "version": [
@@ -32597,15 +32597,15 @@
    "version": [
     0,
     5,
-    0
+    1
    ],
    "deps": [
     "clomacs",
     "dash",
     "spinner"
    ],
-   "commit": "244faa624d1866a7084304501b5de2a894b99762",
-   "sha256": "1iw10r2api3fa9jy96bjkwcxwhm79xncyr2cazg7cm1gkjpd3idq"
+   "commit": "fb48fe679206dab90bdb5006da5b6f2fb9b09200",
+   "sha256": "0sw79wb9h3g3xxsb5hqcpdd3m567jg3qz5bdmmv9nih4lsi8sm05"
   }
  },
  {
@@ -116354,25 +116354,25 @@
   "unstable": {
    "version": [
     20261031,
-    132
+    2338
    ],
    "deps": [
     "ghub"
    ],
-   "commit": "61133c199a996d1ce6b93d199edc3ee21351c308",
-   "sha256": "04gvx9qj1nm7xsgr46vf3ab07bc37i9rf1z3rx4zc513f1572grv"
+   "commit": "788417b9bc2a6b706663479138961e65b8ef5e4c",
+   "sha256": "0rkplsc03x08557bgiyrddjxn8ga8hjqz3m13ad8xy1r9bcam3zp"
   },
   "stable": {
    "version": [
     2,
-    5,
+    6,
     0
    ],
    "deps": [
     "ghub"
    ],
-   "commit": "61133c199a996d1ce6b93d199edc3ee21351c308",
-   "sha256": "04gvx9qj1nm7xsgr46vf3ab07bc37i9rf1z3rx4zc513f1572grv"
+   "commit": "fef0ec7e526d47f18aefbe7c9481eefc6a175c19",
+   "sha256": "0ncr0s31jb4g69ikzij03l0gxbwphxs50ia3afaljwgcvq1rv6v2"
   }
  },
  {

@@ -3886,10 +3886,10 @@
     elpaBuild {
       pname = "markdown-ts-appear";
       ename = "markdown-ts-appear";
-      version = "0.4.0.0.20261108.2";
+      version = "0.4.0.0.20261109.4";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-ts-appear-0.4.0.0.20261108.2.tar";
-        sha256 = "16y1nnpdsj1mm803a047kfgqj0lcvrrp07wmfn20mwmsdj8yfnx4";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-ts-appear-0.4.0.0.20261109.4.tar";
+        sha256 = "00pgp89pbpxf45ms9cy2lgrmp5bidci2qqxxg6y78r0f237v5rjz";
       };
       packageRequires = [ ];
       meta = {
@@ -5436,10 +5436,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20261102.82";
+      version = "2.32snapshot0.20261108.83";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261102.82.tar";
-        sha256 = "02jj8jwv4jcs0drhyxw23d87ipvcagfy1s3xngm24axj2bfsy6ic";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261108.83.tar";
+        sha256 = "1irrdmwjn3iykv2zcqff2s62vmm895vlkys9jh0mndlh2bindryn";
       };
       packageRequires = [ macrostep ];
       meta = {
@@ -6249,10 +6249,10 @@
     elpaBuild {
       pname = "vm";
       ename = "vm";
-      version = "9.0.1snapshot0.20261108.54";
+      version = "9.0.1snapshot0.20261108.69";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261108.54.tar";
-        sha256 = "0hfh31r9iqv4170bxkmzqlg3h43k0kq934v2nkqvp2fkd37fs73v";
+        url = "https://elpa.nongnu.org/nongnu-devel/vm-9.0.1snapshot0.20261108.69.tar";
+        sha256 = "0pg5nk162djc080671gl6vfh1halp0nrb3n633c3631w846dabgb";
       };
       packageRequires = [ vcard ];
       meta = {

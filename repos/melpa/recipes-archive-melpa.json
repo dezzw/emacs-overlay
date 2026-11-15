@@ -2267,15 +2267,15 @@
    "version": [
     0,
     0,
-    1
+    2
    ],
    "deps": [
     "acp",
     "agent-shell",
     "consult"
    ],
-   "commit": "4f8c8f3ea08d8ade6b1ff1ec1eb0b4cea79e8d6f",
-   "sha256": "18kngmqmpmjmx5s45yjfrhwmamqawamm962h00h4zhnlc5mvbqb9"
+   "commit": "b95ea0e295389473728b203dc83321b405bb9114",
+   "sha256": "1r0h12m5vy8af1g9s7h3s4h1sm2r3bc5v5ljpaccqhrrsbdqlwci"
   }
  },
  {
@@ -7651,11 +7651,11 @@
   "repo": "tinted-theming/base16-emacs",
   "unstable": {
    "version": [
-    20261108,
-    434
+    20261115,
+    454
    ],
-   "commit": "8fd1ec271ba969e2141ddefe9c90022488dc9988",
-   "sha256": "1jwqqf9333b837962x2sjmi8nb11cy9syjz2dvqadha4wprrlljh"
+   "commit": "eb868a21b1e3fbcac965084c740d22cc22fc074c",
+   "sha256": "1lki5gilrjccx3l8aw2yr4wm56a0dr2rdc84h9f8ah0wayga8vik"
   },
   "stable": {
    "version": [
@@ -13311,7 +13311,7 @@
   "repo": "worr/cfn-mode",
   "unstable": {
    "version": [
-    20261108,
+    20261115,
     906
    ],
    "deps": [
@@ -13319,8 +13319,8 @@
     "s",
     "yaml-mode"
    ],
-   "commit": "7d9e2c34ccfb4495d6b3a36138d02031529a5823",
-   "sha256": "12hgr5f9j9rr2x6zs2yj78p14291wjlv7q7ip4zkmq7rygr4skm4"
+   "commit": "788d22a8a492a22661981cf6bf1bf8ba8774b254",
+   "sha256": "0hkzwprbjww28dzh8jycidjpvz2gdzky9i9xzk36ahh5vppla5cx"
   },
   "stable": {
    "version": [
@@ -56853,15 +56853,15 @@
   "repo": "karthink/gptel-inline",
   "unstable": {
    "version": [
-    20260831,
-    625
+    20261115,
+    648
    ],
    "deps": [
     "compat",
     "gptel"
    ],
-   "commit": "3e7cd46681e57a3c56f720c6dd6ed589dec76307",
-   "sha256": "02i7lkhid7bilwy20rpq9qkjjdhhc376rb9fsdrv9f0khd7w920g"
+   "commit": "0dfebee2708c5ab05da514904beaf6687679bf89",
+   "sha256": "0c09kcb8jcv3z2rmxcy1m0az3iy4dfa08iwn41j699yqp37dlai8"
   }
  },
  {
@@ -70705,20 +70705,20 @@
   "repo": "saulotoledo/java-agent-loader",
   "unstable": {
    "version": [
-    20261114,
-    1616
+    20261115,
+    928
    ],
-   "commit": "0b02842aa4013ff9ab0481781a94cc14d77247f8",
-   "sha256": "15fa3yxixa6r5smslw0pdx72irhr23w1rjm8arkj0ipwm8bdg54h"
+   "commit": "f90e7c09e554c4609f8714021c45966bbe6b2743",
+   "sha256": "098f6dfi6czxp6v2g4j107rsz0wq9g87qc9qspc7yx3frldx2gw3"
   },
   "stable": {
    "version": [
     3,
     0,
-    0
+    1
    ],
-   "commit": "0b02842aa4013ff9ab0481781a94cc14d77247f8",
-   "sha256": "15fa3yxixa6r5smslw0pdx72irhr23w1rjm8arkj0ipwm8bdg54h"
+   "commit": "f90e7c09e554c4609f8714021c45966bbe6b2743",
+   "sha256": "098f6dfi6czxp6v2g4j107rsz0wq9g87qc9qspc7yx3frldx2gw3"
   }
  },
  {
@@ -74739,7 +74739,7 @@
   "ename": "kmacro-x",
   "commit": "207d9fb6f29a426ce1aeac517ae31d69aa1f4d8a",
   "sha256": "06q9lv3a4jsn6a9xfp0aw980pl938h817bagqq5xkh0q169f34qm",
-  "fetcher": "github",
+  "fetcher": "codeberg",
   "repo": "vifon/kmacro-x.el",
   "unstable": {
    "version": [
@@ -94298,7 +94298,7 @@
   "ename": "ol-tmsu",
   "commit": "0d546d03d27303217a083f1a18f21098d5102387",
   "sha256": "0cqb77impg5c51hincl65w72242qw89hjnmv6l8ink0zb4f2rr15",
-  "fetcher": "github",
+  "fetcher": "codeberg",
   "repo": "vifon/tmsu.el",
   "unstable": {
    "version": [
@@ -100209,8 +100209,8 @@
   "repo": "alhassy/org-special-block-extras",
   "unstable": {
    "version": [
-    20261114,
-    2307
+    20261115,
+    619
    ],
    "deps": [
     "dash",
@@ -100219,8 +100219,8 @@
     "s",
     "seq"
    ],
-   "commit": "02fd257bd995bd1a3ac5b8a2cef430aaa454ae3f",
-   "sha256": "0s5cz1xmhw9b4sknrhjsycqy7dyw59dwpx1f2gka65rvd6w7nyjk"
+   "commit": "0aac73e304063d983c81d68fa829565ed02f603e",
+   "sha256": "1smwl4b5k6lkhaqx9416qpgmqv08bhwpnjasj484ga2bn6v53wg7"
   },
   "stable": {
    "version": [
@@ -100883,14 +100883,14 @@
   "repo": "Gleek/org-timegrid",
   "unstable": {
    "version": [
-    20261114,
-    2055
+    20261115,
+    459
    ],
    "deps": [
     "org"
    ],
-   "commit": "276ddadba70f80958687753c3a1ab604b9dbcd8c",
-   "sha256": "0zs71gdkf29h39jhza1xc1pkf8fz6y9p68klcq1asbpd2rajnsf4"
+   "commit": "730b6910ac5a394a08466c854f41ebfb89dc0327",
+   "sha256": "0dsagnc3dzggmd52r82gmb3br696q1bhp4j0jbb6p8irlvcmmkl5"
   },
   "stable": {
    "version": [
@@ -101751,11 +101751,11 @@
   "repo": "kostafey/organic-green-theme",
   "unstable": {
    "version": [
-    20261110,
-    1338
+    20261115,
+    246
    ],
-   "commit": "44fce49f1a671ec355bb9535958f88b685b7a1ec",
-   "sha256": "0gkpc1x0526r64zabf6ghxp95k4jhwdpmwafd4jx31hjrn3ypvdf"
+   "commit": "8a322f7eac3c0aecf94ddb456b9e39210418a698",
+   "sha256": "143mgv33kb10rnxs4knaaw3ycdykvaj06mvx17qpkghvqbjq1s1d"
   }
  },
  {
@@ -107639,8 +107639,8 @@
   "repo": "dnouri/pilish",
   "unstable": {
    "version": [
-    20261114,
-    2340
+    20261115,
+    520
    ],
    "deps": [
     "magit-section",
@@ -107648,8 +107648,8 @@
     "md-ts-mode",
     "transient"
    ],
-   "commit": "91d64c2f53a6b67969b6e3462549f992e3def944",
-   "sha256": "1sv44hnfmp2b2jdh0cmgz7bbz033qb3n4jx5658aj2a84yvpb9j1"
+   "commit": "16da4b4fb20c7027da383ac95cf666ec65ec85cc",
+   "sha256": "1ji53675f18vifaj5pzwlzk0vzm7d1lp8xkskjyx7d0j0r6bclmz"
   },
   "stable": {
    "version": [
@@ -110573,20 +110573,20 @@
   "repo": "ismd/preview-tab.el",
   "unstable": {
    "version": [
-    20261002,
-    1829
+    20261115,
+    935
    ],
-   "commit": "4b10a95c2cae577ece000b0e777a95ba4887b747",
-   "sha256": "0s9zrad9202k3qwyzkfap4p685qss9ncp7is2d4c6w3qwxf1iw3d"
+   "commit": "ad2bb17cdf3bd4c60b6e627a6cc205255daefb8f",
+   "sha256": "089pllxv9rqci31wgsl2r1922k8249s470x6cm88gj9c62x5ar2m"
   },
   "stable": {
    "version": [
     0,
     7,
-    0
+    1
    ],
-   "commit": "4b10a95c2cae577ece000b0e777a95ba4887b747",
-   "sha256": "0s9zrad9202k3qwyzkfap4p685qss9ncp7is2d4c6w3qwxf1iw3d"
+   "commit": "ad2bb17cdf3bd4c60b6e627a6cc205255daefb8f",
+   "sha256": "089pllxv9rqci31wgsl2r1922k8249s470x6cm88gj9c62x5ar2m"
   }
  },
  {
@@ -114172,28 +114172,26 @@
   "repo": "quelpa/quelpa-use-package",
   "unstable": {
    "version": [
-    20201022,
-    746
+    20261115,
+    827
    ],
    "deps": [
-    "quelpa",
-    "use-package"
+    "quelpa"
    ],
-   "commit": "a97461008391d045aa2a506fc126280a12a060e4",
-   "sha256": "1c186bn0f2p42x3b0jhld9h5nh3jm3bcixldi46jnm1h19f54s8y"
+   "commit": "df33711882457cb6b59f8a687f35d02f010ddb65",
+   "sha256": "0w2vsx3k0vv7nkspfyp2kl0crg7d0pkdynlcdnlybd5wszmbqxhv"
   },
   "stable": {
    "version": [
     0,
     0,
-    1
+    3
    ],
    "deps": [
-    "quelpa",
-    "use-package"
+    "quelpa"
    ],
-   "commit": "00ce667293c7cd5dc79d4b6077785fcc57455775",
-   "sha256": "1xxvfd0ijcz01nsd143xgzsp815x3qpsrk6dmw6j1w3gbr2iqh9z"
+   "commit": "df33711882457cb6b59f8a687f35d02f010ddb65",
+   "sha256": "0w2vsx3k0vv7nkspfyp2kl0crg7d0pkdynlcdnlybd5wszmbqxhv"
   }
  },
  {
@@ -123938,8 +123936,8 @@
   "repo": "agnes-li/slothbar",
   "unstable": {
    "version": [
-    20261114,
-    2108
+    20261115,
+    642
    ],
    "deps": [
     "all-the-icons",
@@ -123954,13 +123952,13 @@
     "volume",
     "xelb"
    ],
-   "commit": "e4e2ce6ff7861c7394b3074cfe71cacd5fe4206c",
-   "sha256": "1rh3ycm6bwbcgd38nl7aw4xah1jkx78d3gp3jrzd7bqjzv74yhqp"
+   "commit": "8bca8d4842a8a37283f23b9903b3dbcad829bc14",
+   "sha256": "1jc2rvwf3phzdxldrp4i7nm81p3sqgzj4yh1phmjlr239j4q6y13"
   },
   "stable": {
    "version": [
     0,
-    31,
+    32,
     0
    ],
    "deps": [
@@ -123976,8 +123974,8 @@
     "volume",
     "xelb"
    ],
-   "commit": "f93b44a93616394fd7806366452193e68a99850a",
-   "sha256": "0nhgf48fzw69phly3dhc0zdc9k0254gic71h4hhvhfiahbqryb9l"
+   "commit": "8bca8d4842a8a37283f23b9903b3dbcad829bc14",
+   "sha256": "1jc2rvwf3phzdxldrp4i7nm81p3sqgzj4yh1phmjlr239j4q6y13"
   }
  },
  {
@@ -127185,11 +127183,11 @@
   "repo": "srfi-explorations/emacs-srfi",
   "unstable": {
    "version": [
-    20261101,
-    2133
+    20261115,
+    638
    ],
-   "commit": "6476ac9f9df06089d57422cba5cc7c828e934d92",
-   "sha256": "0swzclpvl2sqfnkwx6lkwi4v9ml996kc99fwy88pkqfbc9awlpfq"
+   "commit": "ddd5c4d6b493d9d2c13348517fa3345ff4daf9aa",
+   "sha256": "128av36x1j62dhfa8k35qnvq8nv2pgcj1hyrnb55q3fljp3iwvv0"
   },
   "stable": {
    "version": [
@@ -133092,7 +133090,7 @@
   "ename": "tmsu",
   "commit": "0d546d03d27303217a083f1a18f21098d5102387",
   "sha256": "12n4p74y4qpcvah9819incwykl3q0y7zbvd9dlk7b7qffqx5h08p",
-  "fetcher": "github",
+  "fetcher": "codeberg",
   "repo": "vifon/tmsu.el",
   "unstable": {
    "version": [

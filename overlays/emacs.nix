@@ -72,6 +72,8 @@ let
                   ++ optionals (versionOlder "31.1" old.version) [
                     "CVE-2024-53920.patch"
                     "CVE-2026-108976.patch"
+                    "fix-arbitrary-code-execution-in-dot-dir-locals-dot-el-handling.patch"
+                    "fix-regression-after--fix-arbitrary-code-execution-in-dot-dir-locals-dot-el-handling.patch"
                   ];
                 isApplicable = patch: !(builtins.elem patch.name or patch inapplicablePatches);
               in

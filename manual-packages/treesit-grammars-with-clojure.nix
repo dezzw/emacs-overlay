@@ -11,8 +11,8 @@ let
     src = fetchFromGitHub {
       owner = "sogaiu";
       repo = "tree-sitter-clojure";
-      rev = "e43eff80d17cf34852dcd92ca5e6986d23a7040f";
-      hash = "sha256-jokekIuuQLx5UtuPs4XAI+euispeFCwSQByVKVelrC4=";
+      rev = "56a4c9de7940d18bad086cce0815544e0ac2b7f6";
+      hash = "sha256-dGIGPuhrpsYFIXhWhwiMSJKx2Gtk1WLfyuQ0DefIeXI=";
     };
   };
 in

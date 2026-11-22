@@ -7,7 +7,12 @@ cd $SCRIPTPATH
 
 # Hack updater env not to use broken Nix
 elisp_packages=$(nix-instantiate --eval --expr 'let nixpath = builtins.toString (import <nixpkgs> {}).path; in "${nixpath}/pkgs/applications/editors/emacs/elisp-packages"' | jq -r)
-update_script="$elisp_packages/update-melpa"
+# MELPA renamed its default branch to main; drop this once nixpkgs update-melpa.el follows.
+tmpdir=$(mktemp -d)
+trap 'rm -rf "$tmpdir"' EXIT
+cp "$elisp_packages/update-melpa" "$tmpdir/"
+sed 's|"origin/master"|"origin/main"|g' "$elisp_packages/update-melpa.el" > "$tmpdir/update-melpa.el"
+update_script="$tmpdir/update-melpa"
 update_env="$elisp_packages/updater-emacs.nix"
 sed s/'pkgs = .*'/'pkgs = import <nixpkgs> { };'/ "$update_env" | grep -vP ' *pkgs\.nix$' > shell.nix
 

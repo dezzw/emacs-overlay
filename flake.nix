@@ -10,14 +10,12 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-26.05";
   };
 
   outputs =
     {
       self,
       nixpkgs,
-      nixpkgs-stable,
     }:
     let
       inherit (nixpkgs) lib;
@@ -124,8 +122,6 @@
             };
         in
         {
-          stable = mkHydraJobs (importPkgs nixpkgs-stable { inherit system; });
-
           unstable = mkHydraJobs (importPkgs nixpkgs { inherit system; });
         }
       );

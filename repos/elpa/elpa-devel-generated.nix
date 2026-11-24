@@ -5202,10 +5202,10 @@
     elpaBuild {
       pname = "jit-spell";
       ename = "jit-spell";
-      version = "0.6.0.20261109.0";
+      version = "0.6.1.0.20261124.0";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/jit-spell-0.6.0.20261109.0.tar";
-        sha256 = "0jnyg557rma11k4s43hlh64ayqcc0nawvdwdy5mvr9y4hifp30hg";
+        url = "https://elpa.gnu.org/devel/jit-spell-0.6.1.0.20261124.0.tar";
+        sha256 = "0mg6qvi6gx8h7nkbkpspbh3lsf20jnzp0v4rf7kq26p71qkb8mf6";
       };
       packageRequires = [ compat ];
       meta = {
@@ -7060,10 +7060,10 @@
     elpaBuild {
       pname = "org-notify";
       ename = "org-notify";
-      version = "0.1.4.0.20261012.0";
+      version = "0.1.4.0.20261124.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/org-notify-0.1.4.0.20261012.0.tar";
-        sha256 = "0d087bcb667g3xyf65ivcyiz2k056f951vg43rs4n4y7scg427hq";
+        url = "https://elpa.gnu.org/devel/org-notify-0.1.4.0.20261124.1.tar";
+        sha256 = "1c7pzylxp32wd1kqlgxmakf8m55lgxwxhhf4n4w159k5nwldsklr";
       };
       packageRequires = [ ];
       meta = {

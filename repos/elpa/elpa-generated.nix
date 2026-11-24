@@ -5120,10 +5120,10 @@
     elpaBuild {
       pname = "jit-spell";
       ename = "jit-spell";
-      version = "0.6";
+      version = "0.6.1";
       src = fetchurl {
-        url = "https://elpa.gnu.org/packages/jit-spell-0.6.tar";
-        sha256 = "1n1h0a71lfcxmilrpqzk9chn4rmkzds5qcdvgj722wjv82q2l29h";
+        url = "https://elpa.gnu.org/packages/jit-spell-0.6.1.tar";
+        sha256 = "1gz0qlv9rrsk10j4p51q9qk19vbvld08di3fs26qcgc45q3pkbs5";
       };
       packageRequires = [ compat ];
       meta = {

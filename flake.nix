@@ -113,7 +113,7 @@
                   ) s
                 );
 
-              mkEmacsSet = emacs: filterNonDrvAttrs (pkgs.recurseIntoAttrs (pkgs.emacsPackagesFor emacs));
+              mkEmacsSet = emacs: filterNonDrvAttrs (lib.recurseIntoAttrs (pkgs.emacsPackagesFor emacs));
             in
             {
               emacsen = {

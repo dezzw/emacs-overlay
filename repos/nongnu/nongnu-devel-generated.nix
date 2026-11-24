@@ -270,10 +270,10 @@
     elpaBuild {
       pname = "au-themes";
       ename = "au-themes";
-      version = "0.4.1.0.20261122.3";
+      version = "0.4.2.0.20261123.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.1.0.20261122.3.tar";
-        sha256 = "1b8pyrf65k1cir01z6s4awwd3k9n0n87c7b8lnl29pn47zcify25";
+        url = "https://elpa.nongnu.org/nongnu-devel/au-themes-0.4.2.0.20261123.0.tar";
+        sha256 = "0s5lvmgipdrvr4490znhlrr60cvqnbdsg16l6nahw9ln19h4g1sf";
       };
       packageRequires = [ modus-themes ];
       meta = {
@@ -3910,10 +3910,10 @@
     elpaBuild {
       pname = "markdown-ts-appear";
       ename = "markdown-ts-appear";
-      version = "0.4.0.0.20261109.4";
+      version = "0.4.1.0.20261124.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/markdown-ts-appear-0.4.0.0.20261109.4.tar";
-        sha256 = "00pgp89pbpxf45ms9cy2lgrmp5bidci2qqxxg6y78r0f237v5rjz";
+        url = "https://elpa.nongnu.org/nongnu-devel/markdown-ts-appear-0.4.1.0.20261124.0.tar";
+        sha256 = "04ga7i2bp6rqw9bi3mrnw8dhlpzdnh7bck35nn80l9892ya1j1f2";
       };
       packageRequires = [ ];
       meta = {
@@ -4229,10 +4229,10 @@
     elpaBuild {
       pname = "nov";
       ename = "nov";
-      version = "0.5.0.0.20261022.5";
+      version = "0.5.0.0.20261123.6";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/nov-0.5.0.0.20261022.5.tar";
-        sha256 = "0c095grx1f9a3lcv3y79j78zvcq900bzcz9b9q539vc212z8m4h1";
+        url = "https://elpa.nongnu.org/nongnu-devel/nov-0.5.0.0.20261123.6.tar";
+        sha256 = "0a36r5dvcn8n62cg5w7k0w6k3amk9b8pvi2kalar5ip1vxdhm9yn";
       };
       packageRequires = [ esxml ];
       meta = {

@@ -2895,10 +2895,10 @@
     elpaBuild {
       pname = "gruvbox-theme";
       ename = "gruvbox-theme";
-      version = "1.30.3.0.20261110.3";
+      version = "1.30.5.0.20261124.0";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/gruvbox-theme-1.30.3.0.20261110.3.tar";
-        sha256 = "06cag5mxjkqsh2qwj1n2m8xcznc3jrj1444md9g807lfcz991hiv";
+        url = "https://elpa.nongnu.org/nongnu-devel/gruvbox-theme-1.30.5.0.20261124.0.tar";
+        sha256 = "05hy4ziwxza93z20kxz308chmz5fd33ph3j0zv6y9aiz99gvklz9";
       };
       packageRequires = [ autothemer ];
       meta = {
@@ -2959,10 +2959,10 @@
     elpaBuild {
       pname = "haskell-mode";
       ename = "haskell-mode";
-      version = "17.5.0.20261016.73";
+      version = "17.5.0.20261124.74";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20261016.73.tar";
-        sha256 = "0mq2wn5xmnbn19ny0993ifbvrkm8yp4fxhvb8g9sw99pd7j0qh15";
+        url = "https://elpa.nongnu.org/nongnu-devel/haskell-mode-17.5.0.20261124.74.tar";
+        sha256 = "0psp3f525mvdzhfyznyz5v4lpky79pswvhzx38zh9xxmw0bndbmf";
       };
       packageRequires = [ ];
       meta = {
@@ -5460,10 +5460,10 @@
     elpaBuild {
       pname = "slime";
       ename = "slime";
-      version = "2.32snapshot0.20261108.83";
+      version = "2.32snapshot0.20261124.84";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261108.83.tar";
-        sha256 = "1irrdmwjn3iykv2zcqff2s62vmm895vlkys9jh0mndlh2bindryn";
+        url = "https://elpa.nongnu.org/nongnu-devel/slime-2.32snapshot0.20261124.84.tar";
+        sha256 = "1d7ilcchzba2a001ff221pmwpx590axyhzvllbljbwyvklx13crj";
       };
       packageRequires = [ macrostep ];
       meta = {

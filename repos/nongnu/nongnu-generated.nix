@@ -2913,10 +2913,10 @@
     elpaBuild {
       pname = "gruvbox-theme";
       ename = "gruvbox-theme";
-      version = "1.30.3";
+      version = "1.30.5";
       src = fetchurl {
-        url = "https://elpa.nongnu.org/nongnu/gruvbox-theme-1.30.3.tar";
-        sha256 = "1g2drp4gx7z5qaxpfira0xrc2mhrqbda0ag32zbdyrv1jcw6h9im";
+        url = "https://elpa.nongnu.org/nongnu/gruvbox-theme-1.30.5.tar";
+        sha256 = "1j04yb3xql8smayi5snzk2cj617pq5xhdc513wy9bk66hdf4n2ak";
       };
       packageRequires = [ autothemer ];
       meta = {

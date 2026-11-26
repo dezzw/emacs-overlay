@@ -10,14 +10,12 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-25.11";
   };
 
   outputs =
     {
       self,
       nixpkgs,
-      nixpkgs-stable,
     }:
     let
       inherit (nixpkgs) lib;
@@ -113,7 +111,7 @@
                   ) s
                 );
 
-              mkEmacsSet = emacs: filterNonDrvAttrs (pkgs.recurseIntoAttrs (pkgs.emacsPackagesFor emacs));
+              mkEmacsSet = emacs: filterNonDrvAttrs (lib.recurseIntoAttrs (pkgs.emacsPackagesFor emacs));
             in
             {
               emacsen = {
@@ -124,8 +122,6 @@
             };
         in
         {
-          stable = mkHydraJobs (importPkgs nixpkgs-stable { inherit system; });
-
           unstable = mkHydraJobs (importPkgs nixpkgs { inherit system; });
         }
       );
